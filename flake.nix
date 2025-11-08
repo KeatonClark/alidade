@@ -9,9 +9,20 @@
   let
     pkgs = import nixpkgs {
       inherit system;
+      overlays = [
+        (self: super: {
+          kibotPackages = {
+            kiauto = super.callPackage ./nix/kiauto.nix { };
+            kibot = super.callPackage ./nix/kibot.nix { };
+            kidiff = super.callPackage ./nix/kidiff.nix { };
+            kicost = super.callPackage ./nix/kicost.nix { };
+            kikit = super.callPackage ./nix/kikit.nix { };
+          };
+        })
+      ];
     };
-    python = pkgs.python3;
-    kiauto = python.pkgs .buildPythonPackage {
+    /*python = pkgs.python3;
+    kiauto = python.pkgs.buildPythonPackage {
       pname = "kiauto";
       version = "2.3.5";
       src = pkgs.fetchPypi {
@@ -45,19 +56,24 @@
         lark
         kiauto
         lxml
-      ];
+      ] ++ (with pkgs; [
+        imagemagick
+        ghostscript
+        blender
+        librsvg
+        kikit
+      ]);
       postInstall = ''
         find $out -type d -name "__pycache__" -prune -exec rm -rf {} +
       '';
       pyproject = true;
       build-system = with python.pkgs; [ setuptools ];
-    };
+    };*/
   in {
+    packages.pkgs = pkgs;
     devShells.default = pkgs.mkShell {
       buildInputs = with pkgs; [
-        kicad
-        kicadAddons.kikit
-        kibot
+        kibotPackages.kibot
       ];
     };
   });
