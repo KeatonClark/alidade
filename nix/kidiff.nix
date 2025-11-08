@@ -2,6 +2,9 @@
   python3Packages,
   fetchFromGitHub,
   kibotPackages,
+  pandoc,
+  xdg-utils,
+  imagemagick,
 }:
 python3Packages.buildPythonPackage rec {
   pname = "KiDiff";
@@ -15,7 +18,13 @@ python3Packages.buildPythonPackage rec {
   pyproject = true;
   build-system = [ python3Packages.setuptools ];
   propagatedNativeBuildInputs = with python3Packages; [
+    xvfbwrapper
+    psutil
   ] ++ [
     kibotPackages.kiauto
+  ] ++ [
+    pandoc
+    xdg-utils
+    imagemagick
   ];
 }

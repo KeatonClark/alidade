@@ -5,7 +5,7 @@
   ghostscript,
   blender,
   librsvg,
-  kibotPackages
+  kibotPackages,
 }:
 python3Packages.buildPythonPackage rec {
   pname = "KiBot";
@@ -29,7 +29,6 @@ python3Packages.buildPythonPackage rec {
     qrcodegen
     markdown2
     lark
-    pandoc
     lxml
   ] ++ (with kibotPackages; [
     kiauto
