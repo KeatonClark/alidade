@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -614,12 +614,16 @@
       "Root"
     ],
     [
-      "089db7cd-2934-428b-a62a-55e0735649ba",
-      "left"
+      "29a12dcc-0491-44a2-8290-cbef7c573a8c",
+      "Power"
     ],
     [
-      "50d96a5e-3d25-4129-9495-15388c76587f",
-      "right"
+      "43e81299-cad2-4202-975b-6352d1fdfcdc",
+      "Processor"
+    ],
+    [
+      "2e72dd0e-817e-4022-b409-1f79b0de6857",
+      "Switches"
     ]
   ],
   "text_variables": {}

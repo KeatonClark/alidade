@@ -25,7 +25,7 @@
     packages.pkgs = pkgs;
     devShells.default = pkgs.mkShell {
       buildInputs = with pkgs; [
-        python3Packages.kicad
+        kicad
         kibotPackages.kibot
         kibotPackages.kidiff
       ];
