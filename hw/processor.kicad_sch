@@ -2787,6 +2787,116 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "ISET"
+		(shape input)
+		(at 63.5 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00999e18-ddf7-4a73-ab93-1d82fa51a4d9")
+	)
+	(hierarchical_label "rMODE"
+		(shape input)
+		(at 302.26 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0306b812-fd43-49ad-a3c3-bf3e73e2a30f")
+	)
+	(hierarchical_label "rCHG"
+		(shape input)
+		(at 302.26 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21e6caa3-d5cd-415b-9477-727529bea766")
+	)
+	(hierarchical_label "rERR"
+		(shape input)
+		(at 302.26 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27ba7aa2-b97d-4e62-a3cd-27da88fbfcb9")
+	)
+	(hierarchical_label "MODE"
+		(shape input)
+		(at 63.5 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43b5766d-de3e-4373-9520-326cabbb13d6")
+	)
+	(hierarchical_label "ERR"
+		(shape input)
+		(at 63.5 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5787a8bc-f4ca-46ea-91e3-f5ffcc126948")
+	)
+	(hierarchical_label "SHPACT"
+		(shape input)
+		(at 63.5 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a37e3b4-438b-487a-b362-09bcb1bc2f3a")
+	)
+	(hierarchical_label "rISET"
+		(shape input)
+		(at 302.26 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89a63674-16bf-4666-934b-f4ae32eab12e")
+	)
+	(hierarchical_label "rSHPACT"
+		(shape input)
+		(at 302.26 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9be150d-c647-4002-8d20-60a5ecef88da")
+	)
+	(hierarchical_label "CHG"
+		(shape input)
+		(at 63.5 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddb6f1f6-7b61-49a7-8463-8ead954021f1")
+	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
 		(at 289.56 55.88 0)
