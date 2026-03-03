@@ -144,26 +144,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CHG" input
-			(at 105.41 171.45 0)
-			(uuid "b61e08d5-ac1c-4730-a5c4-fcc840eefc29")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ERR" input
-			(at 105.41 173.99 0)
-			(uuid "82725618-660c-41b2-a624-1a4bb432dfc8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ISET" input
 			(at 105.41 176.53 0)
 			(uuid "c2ebae82-8c32-4ac2-a6fc-d9dfa3122fb1")
@@ -177,26 +157,6 @@
 		(pin "MODE" input
 			(at 105.41 179.07 0)
 			(uuid "74183b79-1b27-40a8-8735-84684cb1819d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "rCHG" input
-			(at 105.41 193.04 0)
-			(uuid "9198ede2-407d-4500-a56d-8ab951a38ab5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "rERR" input
-			(at 105.41 195.58 0)
-			(uuid "582bbdd1-e37c-42fb-bcdf-6ee9fb765ce7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,6 +197,66 @@
 		(pin "SHPACT" input
 			(at 105.41 181.61 0)
 			(uuid "cf7e10a1-8ebe-44e3-b69d-c7211fa51c88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "rSHPHLD" input
+			(at 90.17 189.23 180)
+			(uuid "d90fd5d9-e22a-4bf0-b60d-7c2f365e5e02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SHPHLD" input
+			(at 90.17 185.42 180)
+			(uuid "bedb9fc6-a038-4d32-85db-7cbd6425a052")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHG" output
+			(at 105.41 171.45 0)
+			(uuid "25a91806-dcd1-415a-a8c3-6179b95de94d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ERR" output
+			(at 105.41 173.99 0)
+			(uuid "74848a18-61a9-4946-b2af-b347d15d002c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "rCHG" output
+			(at 105.41 193.04 0)
+			(uuid "f762909f-21c9-4684-8e81-bf7b954bf153")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "rERR" output
+			(at 105.41 195.58 0)
+			(uuid "131fd102-9534-4274-83f0-099ad65a217a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,26 +368,6 @@
 				(justify left)
 			)
 		)
-		(pin "ISET" input
-			(at 123.19 176.53 180)
-			(uuid "669d46b2-2fd5-4d90-93b0-3efb4d82d384")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MODE" input
-			(at 123.19 179.07 180)
-			(uuid "cf3f93c7-15cc-45f3-9bbf-5d058271103f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "rCHG" input
 			(at 123.19 193.04 180)
 			(uuid "a2e03d16-9dba-424b-9ca4-1824d13bf74c")
@@ -388,9 +388,9 @@
 				(justify left)
 			)
 		)
-		(pin "rISET" input
-			(at 123.19 198.12 180)
-			(uuid "19d146ef-1e5c-4b88-afc2-8141eb2a9a9a")
+		(pin "ISET" output
+			(at 123.19 176.53 180)
+			(uuid "e21c8c47-1d31-4d35-8dac-a7ed63ca0e5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -398,9 +398,9 @@
 				(justify left)
 			)
 		)
-		(pin "rMODE" input
-			(at 123.19 200.66 180)
-			(uuid "5afb80b3-5051-4825-936e-5f52368e9009")
+		(pin "MODE" output
+			(at 123.19 179.07 180)
+			(uuid "33d5e357-7be3-4598-b372-d0e1a2c79a59")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -408,19 +408,39 @@
 				(justify left)
 			)
 		)
-		(pin "rSHPACT" input
-			(at 123.19 203.2 180)
-			(uuid "c0e55d8d-0f3e-4525-ac5d-d702cd6abeec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SHPACT" input
+		(pin "SHPACT" output
 			(at 123.19 181.61 180)
-			(uuid "ef907d63-eb3e-49f7-8ea1-c3376e929220")
+			(uuid "282335e3-cc9c-48b5-ae41-cadc299490d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "rISET" output
+			(at 123.19 198.12 180)
+			(uuid "1f5a0c69-cd30-4b58-a34a-0504dd389d58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "rMODE" output
+			(at 123.19 200.66 180)
+			(uuid "bc5f870e-14f7-4143-8810-f625b3be9477")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "rSHPACT" output
+			(at 123.19 203.2 180)
+			(uuid "95db6781-2822-4337-b61e-e9104af90059")
 			(effects
 				(font
 					(size 1.27 1.27)

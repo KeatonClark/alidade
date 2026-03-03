@@ -3346,7 +3346,7 @@
 		)
 		(uuid "7df0ab1d-7b82-4969-aade-a484fdc5d917")
 	)
-	(text "Control (TODO: SHPHLD)"
+	(text "Control"
 		(exclude_from_sim no)
 		(at 325.882 81.026 0)
 		(effects
@@ -5101,7 +5101,7 @@
 		(uuid "ffe8a92a-9ae9-4270-b10e-7c7888f07671")
 	)
 	(hierarchical_label "ERR"
-		(shape input)
+		(shape output)
 		(at 293.37 90.17 180)
 		(effects
 			(font
@@ -5113,7 +5113,7 @@
 	)
 	(hierarchical_label "rISET"
 		(shape input)
-		(at 349.25 96.52 180)
+		(at 347.98 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5123,7 +5123,7 @@
 		(uuid "2f00db1a-96d1-421b-af1d-740af6d35fe4")
 	)
 	(hierarchical_label "CHG"
-		(shape input)
+		(shape output)
 		(at 293.37 92.71 180)
 		(effects
 			(font
@@ -5133,9 +5133,20 @@
 		)
 		(uuid "3b200ea4-308b-4e24-bb6d-8542be39d5bb")
 	)
-	(hierarchical_label "rCHG"
+	(hierarchical_label "SHPHLD"
 		(shape input)
-		(at 349.25 93.98 180)
+		(at 293.37 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3dc23010-c52f-47dd-90d1-33cc864e839f")
+	)
+	(hierarchical_label "rCHG"
+		(shape output)
+		(at 347.98 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5144,9 +5155,20 @@
 		)
 		(uuid "5d752afc-6785-48d5-a4b4-459d03b4fdb8")
 	)
-	(hierarchical_label "rERR"
+	(hierarchical_label "rSHPHLD"
 		(shape input)
-		(at 349.25 91.44 180)
+		(at 347.98 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "708a52ed-3492-4608-87fb-ce8d7dc94faf")
+	)
+	(hierarchical_label "rERR"
+		(shape output)
+		(at 347.98 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5157,7 +5179,7 @@
 	)
 	(hierarchical_label "rSHPACT"
 		(shape input)
-		(at 349.25 101.6 180)
+		(at 347.98 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5168,7 +5190,7 @@
 	)
 	(hierarchical_label "rMODE"
 		(shape input)
-		(at 349.25 99.06 180)
+		(at 347.98 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6712,7 +6734,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:NPM1100-CAAA-R")
-		(at 349.25 88.9 0)
+		(at 347.98 87.63 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6721,7 +6743,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a6dd31f-9f99-4a42-afbb-7ab9562508cb")
 		(property "Reference" "rU2"
-			(at 367.03 96.5199 0)
+			(at 365.76 95.2499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6730,7 +6752,7 @@
 			)
 		)
 		(property "Value" "NPM1100-CAAA-R"
-			(at 367.03 99.0599 0)
+			(at 365.76 97.7899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6739,7 +6761,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:WLCSP_2p075X2p075_NOR"
-			(at 362.966 106.934 0)
+			(at 361.696 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,7 +6771,7 @@
 			)
 		)
 		(property "Datasheet" "NPM1100-CAAA-R"
-			(at 362.712 110.49 0)
+			(at 361.442 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6781,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 349.25 88.9 0)
+			(at 347.98 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
