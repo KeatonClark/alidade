@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "eecc9588-3ded-4cb5-bb8d-2b719e81f973")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Alidade:ISP2454-LP-JT"
 			(pin_names
@@ -2789,7 +2789,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 186.69 45.72 0)
+		(at 289.56 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2798,7 +2798,7 @@
 		(fields_autoplaced yes)
 		(uuid "164c0c63-0a19-40f3-a06f-3ba979222580")
 		(property "Reference" "rU1"
-			(at 205.74 52.0699 0)
+			(at 308.61 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +2807,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 205.74 54.6099 0)
+			(at 308.61 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2816,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 201.168 36.576 0)
+			(at 304.038 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +2826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 45.72 0)
+			(at 289.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2835,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 45.72 0)
+			(at 289.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3771,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 184.15 110.49 0)
+		(at 287.02 120.65 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3780,7 +3780,7 @@
 		(fields_autoplaced yes)
 		(uuid "655328d2-ed2b-4118-a949-802feb53e61c")
 		(property "Reference" "rU1"
-			(at 205.74 128.2699 0)
+			(at 308.61 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3789,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 205.74 130.8099 0)
+			(at 308.61 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3798,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 198.628 101.346 0)
+			(at 301.498 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +3808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 110.49 0)
+			(at 287.02 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3817,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 110.49 0)
+			(at 287.02 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5244,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 185.42 63.5 0)
+		(at 288.29 73.66 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5253,7 +5253,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd20d4e4-e3cb-4633-a1a5-cba138a97672")
 		(property "Reference" "rU1"
-			(at 210.82 73.6599 0)
+			(at 313.69 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5262,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 210.82 76.1999 0)
+			(at 313.69 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5271,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 199.898 54.356 0)
+			(at 302.768 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 63.5 0)
+			(at 288.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 63.5 0)
+			(at 288.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5735,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 234.95 142.24 0)
+		(at 337.82 152.4 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5744,7 +5744,7 @@
 		(fields_autoplaced yes)
 		(uuid "be47aef1-50f1-4bf9-a9dd-4f5b0f336505")
 		(property "Reference" "rU1"
-			(at 250.19 146.0499 0)
+			(at 353.06 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +5753,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 250.19 148.5899 0)
+			(at 353.06 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5762,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 249.428 133.096 0)
+			(at 352.298 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 142.24 0)
+			(at 337.82 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +5781,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 142.24 0)
+			(at 337.82 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +6226,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 185.42 90.17 0)
+		(at 288.29 100.33 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6235,7 +6235,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1a90d30-24e1-4ff1-ae1d-0f64466f8143")
 		(property "Reference" "rU1"
-			(at 201.93 96.5199 0)
+			(at 304.8 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6244,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 201.93 99.0599 0)
+			(at 304.8 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6253,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 199.898 81.026 0)
+			(at 302.768 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +6263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 90.17 0)
+			(at 288.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 90.17 0)
+			(at 288.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

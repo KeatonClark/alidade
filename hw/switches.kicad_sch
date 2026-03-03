@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "1ea8ab4d-7567-4bc5-9ebb-59155278ff85")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Alidade:SW_Push"
 			(pin_numbers
@@ -149,7 +149,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 199.39 80.01 0)
+		(at 271.78 125.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -158,7 +158,7 @@
 		(dnp no)
 		(uuid "06ce21b8-0366-4cba-a5bb-52eefd2bbd5d")
 		(property "Reference" "rSW6"
-			(at 199.39 73.914 0)
+			(at 271.78 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -166,7 +166,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 199.39 75.946 0)
+			(at 271.78 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -174,7 +174,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 199.39 74.93 0)
+			(at 271.78 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -183,7 +183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 74.93 0)
+			(at 271.78 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -192,7 +192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 80.01 0)
+			(at 271.78 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +217,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 186.69 64.77 0)
+		(at 259.08 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -226,7 +226,7 @@
 		(dnp no)
 		(uuid "0718ee63-d41b-4e85-b3cd-57f3e5bb00b8")
 		(property "Reference" "rSW4"
-			(at 186.69 58.674 0)
+			(at 259.08 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -234,7 +234,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 186.69 60.706 0)
+			(at 259.08 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -242,7 +242,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 186.69 59.69 0)
+			(at 259.08 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -251,7 +251,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 59.69 0)
+			(at 259.08 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -260,7 +260,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 64.77 0)
+			(at 259.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,7 +285,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 101.6 66.04 0)
+		(at 147.32 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -293,7 +293,7 @@
 		(dnp no)
 		(uuid "08f128da-5d97-4f55-93dd-6717b82a7f39")
 		(property "Reference" "SW5"
-			(at 101.6 59.944 0)
+			(at 147.32 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -301,7 +301,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 101.6 61.976 0)
+			(at 147.32 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -309,7 +309,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 101.6 60.96 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 60.96 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,7 +327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 66.04 0)
+			(at 147.32 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -352,7 +352,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 114.3 66.04 0)
+		(at 160.02 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -360,7 +360,7 @@
 		(dnp no)
 		(uuid "0e74e9f9-5663-4b3b-af6e-fb3e164de70a")
 		(property "Reference" "SW4"
-			(at 114.3 59.944 0)
+			(at 160.02 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -368,7 +368,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 114.3 61.976 0)
+			(at 160.02 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -376,7 +376,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 114.3 60.96 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -385,7 +385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 60.96 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,7 +394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 66.04 0)
+			(at 160.02 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -419,7 +419,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 88.9 66.04 0)
+		(at 134.62 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -427,7 +427,7 @@
 		(dnp no)
 		(uuid "185c227d-fdc2-4199-99b0-1f02e241cdb3")
 		(property "Reference" "SW12"
-			(at 88.9 59.944 0)
+			(at 134.62 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -435,7 +435,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 88.9 61.976 0)
+			(at 134.62 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -443,7 +443,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 88.9 60.96 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -452,7 +452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 60.96 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -461,7 +461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 66.04 0)
+			(at 134.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +486,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 101.6 96.52 0)
+		(at 147.32 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -494,7 +494,7 @@
 		(dnp no)
 		(uuid "1901e972-4f47-4dcb-baf1-a24edaa35a0a")
 		(property "Reference" "SW7"
-			(at 101.6 90.424 0)
+			(at 147.32 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -502,7 +502,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 101.6 92.456 0)
+			(at 147.32 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -510,7 +510,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 101.6 91.44 0)
+			(at 147.32 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -519,7 +519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 91.44 0)
+			(at 147.32 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -528,7 +528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 96.52 0)
+			(at 147.32 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -553,7 +553,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 199.39 64.77 0)
+		(at 271.78 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -562,7 +562,7 @@
 		(dnp no)
 		(uuid "1f24a632-b44a-4f84-943b-43e78f588e6e")
 		(property "Reference" "rSW5"
-			(at 199.39 58.674 0)
+			(at 271.78 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -570,7 +570,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 199.39 60.706 0)
+			(at 271.78 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -578,7 +578,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 199.39 59.69 0)
+			(at 271.78 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -587,7 +587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 59.69 0)
+			(at 271.78 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -596,7 +596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 64.77 0)
+			(at 271.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,7 +621,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 237.49 95.25 0)
+		(at 309.88 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -630,7 +630,7 @@
 		(dnp no)
 		(uuid "2190235b-4719-4bac-890f-6ac80491a1d6")
 		(property "Reference" "rSW16"
-			(at 237.49 89.154 0)
+			(at 309.88 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -638,7 +638,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 237.49 91.186 0)
+			(at 309.88 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -646,7 +646,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 237.49 90.17 0)
+			(at 309.88 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,7 +655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 90.17 0)
+			(at 309.88 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,7 +664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 95.25 0)
+			(at 309.88 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,7 +689,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 50.8 96.52 0)
+		(at 96.52 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -697,7 +697,7 @@
 		(dnp no)
 		(uuid "26318ad0-3060-4adb-8041-ce709327f2df")
 		(property "Reference" "SW21"
-			(at 50.8 90.424 0)
+			(at 96.52 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -705,7 +705,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 50.8 92.456 0)
+			(at 96.52 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -713,7 +713,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 50.8 91.44 0)
+			(at 96.52 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -722,7 +722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 91.44 0)
+			(at 96.52 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,7 +731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 96.52 0)
+			(at 96.52 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,7 +756,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 224.79 95.25 0)
+		(at 297.18 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -765,7 +765,7 @@
 		(dnp no)
 		(uuid "2c9cb870-ead5-4cbb-8aaf-0bea074650f0")
 		(property "Reference" "rSW15"
-			(at 224.79 89.154 0)
+			(at 297.18 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -773,7 +773,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 224.79 91.186 0)
+			(at 297.18 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -781,7 +781,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 224.79 90.17 0)
+			(at 297.18 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 90.17 0)
+			(at 297.18 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -799,7 +799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 95.25 0)
+			(at 297.18 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,7 +824,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 50.8 66.04 0)
+		(at 96.52 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -832,7 +832,7 @@
 		(dnp no)
 		(uuid "2fe16295-839b-4c35-aabd-d5ed5ce3b2db")
 		(property "Reference" "SW19"
-			(at 50.8 59.944 0)
+			(at 96.52 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -840,7 +840,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 50.8 61.976 0)
+			(at 96.52 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -848,7 +848,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 50.8 60.96 0)
+			(at 96.52 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,7 +857,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 60.96 0)
+			(at 96.52 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -866,7 +866,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 66.04 0)
+			(at 96.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +891,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 186.69 110.49 0)
+		(at 259.08 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -900,7 +900,7 @@
 		(dnp no)
 		(uuid "3794c42c-5d98-442b-bcb6-2c03c15fe8eb")
 		(property "Reference" "rSW1"
-			(at 186.69 104.394 0)
+			(at 259.08 150.114 0)
 			(effects
 				(font
 					(size 1 1)
@@ -908,7 +908,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 186.69 106.426 0)
+			(at 259.08 152.146 0)
 			(effects
 				(font
 					(size 1 1)
@@ -916,7 +916,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1.5u"
-			(at 186.69 105.41 0)
+			(at 259.08 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,7 +925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 105.41 0)
+			(at 259.08 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -934,7 +934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 110.49 0)
+			(at 259.08 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +959,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 101.6 81.28 0)
+		(at 147.32 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -967,7 +967,7 @@
 		(dnp no)
 		(uuid "3bcdd04e-9d9a-4e5c-a99c-5053f7ad6713")
 		(property "Reference" "SW6"
-			(at 101.6 75.184 0)
+			(at 147.32 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -975,7 +975,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 101.6 77.216 0)
+			(at 147.32 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -983,7 +983,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 101.6 76.2 0)
+			(at 147.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,7 +992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 76.2 0)
+			(at 147.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +1001,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 81.28 0)
+			(at 147.32 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1026,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 114.3 111.76 0)
+		(at 160.02 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1034,7 +1034,7 @@
 		(dnp no)
 		(uuid "445e4b5b-062e-43d1-b2a7-b5c2e275449b")
 		(property "Reference" "SW1"
-			(at 114.3 105.664 0)
+			(at 160.02 150.114 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1042,7 +1042,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 114.3 107.696 0)
+			(at 160.02 152.146 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1050,7 +1050,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1.5u"
-			(at 114.3 106.68 0)
+			(at 160.02 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 106.68 0)
+			(at 160.02 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1068,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 111.76 0)
+			(at 160.02 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1093,7 +1093,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 76.2 81.28 0)
+		(at 121.92 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1101,7 +1101,7 @@
 		(dnp no)
 		(uuid "44f55e27-ec00-47ef-96f8-d2f13a4fcc01")
 		(property "Reference" "SW14"
-			(at 76.2 75.184 0)
+			(at 121.92 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1109,7 +1109,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 76.2 77.216 0)
+			(at 121.92 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1117,7 +1117,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 76.2 76.2 0)
+			(at 121.92 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 76.2 0)
+			(at 121.92 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1135,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 81.28 0)
+			(at 121.92 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +1160,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 63.5 81.28 0)
+		(at 109.22 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1168,7 +1168,7 @@
 		(dnp no)
 		(uuid "463e9906-104f-4e1f-8efd-acf141caff15")
 		(property "Reference" "SW17"
-			(at 63.5 75.184 0)
+			(at 109.22 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1176,7 +1176,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 63.5 77.216 0)
+			(at 109.22 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1184,7 +1184,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 63.5 76.2 0)
+			(at 109.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 76.2 0)
+			(at 109.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1202,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 81.28 0)
+			(at 109.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +1227,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 237.49 80.01 0)
+		(at 309.88 125.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1236,7 +1236,7 @@
 		(dnp no)
 		(uuid "533a36eb-7c0e-4b01-b105-4d73f1a504f9")
 		(property "Reference" "rSW17"
-			(at 237.49 73.914 0)
+			(at 309.88 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1244,7 +1244,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 237.49 75.946 0)
+			(at 309.88 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1252,7 +1252,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 237.49 74.93 0)
+			(at 309.88 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 74.93 0)
+			(at 309.88 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 80.01 0)
+			(at 309.88 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,7 +1295,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 250.19 95.25 0)
+		(at 322.58 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1304,7 +1304,7 @@
 		(dnp no)
 		(uuid "55b65224-c13f-4813-8c78-97e2ec4cb5e0")
 		(property "Reference" "rSW21"
-			(at 250.19 89.154 0)
+			(at 322.58 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1312,7 +1312,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 250.19 91.186 0)
+			(at 322.58 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1320,7 +1320,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 250.19 90.17 0)
+			(at 322.58 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 90.17 0)
+			(at 322.58 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1338,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 95.25 0)
+			(at 322.58 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1363,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 63.5 96.52 0)
+		(at 109.22 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1371,7 +1371,7 @@
 		(dnp no)
 		(uuid "5c8180e9-a884-430d-aa45-815478c2a450")
 		(property "Reference" "SW16"
-			(at 63.5 90.424 0)
+			(at 109.22 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1379,7 +1379,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 63.5 92.456 0)
+			(at 109.22 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1387,7 +1387,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 63.5 91.44 0)
+			(at 109.22 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 91.44 0)
+			(at 109.22 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 96.52 0)
+			(at 109.22 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,7 +1430,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 76.2 96.52 0)
+		(at 121.92 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1438,7 +1438,7 @@
 		(dnp no)
 		(uuid "5e803f82-dcb9-4850-b958-f7ad300cf468")
 		(property "Reference" "SW15"
-			(at 76.2 90.424 0)
+			(at 121.92 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1446,7 +1446,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 76.2 92.456 0)
+			(at 121.92 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1454,7 +1454,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 76.2 91.44 0)
+			(at 121.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 91.44 0)
+			(at 121.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1472,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 96.52 0)
+			(at 121.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1497,7 +1497,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 63.5 66.04 0)
+		(at 109.22 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1505,7 +1505,7 @@
 		(dnp no)
 		(uuid "62b5ae5c-d2ed-446a-9d68-459a90712857")
 		(property "Reference" "SW18"
-			(at 63.5 59.944 0)
+			(at 109.22 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1513,7 +1513,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 63.5 61.976 0)
+			(at 109.22 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1521,7 +1521,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 63.5 60.96 0)
+			(at 109.22 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 60.96 0)
+			(at 109.22 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 66.04 0)
+			(at 109.22 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +1564,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 212.09 110.49 0)
+		(at 284.48 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1573,7 +1573,7 @@
 		(dnp no)
 		(uuid "69d28473-ae2a-455e-a126-601dcc311eb7")
 		(property "Reference" "rSW9"
-			(at 212.09 104.394 0)
+			(at 284.48 150.114 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1581,7 +1581,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 212.09 106.426 0)
+			(at 284.48 152.146 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1589,7 +1589,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 212.09 105.41 0)
+			(at 284.48 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +1598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 105.41 0)
+			(at 284.48 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +1607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 110.49 0)
+			(at 284.48 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1632,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 127 88.9 0)
+		(at 172.72 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1640,7 +1640,7 @@
 		(dnp no)
 		(uuid "6af86b24-041e-4c53-bb5e-383192d1d35b")
 		(property "Reference" "EXSW2"
-			(at 127 82.804 0)
+			(at 172.72 127.254 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1648,7 +1648,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 127 84.836 0)
+			(at 172.72 129.286 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1656,7 +1656,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 127 83.82 0)
+			(at 172.72 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 83.82 0)
+			(at 172.72 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1674,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 88.9 0)
+			(at 172.72 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1699,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 250.19 64.77 0)
+		(at 322.58 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1708,7 +1708,7 @@
 		(dnp no)
 		(uuid "7220374c-2436-4925-9f25-88a7a8fa7423")
 		(property "Reference" "rSW19"
-			(at 250.19 58.674 0)
+			(at 322.58 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1716,7 +1716,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 250.19 60.706 0)
+			(at 322.58 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1724,7 +1724,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 250.19 59.69 0)
+			(at 322.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 59.69 0)
+			(at 322.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +1742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 64.77 0)
+			(at 322.58 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +1767,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 186.69 95.25 0)
+		(at 259.08 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1776,7 +1776,7 @@
 		(dnp no)
 		(uuid "7585795b-7796-4923-a91b-f30d1b179e60")
 		(property "Reference" "rSW2"
-			(at 186.69 89.154 0)
+			(at 259.08 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1784,7 +1784,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 186.69 91.186 0)
+			(at 259.08 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1792,7 +1792,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 186.69 90.17 0)
+			(at 259.08 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +1801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 90.17 0)
+			(at 259.08 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1810,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 95.25 0)
+			(at 259.08 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1835,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 224.79 64.77 0)
+		(at 297.18 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1844,7 +1844,7 @@
 		(dnp no)
 		(uuid "77b7df8c-d855-4658-8165-2898fb5a34b9")
 		(property "Reference" "rSW13"
-			(at 224.79 58.674 0)
+			(at 297.18 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1852,7 +1852,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 224.79 60.706 0)
+			(at 297.18 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1860,7 +1860,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 224.79 59.69 0)
+			(at 297.18 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1869,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 59.69 0)
+			(at 297.18 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1878,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 64.77 0)
+			(at 297.18 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1903,7 +1903,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 171.45 88.9 0)
+		(at 243.84 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1911,7 +1911,7 @@
 		(dnp no)
 		(uuid "83993875-e9a5-41d9-ac06-c0406d0abd4c")
 		(property "Reference" "rEXSW2"
-			(at 171.45 82.804 0)
+			(at 243.84 128.524 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1919,7 +1919,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 171.45 84.836 0)
+			(at 243.84 130.556 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1927,7 +1927,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 171.45 83.82 0)
+			(at 243.84 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1936,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 83.82 0)
+			(at 243.84 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1945,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 88.9 0)
+			(at 243.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1970,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 199.39 95.25 0)
+		(at 271.78 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1979,7 +1979,7 @@
 		(dnp no)
 		(uuid "8ac22dd0-7df3-405a-8822-0b0e489622dc")
 		(property "Reference" "rSW7"
-			(at 199.39 89.154 0)
+			(at 271.78 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1987,7 +1987,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 199.39 91.186 0)
+			(at 271.78 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1995,7 +1995,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 199.39 90.17 0)
+			(at 271.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 90.17 0)
+			(at 271.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2013,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 95.25 0)
+			(at 271.78 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +2038,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 114.3 96.52 0)
+		(at 160.02 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2046,7 +2046,7 @@
 		(dnp no)
 		(uuid "8b5fd432-f058-442f-9f2e-854ed4fd3899")
 		(property "Reference" "SW2"
-			(at 114.3 90.424 0)
+			(at 160.02 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2054,7 +2054,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 114.3 92.456 0)
+			(at 160.02 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2062,7 +2062,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 114.3 91.44 0)
+			(at 160.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2071,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 91.44 0)
+			(at 160.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2080,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 96.52 0)
+			(at 160.02 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2105,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 224.79 80.01 0)
+		(at 297.18 125.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2114,7 +2114,7 @@
 		(dnp no)
 		(uuid "8e42b370-b927-426d-afaf-f64b5dbe6f44")
 		(property "Reference" "rSW14"
-			(at 224.79 73.914 0)
+			(at 297.18 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2122,7 +2122,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 224.79 75.946 0)
+			(at 297.18 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2130,7 +2130,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 224.79 74.93 0)
+			(at 297.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 74.93 0)
+			(at 297.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2148,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 80.01 0)
+			(at 297.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +2173,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 186.69 80.01 0)
+		(at 259.08 125.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2182,7 +2182,7 @@
 		(dnp no)
 		(uuid "ad63564d-68f4-4b73-838f-e6cb096f55c1")
 		(property "Reference" "rSW3"
-			(at 186.69 73.914 0)
+			(at 259.08 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2190,7 +2190,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 186.69 75.946 0)
+			(at 259.08 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2198,7 +2198,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 186.69 74.93 0)
+			(at 259.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 74.93 0)
+			(at 259.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,7 +2216,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 80.01 0)
+			(at 259.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +2241,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 88.9 81.28 0)
+		(at 134.62 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2249,7 +2249,7 @@
 		(dnp no)
 		(uuid "afbeccb9-0929-402f-b068-684d893acfb3")
 		(property "Reference" "SW11"
-			(at 88.9 75.184 0)
+			(at 134.62 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2257,7 +2257,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 88.9 77.216 0)
+			(at 134.62 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 88.9 76.2 0)
+			(at 134.62 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 76.2 0)
+			(at 134.62 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2283,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 81.28 0)
+			(at 134.62 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2308,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 250.19 80.01 0)
+		(at 322.58 125.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2317,7 +2317,7 @@
 		(dnp no)
 		(uuid "b25cf06d-d0e7-45f0-bca7-ccd53771d448")
 		(property "Reference" "rSW20"
-			(at 250.19 73.914 0)
+			(at 322.58 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2325,7 +2325,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 250.19 75.946 0)
+			(at 322.58 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2333,7 +2333,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 250.19 74.93 0)
+			(at 322.58 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +2342,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 74.93 0)
+			(at 322.58 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +2351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 80.01 0)
+			(at 322.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +2376,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 50.8 81.28 0)
+		(at 96.52 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2384,7 +2384,7 @@
 		(dnp no)
 		(uuid "b4e34a05-9f0b-47a6-b849-c05bc6a1b990")
 		(property "Reference" "SW20"
-			(at 50.8 75.184 0)
+			(at 96.52 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2392,7 +2392,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 50.8 77.216 0)
+			(at 96.52 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2400,7 +2400,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 50.8 76.2 0)
+			(at 96.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 76.2 0)
+			(at 96.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +2418,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 81.28 0)
+			(at 96.52 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2443,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 212.09 80.01 0)
+		(at 284.48 125.73 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2452,7 +2452,7 @@
 		(dnp no)
 		(uuid "c04c0667-668c-4229-929e-478d9cf0e039")
 		(property "Reference" "rSW11"
-			(at 212.09 73.914 0)
+			(at 284.48 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2460,7 +2460,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 212.09 75.946 0)
+			(at 284.48 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2468,7 +2468,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 212.09 74.93 0)
+			(at 284.48 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2477,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 74.93 0)
+			(at 284.48 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2486,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 80.01 0)
+			(at 284.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2511,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 127 73.66 0)
+		(at 172.72 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2519,7 +2519,7 @@
 		(dnp no)
 		(uuid "c05949ff-73c6-41fe-b2ad-6a1cd0c396c3")
 		(property "Reference" "EXSW1"
-			(at 127 67.564 0)
+			(at 172.72 112.014 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2527,7 +2527,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 127 69.596 0)
+			(at 172.72 114.046 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2535,7 +2535,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 127 68.58 0)
+			(at 172.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 68.58 0)
+			(at 172.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2553,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 73.66 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +2578,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 76.2 66.04 0)
+		(at 121.92 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2586,7 +2586,7 @@
 		(dnp no)
 		(uuid "c5028db0-03c8-4680-9a21-475bc9c7aa4d")
 		(property "Reference" "SW13"
-			(at 76.2 59.944 0)
+			(at 121.92 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2594,7 +2594,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 76.2 61.976 0)
+			(at 121.92 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2602,7 +2602,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 76.2 60.96 0)
+			(at 121.92 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2611,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 60.96 0)
+			(at 121.92 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2620,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 66.04 0)
+			(at 121.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +2645,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 237.49 64.77 0)
+		(at 309.88 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2654,7 +2654,7 @@
 		(dnp no)
 		(uuid "c7e7aa05-ffbe-4396-b944-0d63c098a66b")
 		(property "Reference" "rSW18"
-			(at 237.49 58.674 0)
+			(at 309.88 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2662,7 +2662,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 237.49 60.706 0)
+			(at 309.88 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2670,7 +2670,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 237.49 59.69 0)
+			(at 309.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 59.69 0)
+			(at 309.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 64.77 0)
+			(at 309.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2713,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 199.39 110.49 0)
+		(at 271.78 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2722,7 +2722,7 @@
 		(dnp no)
 		(uuid "c8506d02-dd17-4e43-93a2-0bfae92a9ffd")
 		(property "Reference" "rSW8"
-			(at 199.39 104.394 0)
+			(at 271.78 150.114 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2730,7 +2730,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 199.39 106.426 0)
+			(at 271.78 152.146 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2738,7 +2738,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 199.39 105.41 0)
+			(at 271.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 105.41 0)
+			(at 271.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2756,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 110.49 0)
+			(at 271.78 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +2781,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 101.6 111.76 0)
+		(at 147.32 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2789,7 +2789,7 @@
 		(dnp no)
 		(uuid "cca8555c-1399-43fe-9b91-22e865d5dce5")
 		(property "Reference" "SW8"
-			(at 101.6 105.664 0)
+			(at 147.32 150.114 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2797,7 +2797,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 101.6 107.696 0)
+			(at 147.32 152.146 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2805,7 +2805,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 101.6 106.68 0)
+			(at 147.32 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 106.68 0)
+			(at 147.32 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 111.76 0)
+			(at 147.32 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +2848,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 212.09 95.25 0)
+		(at 284.48 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2857,7 +2857,7 @@
 		(dnp no)
 		(uuid "d3c18c21-5711-435c-b44c-a95ad88844a1")
 		(property "Reference" "rSW10"
-			(at 212.09 89.154 0)
+			(at 284.48 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2865,7 +2865,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 212.09 91.186 0)
+			(at 284.48 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2873,7 +2873,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 212.09 90.17 0)
+			(at 284.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +2882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 90.17 0)
+			(at 284.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2891,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 95.25 0)
+			(at 284.48 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +2916,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 212.09 64.77 0)
+		(at 284.48 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2925,7 +2925,7 @@
 		(dnp no)
 		(uuid "d4c9d4df-c137-4bf0-9b26-e066898c4cfd")
 		(property "Reference" "rSW12"
-			(at 212.09 58.674 0)
+			(at 284.48 104.394 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2933,7 +2933,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 212.09 60.706 0)
+			(at 284.48 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2941,7 +2941,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 212.09 59.69 0)
+			(at 284.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 59.69 0)
+			(at 284.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +2959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 64.77 0)
+			(at 284.48 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +2984,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 88.9 111.76 0)
+		(at 134.62 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2992,7 +2992,7 @@
 		(dnp no)
 		(uuid "dd447255-942f-45db-9db0-2de610c5109c")
 		(property "Reference" "SW9"
-			(at 88.9 105.664 0)
+			(at 134.62 150.114 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3000,7 +3000,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 88.9 107.696 0)
+			(at 134.62 152.146 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3008,7 +3008,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 88.9 106.68 0)
+			(at 134.62 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3017,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 106.68 0)
+			(at 134.62 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 111.76 0)
+			(at 134.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3051,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 171.45 73.66 0)
+		(at 243.84 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3059,7 +3059,7 @@
 		(dnp no)
 		(uuid "de6e93a1-52d7-4965-8ead-4b6e86e74482")
 		(property "Reference" "rEXSW1"
-			(at 171.45 67.564 0)
+			(at 243.84 113.284 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3067,7 +3067,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 171.45 69.596 0)
+			(at 243.84 115.316 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3075,7 +3075,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 171.45 68.58 0)
+			(at 243.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3084,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 68.58 0)
+			(at 243.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3093,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 73.66 0)
+			(at 243.84 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3118,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 114.3 81.28 0)
+		(at 160.02 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3126,7 +3126,7 @@
 		(dnp no)
 		(uuid "ebfee43d-6ba0-48a0-85f8-ff6ef3d760ec")
 		(property "Reference" "SW3"
-			(at 114.3 75.184 0)
+			(at 160.02 119.634 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3134,7 +3134,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 114.3 77.216 0)
+			(at 160.02 121.666 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3142,7 +3142,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 114.3 76.2 0)
+			(at 160.02 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 76.2 0)
+			(at 160.02 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3160,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 81.28 0)
+			(at 160.02 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3185,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:SW_Push")
-		(at 88.9 96.52 0)
+		(at 134.62 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3193,7 +3193,7 @@
 		(dnp no)
 		(uuid "f3d7103b-935f-4330-a3aa-bd9812100898")
 		(property "Reference" "SW10"
-			(at 88.9 90.424 0)
+			(at 134.62 134.874 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3201,7 +3201,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 88.9 92.456 0)
+			(at 134.62 136.906 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3209,7 +3209,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
-			(at 88.9 91.44 0)
+			(at 134.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 91.44 0)
+			(at 134.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 96.52 0)
+			(at 134.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

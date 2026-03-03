@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "4cc5d416-57f5-4147-8183-e03ae6b1198a")
-	(paper "A5")
+	(paper "A3")
 	(title_block
 		(title "Alidade")
 		(rev "0.0.1")
@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 25.4 27.94)
+		(at 83.82 95.25)
 		(size 27.94 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "29a12dcc-0491-44a2-8290-cbef7c573a8c")
 		(property "Sheetname" "Power"
-			(at 25.4 27.2284 0)
+			(at 83.82 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 25.4 48.8446 0)
+			(at 83.82 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 27.94)
+		(at 264.16 111.76)
 		(size 22.86 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -69,7 +69,7 @@
 		)
 		(uuid "2e72dd0e-817e-4022-b409-1f79b0de6857")
 		(property "Sheetname" "Switches"
-			(at 76.2 27.2284 0)
+			(at 264.16 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78,7 +78,7 @@
 			)
 		)
 		(property "Sheetfile" "switches.kicad_sch"
-			(at 76.2 50.1146 0)
+			(at 264.16 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,8 +95,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 58.42)
-		(size 26.67 17.78)
+		(at 152.4 50.8)
+		(size 62.23 97.79)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -111,7 +111,7 @@
 		)
 		(uuid "43e81299-cad2-4202-975b-6352d1fdfcdc")
 		(property "Sheetname" "Processor"
-			(at 25.4 57.7084 0)
+			(at 152.4 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +120,7 @@
 			)
 		)
 		(property "Sheetfile" "processor.kicad_sch"
-			(at 25.4 76.7846 0)
+			(at 152.4 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
