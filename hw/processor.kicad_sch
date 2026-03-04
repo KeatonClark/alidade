@@ -2853,6 +2853,17 @@
 		)
 		(uuid "5787a8bc-f4ca-46ea-91e3-f5ffcc126948")
 	)
+	(hierarchical_label "rBATMONEN"
+		(shape output)
+		(at 302.26 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6492400f-b984-47af-8718-44bbc4f81069")
+	)
 	(hierarchical_label "SHPACT"
 		(shape output)
 		(at 63.5 208.28 180)
@@ -2886,6 +2897,17 @@
 		)
 		(uuid "b9be150d-c647-4002-8d20-60a5ecef88da")
 	)
+	(hierarchical_label "rBATMON"
+		(shape input)
+		(at 302.26 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1426b33-60ff-4d40-9c9f-a39833ab89eb")
+	)
 	(hierarchical_label "CHG"
 		(shape input)
 		(at 63.5 200.66 180)
@@ -2896,6 +2918,28 @@
 			(justify right)
 		)
 		(uuid "ddb6f1f6-7b61-49a7-8463-8ead954021f1")
+	)
+	(hierarchical_label "BATMON"
+		(shape input)
+		(at 63.5 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7d5ecba-f864-4e3b-bd7a-90c5c3176414")
+	)
+	(hierarchical_label "BATMONEN"
+		(shape output)
+		(at 63.5 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa122867-f811-4a2d-acd5-8874a4c9f47f")
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
