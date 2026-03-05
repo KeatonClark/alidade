@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "eecc9588-3ded-4cb5-bb8d-2b719e81f973")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Alidade:ISP2454-LP-JT"
 			(pin_names
@@ -2787,9 +2787,163 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "ISET"
+		(shape output)
+		(at 63.5 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00999e18-ddf7-4a73-ab93-1d82fa51a4d9")
+	)
+	(hierarchical_label "rMODE"
+		(shape output)
+		(at 302.26 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0306b812-fd43-49ad-a3c3-bf3e73e2a30f")
+	)
+	(hierarchical_label "rCHG"
+		(shape input)
+		(at 302.26 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21e6caa3-d5cd-415b-9477-727529bea766")
+	)
+	(hierarchical_label "rERR"
+		(shape input)
+		(at 302.26 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27ba7aa2-b97d-4e62-a3cd-27da88fbfcb9")
+	)
+	(hierarchical_label "MODE"
+		(shape output)
+		(at 63.5 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43b5766d-de3e-4373-9520-326cabbb13d6")
+	)
+	(hierarchical_label "ERR"
+		(shape input)
+		(at 63.5 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5787a8bc-f4ca-46ea-91e3-f5ffcc126948")
+	)
+	(hierarchical_label "rBATMONEN"
+		(shape output)
+		(at 302.26 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6492400f-b984-47af-8718-44bbc4f81069")
+	)
+	(hierarchical_label "SHPACT"
+		(shape output)
+		(at 63.5 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a37e3b4-438b-487a-b362-09bcb1bc2f3a")
+	)
+	(hierarchical_label "rISET"
+		(shape output)
+		(at 302.26 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89a63674-16bf-4666-934b-f4ae32eab12e")
+	)
+	(hierarchical_label "rSHPACT"
+		(shape output)
+		(at 302.26 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9be150d-c647-4002-8d20-60a5ecef88da")
+	)
+	(hierarchical_label "rBATMON"
+		(shape input)
+		(at 302.26 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1426b33-60ff-4d40-9c9f-a39833ab89eb")
+	)
+	(hierarchical_label "CHG"
+		(shape input)
+		(at 63.5 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddb6f1f6-7b61-49a7-8463-8ead954021f1")
+	)
+	(hierarchical_label "BATMON"
+		(shape input)
+		(at 63.5 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7d5ecba-f864-4e3b-bd7a-90c5c3176414")
+	)
+	(hierarchical_label "BATMONEN"
+		(shape output)
+		(at 63.5 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa122867-f811-4a2d-acd5-8874a4c9f47f")
+	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 186.69 45.72 0)
+		(at 289.56 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2798,7 +2952,7 @@
 		(fields_autoplaced yes)
 		(uuid "164c0c63-0a19-40f3-a06f-3ba979222580")
 		(property "Reference" "rU1"
-			(at 205.74 52.0699 0)
+			(at 308.61 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +2961,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 205.74 54.6099 0)
+			(at 308.61 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2970,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 201.168 36.576 0)
+			(at 304.038 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +2980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 45.72 0)
+			(at 289.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 45.72 0)
+			(at 289.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3925,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 184.15 110.49 0)
+		(at 287.02 120.65 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3780,7 +3934,7 @@
 		(fields_autoplaced yes)
 		(uuid "655328d2-ed2b-4118-a949-802feb53e61c")
 		(property "Reference" "rU1"
-			(at 205.74 128.2699 0)
+			(at 308.61 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3943,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 205.74 130.8099 0)
+			(at 308.61 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3952,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 198.628 101.346 0)
+			(at 301.498 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +3962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 110.49 0)
+			(at 287.02 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3971,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 110.49 0)
+			(at 287.02 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5398,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 185.42 63.5 0)
+		(at 288.29 73.66 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5253,7 +5407,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd20d4e4-e3cb-4633-a1a5-cba138a97672")
 		(property "Reference" "rU1"
-			(at 210.82 73.6599 0)
+			(at 313.69 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5416,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 210.82 76.1999 0)
+			(at 313.69 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5425,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 199.898 54.356 0)
+			(at 302.768 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 63.5 0)
+			(at 288.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 63.5 0)
+			(at 288.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5889,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 234.95 142.24 0)
+		(at 337.82 152.4 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5744,7 +5898,7 @@
 		(fields_autoplaced yes)
 		(uuid "be47aef1-50f1-4bf9-a9dd-4f5b0f336505")
 		(property "Reference" "rU1"
-			(at 250.19 146.0499 0)
+			(at 353.06 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +5907,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 250.19 148.5899 0)
+			(at 353.06 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5916,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 249.428 133.096 0)
+			(at 352.298 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 142.24 0)
+			(at 337.82 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +5935,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 142.24 0)
+			(at 337.82 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +6380,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 185.42 90.17 0)
+		(at 288.29 100.33 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6235,7 +6389,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1a90d30-24e1-4ff1-ae1d-0f64466f8143")
 		(property "Reference" "rU1"
-			(at 201.93 96.5199 0)
+			(at 304.8 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6398,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 201.93 99.0599 0)
+			(at 304.8 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6407,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 199.898 81.026 0)
+			(at 302.768 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +6417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 90.17 0)
+			(at 288.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6426,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 90.17 0)
+			(at 288.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
