@@ -7858,7 +7858,7 @@
 		(uuid "10623e05-96bb-4389-aad2-fdaf0f9075ba")
 	)
 	(hierarchical_label "PMICINT"
-		(shape input)
+		(shape output)
 		(at 287.02 194.31 180)
 		(effects
 			(font
@@ -7880,7 +7880,7 @@
 		(uuid "37ed1fef-69e0-45fb-9028-355557e3b6d1")
 	)
 	(hierarchical_label "rPMICINT"
-		(shape input)
+		(shape output)
 		(at 345.44 195.58 180)
 		(effects
 			(font
