@@ -7124,7 +7124,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "VBUS"
+	(symbol "VBUSOUT"
 		(power)
 		(pin_names
 			(offset 0)
@@ -7132,7 +7132,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "#VBUS"
+		(property "Reference" "#VBUSOUT"
 			(at -7.366 -3.81 0)
 			(effects
 				(font
@@ -7141,7 +7141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VBUSOUT"
 			(at 0 3.175 90)
 			(effects
 				(font
@@ -7185,7 +7185,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "VBUS_0_1"
+		(symbol "VBUSOUT_0_1"
 			(polyline
 				(pts
 					(xy -0.762 1.27) (xy 0 2.54)
@@ -7223,12 +7223,12 @@
 				)
 			)
 		)
-		(symbol "VBUS_1_1"
+		(symbol "VBUSOUT_1_1"
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
 				(hide yes)
-				(name "VBUS"
+				(name "VBUSOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8075,7 +8075,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "rVBUS"
+	(symbol "rVBUSOUT"
 		(power)
 		(pin_names
 			(offset 0)
@@ -8083,7 +8083,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "#rVBUS"
+		(property "Reference" "#rVBUSOUT"
 			(at -7.366 -3.81 0)
 			(effects
 				(font
@@ -8092,7 +8092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "rVBUS"
+		(property "Value" "rVBUSOUT"
 			(at 0 3.175 90)
 			(effects
 				(font
@@ -8136,7 +8136,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "rVBUS_0_1"
+		(symbol "rVBUSOUT_0_1"
 			(polyline
 				(pts
 					(xy -0.762 1.27) (xy 0 2.54)
@@ -8174,12 +8174,12 @@
 				)
 			)
 		)
-		(symbol "rVBUS_1_1"
+		(symbol "rVBUSOUT_1_1"
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
 				(hide yes)
-				(name "rVBUS"
+				(name "rVBUSOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
