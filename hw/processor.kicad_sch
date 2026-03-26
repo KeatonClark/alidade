@@ -2787,27 +2787,16 @@
 			(embedded_fonts no)
 		)
 	)
-	(hierarchical_label "ISET"
+	(hierarchical_label "SCL"
 		(shape output)
-		(at 63.5 203.2 180)
+		(at 130.81 196.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "00999e18-ddf7-4a73-ab93-1d82fa51a4d9")
-	)
-	(hierarchical_label "rMODE"
-		(shape output)
-		(at 302.26 200.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0306b812-fd43-49ad-a3c3-bf3e73e2a30f")
+		(uuid "06ecce3c-a06f-4b41-9f1e-d88d781f40a0")
 	)
 	(hierarchical_label "rCOL4"
 		(shape output)
@@ -2842,28 +2831,6 @@
 		)
 		(uuid "16e46e0e-5143-484a-9667-f837eda981e0")
 	)
-	(hierarchical_label "rCHG"
-		(shape input)
-		(at 302.26 195.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21e6caa3-d5cd-415b-9477-727529bea766")
-	)
-	(hierarchical_label "rERR"
-		(shape input)
-		(at 302.26 193.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "27ba7aa2-b97d-4e62-a3cd-27da88fbfcb9")
-	)
 	(hierarchical_label "rROW0"
 		(shape input)
 		(at 297.18 241.3 90)
@@ -2885,17 +2852,6 @@
 			(justify left)
 		)
 		(uuid "436032e1-f450-4462-8b2d-34972bb29ef2")
-	)
-	(hierarchical_label "MODE"
-		(shape output)
-		(at 63.5 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "43b5766d-de3e-4373-9520-326cabbb13d6")
 	)
 	(hierarchical_label "COL2"
 		(shape output)
@@ -2919,17 +2875,6 @@
 		)
 		(uuid "5108ccce-0695-4642-a172-01c03f44d697")
 	)
-	(hierarchical_label "ERR"
-		(shape input)
-		(at 63.5 198.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5787a8bc-f4ca-46ea-91e3-f5ffcc126948")
-	)
 	(hierarchical_label "COL6"
 		(shape output)
 		(at 45.72 238.76 90)
@@ -2940,28 +2885,6 @@
 			(justify left)
 		)
 		(uuid "62aa296c-94fa-460e-bcfa-e6b485d447cb")
-	)
-	(hierarchical_label "rBATMONEN"
-		(shape output)
-		(at 302.26 208.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6492400f-b984-47af-8718-44bbc4f81069")
-	)
-	(hierarchical_label "SHPACT"
-		(shape output)
-		(at 63.5 208.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6a37e3b4-438b-487a-b362-09bcb1bc2f3a")
 	)
 	(hierarchical_label "COL1"
 		(shape output)
@@ -2974,6 +2897,17 @@
 		)
 		(uuid "6af3d356-e579-4da6-b476-c6d2fdbbbcb6")
 	)
+	(hierarchical_label "rSCL"
+		(shape output)
+		(at 255.27 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ba95a25-04d5-4e56-941d-c4d8fd05c3c3")
+	)
 	(hierarchical_label "COL3"
 		(shape output)
 		(at 83.82 238.76 90)
@@ -2985,16 +2919,16 @@
 		)
 		(uuid "77555720-3c97-4da3-8802-586d7d0c4298")
 	)
-	(hierarchical_label "rISET"
-		(shape output)
-		(at 302.26 198.12 180)
+	(hierarchical_label "rPMICINT"
+		(shape input)
+		(at 256.54 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "89a63674-16bf-4666-934b-f4ae32eab12e")
+		(uuid "89e08ecf-fe64-4163-97ac-38aa55bb6222")
 	)
 	(hierarchical_label "rROW3"
 		(shape input)
@@ -3017,6 +2951,17 @@
 			(justify left)
 		)
 		(uuid "9ce0cf73-c982-43b5-b1ba-419550e8982b")
+	)
+	(hierarchical_label "PMICINT"
+		(shape input)
+		(at 129.54 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fa93c6f-5751-43eb-8cab-0d863b8236ca")
 	)
 	(hierarchical_label "rCOL0"
 		(shape output)
@@ -3073,28 +3018,6 @@
 		)
 		(uuid "b4400e0f-ce7e-4df1-ab8d-92a79670c880")
 	)
-	(hierarchical_label "rSHPACT"
-		(shape output)
-		(at 302.26 203.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9be150d-c647-4002-8d20-60a5ecef88da")
-	)
-	(hierarchical_label "rBATMON"
-		(shape input)
-		(at 302.26 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1426b33-60ff-4d40-9c9f-a39833ab89eb")
-	)
 	(hierarchical_label "rCOL2"
 		(shape output)
 		(at 275.59 226.06 90)
@@ -3117,16 +3040,27 @@
 		)
 		(uuid "d9f2d4b8-17ad-4767-9974-74eb17eb5892")
 	)
-	(hierarchical_label "CHG"
-		(shape input)
-		(at 63.5 200.66 180)
+	(hierarchical_label "rSDA"
+		(shape bidirectional)
+		(at 255.27 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ddb6f1f6-7b61-49a7-8463-8ead954021f1")
+		(uuid "e028c07f-1f50-498c-9b64-b744cf0a9d94")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 130.81 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eac69f80-794a-4a8a-b9b0-8151ab4ff635")
 	)
 	(hierarchical_label "rCOL3"
 		(shape output)
@@ -3139,17 +3073,6 @@
 		)
 		(uuid "ee54ffec-0b28-4091-ae3d-93bb7a9335d6")
 	)
-	(hierarchical_label "BATMON"
-		(shape input)
-		(at 63.5 210.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7d5ecba-f864-4e3b-bd7a-90c5c3176414")
-	)
 	(hierarchical_label "COL0"
 		(shape output)
 		(at 121.92 238.76 90)
@@ -3160,17 +3083,6 @@
 			(justify left)
 		)
 		(uuid "f84a544c-4add-4320-b9f2-3841625b8629")
-	)
-	(hierarchical_label "BATMONEN"
-		(shape output)
-		(at 63.5 213.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa122867-f811-4a2d-acd5-8874a4c9f47f")
 	)
 	(hierarchical_label "rROW1"
 		(shape input)
