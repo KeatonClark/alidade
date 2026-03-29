@@ -7824,7 +7824,7 @@
 		)
 		(uuid "04d7daf2-c546-419b-b72e-26854c4786ee")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "PMICSCL"
 		(shape input)
 		(at 219.71 243.84 180)
 		(effects
@@ -7835,7 +7835,7 @@
 		)
 		(uuid "059d6ee5-1a55-45af-9203-68ec683f22c3")
 	)
-	(hierarchical_label "rSCL"
+	(hierarchical_label "rPMICSCL"
 		(shape input)
 		(at 264.16 243.84 180)
 		(effects
@@ -7846,7 +7846,7 @@
 		)
 		(uuid "05cdc7c7-6cec-4a67-9bd3-cc2fb8849ec9")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "PMICSDA"
 		(shape bidirectional)
 		(at 219.71 241.3 180)
 		(effects
@@ -7890,7 +7890,7 @@
 		)
 		(uuid "9f9bf165-d815-4ac9-991f-acabf138041a")
 	)
-	(hierarchical_label "rSDA"
+	(hierarchical_label "rPMICSDA"
 		(shape bidirectional)
 		(at 264.16 241.3 180)
 		(effects

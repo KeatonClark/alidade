@@ -2666,7 +2666,7 @@
 		(uuid "c8d80ad4-5a24-4618-b9ce-6d3190a4fed4")
 	)
 	(no_connect
-		(at 49.53 104.14)
+		(at 40.64 102.87)
 		(uuid "ebb1a4de-1800-40e8-8d90-3edfc0241121")
 	)
 	(no_connect
@@ -2682,6 +2682,16 @@
 			(type default)
 		)
 		(uuid "01215d2f-822a-46bb-a1f2-5a6171abb564")
+	)
+	(wire
+		(pts
+			(xy 170.18 55.88) (xy 185.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02653f4d-9cc2-4457-a93f-eb04ae1a41d4")
 	)
 	(wire
 		(pts
@@ -2842,6 +2852,16 @@
 			(type default)
 		)
 		(uuid "1927ebb2-c9f8-441a-ac46-40e8556df4db")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 185.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b795191-5f49-431c-8958-a55a121c29e7")
 	)
 	(wire
 		(pts
@@ -3102,6 +3122,16 @@
 			(type default)
 		)
 		(uuid "43284e24-b894-4c43-9315-dd0b732bf132")
+	)
+	(wire
+		(pts
+			(xy 170.18 53.34) (xy 185.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43eba311-406b-498c-a2d6-12abe7210315")
 	)
 	(wire
 		(pts
@@ -3955,6 +3985,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 53.34) (xy 247.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ddb009-0da2-4eb3-8db9-cc161bb2f6ae")
+	)
+	(wire
+		(pts
 			(xy 151.13 182.88) (xy 148.59 182.88)
 		)
 		(stroke
@@ -4275,6 +4315,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 55.88) (xy 247.65 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52c9a40-0f83-4550-b66c-9144e6bd784c")
+	)
+	(wire
+		(pts
 			(xy 200.66 121.92) (xy 200.66 129.54)
 		)
 		(stroke
@@ -4332,6 +4382,16 @@
 			(type default)
 		)
 		(uuid "fd908977-4a31-467d-985d-afb503744112")
+	)
+	(wire
+		(pts
+			(xy 232.41 58.42) (xy 247.65 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda09279-67e1-4d59-ab6e-7f6f1bcc2b70")
 	)
 	(wire
 		(pts
@@ -4593,9 +4653,9 @@
 		)
 		(uuid "fd4287fa-1faf-4976-8cb6-638bbbf6dd9f")
 	)
-	(hierarchical_label "rMOSI"
+	(hierarchical_label "rFPGAMOSI"
 		(shape bidirectional)
-		(at 247.65 53.34 180)
+		(at 232.41 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4659,9 +4719,9 @@
 		)
 		(uuid "2a8a6965-5882-437c-9351-67b5afecdb43")
 	)
-	(hierarchical_label "MISO"
+	(hierarchical_label "FPGAMISO"
 		(shape bidirectional)
-		(at 185.42 55.88 180)
+		(at 170.18 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4692,7 +4752,7 @@
 		)
 		(uuid "372cb060-883a-4df6-8d33-dccbdc246db6")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "FPGASCLK"
 		(shape bidirectional)
 		(at 170.18 50.8 180)
 		(effects
@@ -4747,7 +4807,7 @@
 		)
 		(uuid "5cad034b-8ccc-4166-b962-f1b969418769")
 	)
-	(hierarchical_label "rSCLK"
+	(hierarchical_label "rFPGASCLK"
 		(shape bidirectional)
 		(at 232.41 50.8 180)
 		(effects
@@ -4769,9 +4829,9 @@
 		)
 		(uuid "5f8903b1-bea5-4c42-aba6-48c2bcc20522")
 	)
-	(hierarchical_label "rMISO"
+	(hierarchical_label "rFPGAMISO"
 		(shape bidirectional)
-		(at 247.65 55.88 180)
+		(at 232.41 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4868,9 +4928,9 @@
 		)
 		(uuid "96463042-e415-40d8-841b-8a66e0727faa")
 	)
-	(hierarchical_label "MOSI"
+	(hierarchical_label "FPGAMOSI"
 		(shape bidirectional)
-		(at 185.42 53.34 180)
+		(at 170.18 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4945,9 +5005,9 @@
 		)
 		(uuid "d01df434-6122-4e98-b958-23a905df3b89")
 	)
-	(hierarchical_label "rSS"
+	(hierarchical_label "rFPGACS"
 		(shape bidirectional)
-		(at 247.65 58.42 180)
+		(at 232.41 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5022,9 +5082,9 @@
 		)
 		(uuid "eb403953-3e60-4400-aac9-afab21f807a0")
 	)
-	(hierarchical_label "SS"
+	(hierarchical_label "FPGACS"
 		(shape bidirectional)
-		(at 185.42 58.42 180)
+		(at 170.18 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
