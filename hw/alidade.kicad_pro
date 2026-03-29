@@ -640,12 +640,12 @@
       "FPGA"
     ],
     [
-      "43e81299-cad2-4202-975b-6352d1fdfcdc",
-      "Processor"
-    ],
-    [
       "2e72dd0e-817e-4022-b409-1f79b0de6857",
       "Switches"
+    ],
+    [
+      "43e81299-cad2-4202-975b-6352d1fdfcdc",
+      "Processor"
     ]
   ],
   "text_variables": {}
