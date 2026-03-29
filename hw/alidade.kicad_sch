@@ -231,6 +231,48 @@
 		(uuid "fbfd7f19-8c3a-4d98-9aa9-d7c9e54f4a42")
 	)
 	(sheet
+		(at 43.18 64.77)
+		(size 31.75 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09aa7444-91c7-4c7c-99cd-94ae6416f0cf")
+		(property "Sheetname" "Trackpoint"
+			(at 43.18 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "trackpoint.kicad_sch"
+			(at 43.18 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 81.28 185.42)
 		(size 24.13 20.32)
 		(exclude_from_sim no)
@@ -570,7 +612,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "43e81299-cad2-4202-975b-6352d1fdfcdc")
-		(property "Sheetname" "Processor"
+		(property "Sheetname" "MCU"
 			(at 123.19 66.5984 0)
 			(effects
 				(font
@@ -579,7 +621,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "processor.kicad_sch"
+		(property "Sheetfile" "mcu.kicad_sch"
 			(at 123.19 206.3246 0)
 			(effects
 				(font

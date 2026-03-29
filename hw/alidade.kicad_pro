@@ -645,7 +645,11 @@
     ],
     [
       "43e81299-cad2-4202-975b-6352d1fdfcdc",
-      "Processor"
+      "MCU"
+    ],
+    [
+      "09aa7444-91c7-4c7c-99cd-94ae6416f0cf",
+      "Trackpoint"
     ]
   ],
   "text_variables": {}
