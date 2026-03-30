@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "77021cbe-2957-4a80-95b6-d67ae352fc0b")
 	(paper "A3")
+	(title_block
+		(title "Alidade")
+		(date "2026-03-29")
+		(rev "1.0.0rc1")
+	)
 	(lib_symbols
 		(symbol "Alidade:1V2"
 			(power)
@@ -6293,7 +6298,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 247.65) (xy 293.37 247.65)
+			(xy 275.59 247.65) (xy 293.37 247.65)
 		)
 		(stroke
 			(width 0)
@@ -7323,7 +7328,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 246.38) (xy 219.71 246.38)
+			(xy 201.93 246.38) (xy 219.71 246.38)
 		)
 		(stroke
 			(width 0)
@@ -8043,7 +8048,7 @@
 	)
 	(hierarchical_label "SHPHLD"
 		(shape input)
-		(at 215.9 246.38 180)
+		(at 201.93 246.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8076,7 +8081,7 @@
 	)
 	(hierarchical_label "rSHPHLD"
 		(shape input)
-		(at 290.83 247.65 180)
+		(at 275.59 247.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)

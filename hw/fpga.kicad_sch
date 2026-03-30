@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "89bbeaa2-06bb-4bf4-b0fd-26205bafdb9f")
 	(paper "A4")
+	(title_block
+		(title "Alidade")
+		(date "2026-03-29")
+		(rev "1.0.0rc1")
+	)
 	(lib_symbols
 		(symbol "Alidade:1V2"
 			(power)
