@@ -4653,8 +4653,8 @@
 		)
 		(uuid "fd4287fa-1faf-4976-8cb6-638bbbf6dd9f")
 	)
-	(hierarchical_label "rFPGASO"
-		(shape output)
+	(hierarchical_label "rFPGASI"
+		(shape input)
 		(at 232.41 53.34 180)
 		(effects
 			(font
@@ -4829,8 +4829,8 @@
 		)
 		(uuid "5f8903b1-bea5-4c42-aba6-48c2bcc20522")
 	)
-	(hierarchical_label "rFPGAMISO"
-		(shape bidirectional)
+	(hierarchical_label "rFPGASO"
+		(shape output)
 		(at 232.41 55.88 180)
 		(effects
 			(font

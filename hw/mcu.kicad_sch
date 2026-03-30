@@ -3265,7 +3265,7 @@
 		)
 		(uuid "b0c1e410-8194-4b59-9302-702d4213d96c")
 	)
-	(text "Port 1\nPMICSDA/SCL pulled up on PMIC sheet\nCRESET/CDONE gpio"
+	(text "Port 1\nPMICSDA/SCL pulled up on PMIC sheet\nCRESET/CDONE pulled up on FPGA sheet"
 		(exclude_from_sim no)
 		(at 333.502 149.606 0)
 		(effects
@@ -3604,7 +3604,7 @@
 		(uuid "f725107e-df2a-4641-9f47-4e9d74f189b6")
 	)
 	(hierarchical_label "rCRESET"
-		(shape input)
+		(shape output)
 		(at 351.79 175.26 180)
 		(effects
 			(font
@@ -3615,7 +3615,7 @@
 		(uuid "007b3156-11d3-488e-abbe-6c8039f54f89")
 	)
 	(hierarchical_label "CRESET"
-		(shape input)
+		(shape output)
 		(at 298.45 175.26 180)
 		(effects
 			(font
@@ -3648,7 +3648,7 @@
 		(uuid "0941edac-1850-4ab4-a526-4bb6e677321b")
 	)
 	(hierarchical_label "CDONE"
-		(shape output)
+		(shape input)
 		(at 298.45 177.8 180)
 		(effects
 			(font
@@ -3725,7 +3725,7 @@
 		(uuid "9fa93c6f-5751-43eb-8cab-0d863b8236ca")
 	)
 	(hierarchical_label "rCDONE"
-		(shape output)
+		(shape input)
 		(at 351.79 177.8 180)
 		(effects
 			(font
