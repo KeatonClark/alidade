@@ -4653,8 +4653,8 @@
 		)
 		(uuid "fd4287fa-1faf-4976-8cb6-638bbbf6dd9f")
 	)
-	(hierarchical_label "rFPGAMOSI"
-		(shape bidirectional)
+	(hierarchical_label "rFPGASO"
+		(shape output)
 		(at 232.41 53.34 180)
 		(effects
 			(font
@@ -4719,8 +4719,8 @@
 		)
 		(uuid "2a8a6965-5882-437c-9351-67b5afecdb43")
 	)
-	(hierarchical_label "FPGAMISO"
-		(shape bidirectional)
+	(hierarchical_label "FPGASO"
+		(shape output)
 		(at 170.18 55.88 180)
 		(effects
 			(font
@@ -4752,7 +4752,7 @@
 		)
 		(uuid "372cb060-883a-4df6-8d33-dccbdc246db6")
 	)
-	(hierarchical_label "FPGASCLK"
+	(hierarchical_label "FPGASCK"
 		(shape bidirectional)
 		(at 170.18 50.8 180)
 		(effects
@@ -4807,7 +4807,7 @@
 		)
 		(uuid "5cad034b-8ccc-4166-b962-f1b969418769")
 	)
-	(hierarchical_label "rFPGASCLK"
+	(hierarchical_label "rFPGASCK"
 		(shape bidirectional)
 		(at 232.41 50.8 180)
 		(effects
@@ -4928,8 +4928,8 @@
 		)
 		(uuid "96463042-e415-40d8-841b-8a66e0727faa")
 	)
-	(hierarchical_label "FPGAMOSI"
-		(shape bidirectional)
+	(hierarchical_label "FPGASI"
+		(shape input)
 		(at 170.18 53.34 180)
 		(effects
 			(font

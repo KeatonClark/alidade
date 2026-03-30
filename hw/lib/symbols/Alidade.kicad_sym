@@ -2633,7 +2633,7 @@
 			(pin bidirectional line
 				(at 0 -10.16 0)
 				(length 7.62)
-				(name "P2.10_TRACEDATA3"
+				(name "P2.10_TRACEDATA3/CSN"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2651,7 +2651,7 @@
 			(pin bidirectional line
 				(at 0 -12.7 0)
 				(length 7.62)
-				(name "P2.09_TRACEDATA2"
+				(name "P2.09_TRACEDATA2/SDI"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2669,7 +2669,7 @@
 			(pin bidirectional line
 				(at 0 -15.24 0)
 				(length 7.62)
-				(name "P2.08_TRACEDATA1"
+				(name "P2.08_TRACEDATA1/SDO"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2687,7 +2687,7 @@
 			(pin bidirectional line
 				(at 0 -17.78 0)
 				(length 7.62)
-				(name "P2.07_TRACEDATA0"
+				(name "P2.07_TRACEDATA0/SWO"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2702,10 +2702,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at 0 -20.32 0)
 				(length 7.62)
-				(name "P2.06_TRACECLK"
+				(name "P2.06_TRACECLK/SCK"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2724,7 +2724,7 @@
 		(symbol "ISP2454-LP-JT_2_1"
 			(rectangle
 				(start 7.62 0)
-				(end 24.13 -22.86)
+				(end 33.02 -22.86)
 				(stroke
 					(width 0)
 					(type default)
@@ -2789,7 +2789,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at 0 -10.16 0)
 				(length 7.62)
 				(name "P0.03"
@@ -2807,7 +2807,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at 0 -12.7 0)
 				(length 7.62)
 				(name "P0.04"
@@ -2858,7 +2858,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "P1.03_NFC2"
@@ -2876,7 +2876,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "P1.04_AIN0"
@@ -2948,7 +2948,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at 0 -17.78 0)
 				(length 7.62)
 				(name "P1.08"
@@ -3002,7 +3002,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at 0 -25.4 0)
 				(length 7.62)
 				(name "P1.11_AIN4"
@@ -3020,7 +3020,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin bidirectional clock
 				(at 0 -27.94 0)
 				(length 7.62)
 				(name "P1.12_AIN5"

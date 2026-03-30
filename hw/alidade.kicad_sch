@@ -991,7 +991,7 @@
 			)
 		)
 		(pin "FPGACS" bidirectional
-			(at 173.99 87.63 180)
+			(at 173.99 90.17 180)
 			(uuid "6f72b724-d274-4fd3-a77d-3a58375f3108")
 			(effects
 				(font
@@ -1021,7 +1021,7 @@
 			)
 		)
 		(pin "FPGASCLK" bidirectional
-			(at 173.99 90.17 180)
+			(at 173.99 92.71 180)
 			(uuid "8b0b5a9c-a3df-42ae-96d6-216f81ecb6c0")
 			(effects
 				(font

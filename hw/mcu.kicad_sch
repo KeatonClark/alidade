@@ -5,6 +5,225 @@
 	(uuid "eecc9588-3ded-4cb5-bb8d-2b719e81f973")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Alidade:1V8"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#1V8_"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "1V8"
+				(at 0 3.175 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Alidade:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Alidade:ISP2454-LP-JT"
 			(pin_names
 				(offset 1.016)
@@ -411,7 +630,7 @@
 				(pin bidirectional line
 					(at 0 -10.16 0)
 					(length 7.62)
-					(name "P2.10_TRACEDATA3"
+					(name "P2.10_TRACEDATA3/CSN"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -429,7 +648,7 @@
 				(pin bidirectional line
 					(at 0 -12.7 0)
 					(length 7.62)
-					(name "P2.09_TRACEDATA2"
+					(name "P2.09_TRACEDATA2/SDI"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -447,7 +666,7 @@
 				(pin bidirectional line
 					(at 0 -15.24 0)
 					(length 7.62)
-					(name "P2.08_TRACEDATA1"
+					(name "P2.08_TRACEDATA1/SDO"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -465,7 +684,7 @@
 				(pin bidirectional line
 					(at 0 -17.78 0)
 					(length 7.62)
-					(name "P2.07_TRACEDATA0"
+					(name "P2.07_TRACEDATA0/SWO"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -480,10 +699,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin bidirectional clock
 					(at 0 -20.32 0)
 					(length 7.62)
-					(name "P2.06_TRACECLK"
+					(name "P2.06_TRACECLK/SCK"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -502,7 +721,7 @@
 			(symbol "ISP2454-LP-JT_2_1"
 				(rectangle
 					(start 7.62 0)
-					(end 24.13 -22.86)
+					(end 33.02 -22.86)
 					(stroke
 						(width 0)
 						(type default)
@@ -567,7 +786,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin bidirectional clock
 					(at 0 -10.16 0)
 					(length 7.62)
 					(name "P0.03"
@@ -585,7 +804,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin bidirectional clock
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "P0.04"
@@ -636,7 +855,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin bidirectional clock
 					(at 0 -5.08 0)
 					(length 7.62)
 					(name "P1.03_NFC2"
@@ -654,7 +873,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin bidirectional clock
 					(at 0 -7.62 0)
 					(length 7.62)
 					(name "P1.04_AIN0"
@@ -726,7 +945,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin bidirectional clock
 					(at 0 -17.78 0)
 					(length 7.62)
 					(name "P1.08"
@@ -780,7 +999,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin bidirectional clock
 					(at 0 -25.4 0)
 					(length 7.62)
 					(name "P1.11_AIN4"
@@ -798,7 +1017,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin bidirectional clock
 					(at 0 -27.94 0)
 					(length 7.62)
 					(name "P1.12_AIN5"
@@ -2786,10 +3005,629 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Alidade:r1V8"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#r1V8_"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "r1V8"
+				(at 0 3.175 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "r1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "r1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "r1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Alidade:rGND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#rGND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "rGND"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "rGND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "rGND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "rGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Port 0"
+		(exclude_from_sim no)
+		(at 346.71 33.02 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5867583f-0936-4244-8f9f-a8c9ecaff3bc")
+	)
+	(text "Debug and FPGA SPI\nLabels are from FPGA perspective\n"
+		(exclude_from_sim no)
+		(at 100.838 119.634 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5cba6dec-900a-4b3b-ab2b-e1c0448ef497")
+	)
+	(text "NC/Mechanical pads"
+		(exclude_from_sim no)
+		(at 353.06 72.136 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "70d42121-1ce4-4c4b-a0ef-3c8690360bfc")
+	)
+	(text "Power\nNo decoupling, integrated in SIP\nOUT_MOD connected to OUT_ANT"
+		(exclude_from_sim no)
+		(at 80.518 27.178 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b0c1e410-8194-4b59-9302-702d4213d96c")
+	)
+	(text "Port 1\nPMICSDA/SCL pulled up on PMIC sheet\nCRESET/CDONE gpio"
+		(exclude_from_sim no)
+		(at 333.502 149.606 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b6f473ad-23bc-47cd-ac50-45caef3c2a9b")
+	)
+	(junction
+		(at 82.55 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8459c867-4525-4426-8cc8-db724c21a99a")
+	)
+	(junction
+		(at 46.99 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2c59a17-4097-4faa-b5b6-99d71fe15d58")
+	)
+	(no_connect
+		(at 351.79 187.96)
+		(uuid "0a64de25-ae1d-48f6-abb7-dae25ee18170")
+	)
+	(no_connect
+		(at 298.45 187.96)
+		(uuid "11bf1034-8c18-4217-8e2c-b437b8f2d635")
+	)
+	(no_connect
+		(at 351.79 182.88)
+		(uuid "1966730f-d469-4a4c-a7ec-dc48a66ba18a")
+	)
+	(no_connect
+		(at 358.14 55.88)
+		(uuid "1b41e382-5913-41d6-ba5f-8a8f4c4973ad")
+	)
+	(no_connect
+		(at 367.03 90.17)
+		(uuid "1fb94044-458f-4715-b6ad-a0697a36db99")
+	)
+	(no_connect
+		(at 328.93 93.98)
+		(uuid "2ba10aa1-885a-42ae-9cf1-30bc2954950c")
+	)
+	(no_connect
+		(at 351.79 198.12)
+		(uuid "33a514aa-a6ea-4e4e-8ea2-f00041061652")
+	)
+	(no_connect
+		(at 351.79 195.58)
+		(uuid "387098fd-4ed8-4419-9cb3-b4de5aabfb95")
+	)
+	(no_connect
+		(at 298.45 180.34)
+		(uuid "418222df-57d8-4883-8560-aab01852b62a")
+	)
+	(no_connect
+		(at 328.93 88.9)
+		(uuid "482ea550-0a71-470a-bb11-600431dd4b70")
+	)
+	(no_connect
+		(at 351.79 185.42)
+		(uuid "4af0010b-4e13-4fc8-93a6-fefeb4310be4")
+	)
+	(no_connect
+		(at 298.45 195.58)
+		(uuid "4b561314-54af-46c7-8247-b64867dfd3e6")
+	)
+	(no_connect
+		(at 351.79 193.04)
+		(uuid "5265e5c1-ccf1-44f5-bb96-fc12e36588ec")
+	)
+	(no_connect
+		(at 367.03 87.63)
+		(uuid "57af7a47-2abc-40a8-84f7-fc6584c0a71b")
+	)
+	(no_connect
+		(at 298.45 193.04)
+		(uuid "5983ffab-5691-414e-a665-50a1afa0e19c")
+	)
+	(no_connect
+		(at 351.79 200.66)
+		(uuid "74a7a90b-4460-44c0-96b2-cdcda91bec52")
+	)
+	(no_connect
+		(at 328.93 48.26)
+		(uuid "7ae3577d-99d0-4608-b86b-3e456378aa14")
+	)
+	(no_connect
+		(at 358.14 48.26)
+		(uuid "8347886d-22c1-4003-9cfa-8bf906645524")
+	)
+	(no_connect
+		(at 351.79 190.5)
+		(uuid "93bf3c9a-8626-4252-a8fc-cd51b273b626")
+	)
+	(no_connect
+		(at 358.14 53.34)
+		(uuid "94afe7ca-f966-4110-ac27-d311c78433da")
+	)
+	(no_connect
+		(at 358.14 45.72)
+		(uuid "9a0c3e46-b283-4547-8843-2fecf99a1970")
+	)
+	(no_connect
+		(at 298.45 190.5)
+		(uuid "a63a2084-3629-4987-9b83-75ba76e67cdf")
+	)
+	(no_connect
+		(at 298.45 200.66)
+		(uuid "b40fd16e-5e08-4de1-838f-b9c2483b71b6")
+	)
+	(no_connect
+		(at 350.52 180.34)
+		(uuid "cbbc527c-5c69-4fbd-9fa7-f1cbecfab6a4")
+	)
+	(no_connect
+		(at 298.45 198.12)
+		(uuid "d54f335b-b007-4635-acff-6f38836aa97a")
+	)
+	(no_connect
+		(at 328.93 50.8)
+		(uuid "df2c7bc2-ace8-46bf-8b1b-36ba0ee34cc2")
+	)
+	(no_connect
+		(at 358.14 50.8)
+		(uuid "e1c51ebc-8bfa-490f-b9e3-a65db9e55720")
+	)
+	(no_connect
+		(at 328.93 91.44)
+		(uuid "e4228785-c191-467a-ba6b-65921c861b67")
+	)
+	(no_connect
+		(at 328.93 45.72)
+		(uuid "e462d3b2-3ffa-4fb7-8d9c-3d7be6547c32")
+	)
+	(no_connect
+		(at 298.45 185.42)
+		(uuid "e584d7a6-92db-4e3b-9aab-0495606d873f")
+	)
+	(no_connect
+		(at 367.03 92.71)
+		(uuid "e7c3f091-fcb8-4c44-b04e-0a29212a2bbc")
+	)
+	(no_connect
+		(at 328.93 53.34)
+		(uuid "e9423dd1-ec4d-4784-b971-43f24893dc6d")
+	)
+	(no_connect
+		(at 328.93 55.88)
+		(uuid "ec99a03c-f727-4894-bfa2-7f993ad2ae99")
+	)
+	(no_connect
+		(at 298.45 182.88)
+		(uuid "ef56868c-d29a-446a-8939-df2655c9a7a2")
+	)
+	(wire
+		(pts
+			(xy 85.09 52.07) (xy 80.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19973411-96f0-41fa-9165-648b53f297f2")
+	)
+	(wire
+		(pts
+			(xy 46.99 55.88) (xy 46.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2649e03d-e91f-4fe1-96d6-1b4fd4b09e0c")
+	)
+	(wire
+		(pts
+			(xy 46.99 55.88) (xy 49.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f93ef3a-4495-4658-b9f9-0fb112a5207d")
+	)
+	(wire
+		(pts
+			(xy 49.53 45.72) (xy 46.99 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30208de7-9900-45e4-a831-a29f6abf5bf9")
+	)
+	(wire
+		(pts
+			(xy 46.99 45.72) (xy 46.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f28352-93ac-4478-a7ad-d948aedcf06f")
+	)
+	(wire
+		(pts
+			(xy 44.45 43.18) (xy 44.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7281cb-9ff9-4e90-a720-e21f69c0d226")
+	)
+	(wire
+		(pts
+			(xy 85.09 54.61) (xy 82.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac972ec-f05e-459b-8a18-bcdfecd2d48e")
+	)
+	(wire
+		(pts
+			(xy 82.55 54.61) (xy 82.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1a87ff-a2f3-4842-8bc5-ab82fea81022")
+	)
+	(wire
+		(pts
+			(xy 82.55 57.15) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b5ceea-6d3f-42be-943d-1d7fd0011c08")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 44.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8111065b-8a27-490a-9e93-d38e41d0e3ac")
+	)
+	(wire
+		(pts
+			(xy 85.09 46.99) (xy 82.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1f3c35-2f3f-450b-a917-68eba6f07d59")
+	)
+	(wire
+		(pts
+			(xy 82.55 46.99) (xy 82.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd47d6ab-5246-4d21-9e99-dd8dd331b3c2")
+	)
+	(wire
+		(pts
+			(xy 49.53 53.34) (xy 46.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdb0a49-105c-4ec3-b2f9-b58c41193fe8")
+	)
+	(wire
+		(pts
+			(xy 82.55 57.15) (xy 85.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70c819d-a97b-4f0c-8e70-168fc917bdc1")
+	)
+	(wire
+		(pts
+			(xy 80.01 44.45) (xy 80.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8692fcc-13d7-4a7a-a8aa-882dd95c6ddd")
+	)
+	(wire
+		(pts
+			(xy 46.99 48.26) (xy 49.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe2edeb-7714-4f13-8924-f2a3adf8eafc")
+	)
+	(wire
+		(pts
+			(xy 46.99 53.34) (xy 46.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58eb3c1-a0fc-44bb-8a3d-03de81baf825")
+	)
+	(wire
+		(pts
+			(xy 82.55 49.53) (xy 85.09 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f725107e-df2a-4641-9f47-4e9d74f189b6")
+	)
+	(hierarchical_label "rCRESET"
+		(shape input)
+		(at 351.79 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "007b3156-11d3-488e-abbe-6c8039f54f89")
+	)
+	(hierarchical_label "CRESET"
+		(shape input)
+		(at 298.45 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "025b6a88-08b0-45e7-89d2-9c8243691daa")
 	)
 	(hierarchical_label "PMICSCL"
 		(shape output)
-		(at 130.81 196.85 180)
+		(at 298.45 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2798,9 +3636,53 @@
 		)
 		(uuid "06ecce3c-a06f-4b41-9f1e-d88d781f40a0")
 	)
+	(hierarchical_label "rFPGASI"
+		(shape output)
+		(at 127 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0941edac-1850-4ab4-a526-4bb6e677321b")
+	)
+	(hierarchical_label "CDONE"
+		(shape output)
+		(at 298.45 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e703a70-c5bb-4d32-a7d5-622a9396974e")
+	)
+	(hierarchical_label "rFPGASCK"
+		(shape bidirectional)
+		(at 127 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52114502-b362-4098-8cf2-03fb41b71b39")
+	)
+	(hierarchical_label "rFPGACS"
+		(shape bidirectional)
+		(at 127 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62ef5706-c4e5-4be6-8834-1bd5ff415651")
+	)
 	(hierarchical_label "rPMICSCL"
 		(shape output)
-		(at 255.27 157.48 180)
+		(at 351.79 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2809,9 +3691,20 @@
 		)
 		(uuid "6ba95a25-04d5-4e56-941d-c4d8fd05c3c3")
 	)
+	(hierarchical_label "FPGACS"
+		(shape bidirectional)
+		(at 63.5 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78e358d0-f2f0-4443-8cad-c02cdd44d5ab")
+	)
 	(hierarchical_label "rPMICINT"
 		(shape input)
-		(at 256.54 148.59 180)
+		(at 351.79 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2822,7 +3715,7 @@
 	)
 	(hierarchical_label "PMICINT"
 		(shape input)
-		(at 129.54 191.77 180)
+		(at 298.45 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2831,9 +3724,53 @@
 		)
 		(uuid "9fa93c6f-5751-43eb-8cab-0d863b8236ca")
 	)
+	(hierarchical_label "rCDONE"
+		(shape output)
+		(at 351.79 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2b28976-cc26-449d-b2cb-f924c215e303")
+	)
+	(hierarchical_label "FPGASO"
+		(shape input)
+		(at 63.5 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8e1a617-72c2-4f23-8e4b-cb1f14ad6d56")
+	)
+	(hierarchical_label "FPGASI"
+		(shape output)
+		(at 63.5 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b85bd97f-9f79-4885-a2d2-652b1a981a6c")
+	)
+	(hierarchical_label "FPGASCK"
+		(shape bidirectional)
+		(at 63.5 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd370ffe-6931-4098-9de9-1df78671af65")
+	)
 	(hierarchical_label "rPMICSDA"
 		(shape bidirectional)
-		(at 255.27 154.94 180)
+		(at 351.79 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2844,7 +3781,7 @@
 	)
 	(hierarchical_label "PMICSDA"
 		(shape bidirectional)
-		(at 130.81 194.31 180)
+		(at 298.45 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2853,18 +3790,93 @@
 		)
 		(uuid "eac69f80-794a-4a8a-b9b0-8151ab4ff635")
 	)
+	(hierarchical_label "rFPGASO"
+		(shape input)
+		(at 127 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2a3c6c8-c43f-4983-a0e6-3f8b8d28fcf6")
+	)
 	(symbol
-		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 289.56 55.88 0)
+		(lib_id "Alidade:GND")
+		(at 46.99 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "061b65c0-b189-4317-9321-93abd385a7e5")
+		(property "Reference" "#GND011"
+			(at 46.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18158c49-4e5c-46bd-8bbb-928fbe6a225c")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
+					(reference "#GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:ISP2454-LP-JT")
+		(at 85.09 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "164c0c63-0a19-40f3-a06f-3ba979222580")
 		(property "Reference" "rU1"
-			(at 308.61 62.2299 0)
+			(at 85.09 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +3885,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 308.61 64.7699 0)
+			(at 85.09 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +3894,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 304.038 46.736 0)
+			(at 99.568 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +3904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 55.88 0)
+			(at 85.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +3913,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 289.56 55.88 0)
+			(at 85.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,16 +4358,15 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 50.8 118.11 0)
+		(at 298.45 165.1 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "644adab7-e5e4-47d3-8549-eda0f6440c18")
 		(property "Reference" "U1"
-			(at 72.39 135.8899 0)
+			(at 298.45 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +4375,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 72.39 138.4299 0)
+			(at 298.45 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +4384,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 65.278 108.966 0)
+			(at 312.928 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +4394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 118.11 0)
+			(at 298.45 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +4403,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 118.11 0)
+			(at 298.45 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,16 +4848,15 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 287.02 120.65 0)
+		(at 351.79 165.1 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "655328d2-ed2b-4118-a949-802feb53e61c")
 		(property "Reference" "rU1"
-			(at 308.61 138.4299 0)
+			(at 351.536 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +4865,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 308.61 140.9699 0)
+			(at 351.536 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +4874,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 301.498 111.506 0)
+			(at 366.268 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +4884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 120.65 0)
+			(at 351.79 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +4893,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 120.65 0)
+			(at 351.79 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,17 +5337,81 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 50.8 68.58 0)
-		(unit 2)
+		(lib_id "Alidade:r1V8")
+		(at 80.01 44.45 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "6ab8207a-a478-4fef-962b-dc2d20c997d1")
+		(property "Reference" "#r1V8_06"
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "r1V8"
+			(at 80.01 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7a92144-8a7c-4636-add8-f2f902c67d31")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
+					(reference "#r1V8_06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:ISP2454-LP-JT")
+		(at 63.5 137.16 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "8c84575b-d71c-4b09-aa31-1d2e5918fe64")
 		(property "Reference" "U1"
-			(at 76.2 78.7399 0)
+			(at 63.246 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +5420,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 76.2 81.2799 0)
+			(at 63.246 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +5429,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 65.278 59.436 0)
+			(at 77.978 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,7 +5439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 68.58 0)
+			(at 63.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +5448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 68.58 0)
+			(at 63.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,16 +5893,15 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 53.34 163.83 0)
+		(at 328.93 86.36 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a1946fc9-747f-4d04-bae2-a8b428f08c39")
 		(property "Reference" "U1"
-			(at 68.58 167.6399 0)
+			(at 328.676 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +5910,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 68.58 170.1799 0)
+			(at 328.676 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +5919,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 67.818 154.686 0)
+			(at 343.408 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +5929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 163.83 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +5938,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 163.83 0)
+			(at 328.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,17 +6382,81 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 288.29 73.66 0)
-		(unit 2)
+		(lib_id "Alidade:rGND")
+		(at 82.55 59.69 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "b6c791a2-1654-4b19-9266-1eed7f4a5f4b")
+		(property "Reference" "#rGND012"
+			(at 82.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "rGND"
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "962b7208-1878-4ccd-acbe-f85e971e6200")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
+					(reference "#rGND012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:ISP2454-LP-JT")
+		(at 127 137.16 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "bd20d4e4-e3cb-4633-a1a5-cba138a97672")
 		(property "Reference" "rU1"
-			(at 313.69 83.8199 0)
+			(at 127 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +6465,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 313.69 86.3599 0)
+			(at 127 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +6474,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 302.768 64.516 0)
+			(at 141.478 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +6484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 73.66 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +6493,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 73.66 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,16 +6938,15 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 337.82 152.4 0)
+		(at 367.03 85.09 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be47aef1-50f1-4bf9-a9dd-4f5b0f336505")
 		(property "Reference" "rU1"
-			(at 353.06 156.2099 0)
+			(at 367.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +6955,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 353.06 158.7499 0)
+			(at 367.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,7 +6964,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 352.298 143.256 0)
+			(at 381.508 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +6974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 152.4 0)
+			(at 367.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,7 +6983,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 337.82 152.4 0)
+			(at 367.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,16 +7428,15 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 288.29 100.33 0)
+		(at 358.14 43.18 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1a90d30-24e1-4ff1-ae1d-0f64466f8143")
 		(property "Reference" "rU1"
-			(at 304.8 106.6799 0)
+			(at 357.632 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +7445,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 304.8 109.2199 0)
+			(at 357.632 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +7454,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 302.768 91.186 0)
+			(at 372.618 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +7464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 100.33 0)
+			(at 358.14 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +7473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 100.33 0)
+			(at 358.14 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6783,16 +7918,15 @@
 	)
 	(symbol
 		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 53.34 95.25 0)
+		(at 328.93 43.18 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d36b7ae0-98c9-4663-b834-a9b231be2597")
 		(property "Reference" "U1"
-			(at 69.85 101.5999 0)
+			(at 327.152 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +7935,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 69.85 104.1399 0)
+			(at 327.152 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +7944,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 67.818 86.106 0)
+			(at 343.408 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +7954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 95.25 0)
+			(at 328.93 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +7963,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 95.25 0)
+			(at 328.93 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7273,17 +8407,81 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:ISP2454-LP-JT")
-		(at 52.07 46.99 0)
+		(lib_id "Alidade:1V8")
+		(at 44.45 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "d5241c3c-a35a-4fc7-9f76-825e3fbab956")
+		(property "Reference" "#1V8_05"
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1V8"
+			(at 44.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56095d21-e2fd-4fe8-a436-e9a9eea75389")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
+					(reference "#1V8_05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:ISP2454-LP-JT")
+		(at 49.53 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "ed56e40c-03f7-46de-9982-73005ecdecc1")
 		(property "Reference" "U1"
-			(at 71.12 53.3399 0)
+			(at 49.784 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +8490,7 @@
 			)
 		)
 		(property "Value" "ISP2454-LP-JT"
-			(at 71.12 55.8799 0)
+			(at 49.784 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +8499,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:XCVR_ISP2454-LX-JT"
-			(at 66.548 37.846 0)
+			(at 64.008 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +8509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +8518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 46.99 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
