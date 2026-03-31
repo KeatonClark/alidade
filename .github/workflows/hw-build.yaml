@@ -19,7 +19,7 @@ jobs:
       - name: tar outputs
         run: tar --dereference --hard-dereference -czf outputs.tar.gz result*/
 
-      - uses: actions/upload-artifacts@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: hw-outputs
           path: outputs.tar.gz
