@@ -602,7 +602,7 @@
 					(type none)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -5.08 0 0)
 				(length 3.81)
 				(name "Pin_1"
@@ -620,7 +620,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 -2.54 0)
 				(length 3.81)
 				(name "Pin_2"
@@ -4602,7 +4602,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "VBUSOUT"
@@ -4620,7 +4620,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "VSYS"
@@ -4656,7 +4656,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -10.16 0)
 				(length 7.62)
 				(name "AVSS"
@@ -4674,7 +4674,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -12.7 0)
 				(length 7.62)
 				(name "PVSS1"
@@ -4692,7 +4692,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -15.24 0)
 				(length 7.62)
 				(name "PVSS2"
@@ -4898,7 +4898,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "CC1"
@@ -4916,7 +4916,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "CC2"
@@ -4965,7 +4965,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "NTC"
@@ -5032,7 +5032,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "VSET1"
@@ -5099,7 +5099,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "VSET2"
@@ -7099,7 +7099,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 15.24 15.24 180)
 				(length 5.08)
 				(name "VBUS"
@@ -7117,7 +7117,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 15.24 15.24 180)
 				(length 5.08)
 				(hide yes)
@@ -7136,7 +7136,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 15.24 15.24 180)
 				(length 5.08)
 				(hide yes)
@@ -7155,7 +7155,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 15.24 15.24 180)
 				(length 5.08)
 				(hide yes)
