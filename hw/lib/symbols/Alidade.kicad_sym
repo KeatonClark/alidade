@@ -2281,7 +2281,7 @@
 			)
 		)
 		(symbol "ISP2454-LP-JT_1_0"
-			(pin output line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "OUT_MOD"
@@ -2299,7 +2299,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "OUT_ANT"
@@ -2338,82 +2338,7 @@
 			(pin power_in line
 				(at 0 -10.16 0)
 				(length 7.62)
-				(name "VSS2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -10.16 0)
-				(length 7.62)
-				(hide yes)
-				(name "VSS2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -10.16 0)
-				(length 7.62)
-				(hide yes)
-				(name "VSS2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -10.16 0)
-				(length 7.62)
-				(hide yes)
-				(name "VSS2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -12.7 0)
-				(length 7.62)
-				(name "VSS1"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2431,103 +2356,7 @@
 			(pin power_in line
 				(at 0 -12.7 0)
 				(length 7.62)
-				(hide yes)
-				(name "VSS1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -12.7 0)
-				(length 7.62)
-				(hide yes)
-				(name "VSS1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -12.7 0)
-				(length 7.62)
-				(hide yes)
-				(name "VSS1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -12.7 0)
-				(length 7.62)
-				(hide yes)
-				(name "VSS1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -12.7 0)
-				(length 7.62)
-				(hide yes)
-				(name "VSS1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -12.7 0)
-				(length 7.62)
-				(hide yes)
-				(name "VSS1"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2543,10 +2372,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 0)
+				(at 0 -15.24 0)
 				(length 7.62)
-				(hide yes)
-				(name "VSS1"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2561,11 +2389,173 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -17.78 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -20.32 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -22.86 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -25.4 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -27.94 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -30.48 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -33.02 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -35.56 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -38.1 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
 		(symbol "ISP2454-LP-JT_1_1"
 			(rectangle
 				(start 7.62 0)
-				(end 17.78 -15.24)
+				(end 17.78 -40.64)
 				(stroke
 					(width 0)
 					(type default)
@@ -3110,7 +3100,7 @@
 			(pin no_connect line
 				(at 0 -2.54 0)
 				(length 7.62)
-				(name "NC3"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3126,462 +3116,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -2.54 0)
+				(at 0 -5.08 0)
 				(length 7.62)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "46"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "46"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "46"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "46"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "46"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC3"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3597,17 +3134,16 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -2.54 0)
+				(at 0 -7.62 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC3"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "6"
+				(number "42"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3616,17 +3152,16 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -2.54 0)
+				(at 0 -10.16 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC3"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "6"
+				(number "44"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3635,17 +3170,16 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -2.54 0)
+				(at 0 -12.7 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC3"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "6"
+				(number "46"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3654,17 +3188,16 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -2.54 0)
+				(at 0 -15.24 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC3"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "6"
+				(number "47"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3673,9 +3206,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
+				(at 0 -17.78 0)
 				(length 7.62)
-				(name "NC1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3691,82 +3224,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
+				(at 0 -20.32 0)
 				(length 7.62)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "49"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3782,86 +3242,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
+				(at 0 -22.86 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "50"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "50"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "50"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "50"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3877,86 +3260,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
+				(at 0 -25.4 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3972,86 +3278,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
+				(at 0 -27.94 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "52"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "52"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "52"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "52"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4067,86 +3296,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
+				(at 0 -30.48 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "53"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "53"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "53"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "53"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4162,86 +3314,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
+				(at 0 -33.02 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "54"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "54"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "54"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "54"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4257,86 +3332,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
+				(at 0 -35.56 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "55"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "55"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "55"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "55"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4352,86 +3350,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
+				(at 0 -38.1 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "56"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "56"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "56"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "56"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4447,86 +3368,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
+				(at 0 -40.64 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "57"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "57"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "57"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "57"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4542,85 +3386,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
+				(at 0 -43.18 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "58"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "58"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "58"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "58"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(name "NC2"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4636,82 +3404,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -7.62 0)
+				(at 0 -45.72 0)
 				(length 7.62)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "59"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "59"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "59"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "59"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4727,86 +3422,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -7.62 0)
+				(at 0 -48.26 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "60"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "60"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "60"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "60"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4822,162 +3440,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -7.62 0)
+				(at 0 -50.8 0)
 				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "61"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "61"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "61"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "61"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "62"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "62"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "62"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "62"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(hide yes)
-				(name "NC2"
+				(name "NC"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4996,7 +3461,7 @@
 		(symbol "ISP2454-LP-JT_5_1"
 			(rectangle
 				(start 7.62 0)
-				(end 13.97 -10.16)
+				(end 13.97 -53.34)
 				(stroke
 					(width 0)
 					(type default)
