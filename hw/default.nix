@@ -1,13 +1,13 @@
 {
   stdenvNoCC,
-  kicad,
   kibotPackages,
+  python3Packages,
 }:
 stdenvNoCC.mkDerivation {
   name = "alidade-hw";
   src = ./.;
   buildInputs = [
-    kicad
+    python3Packages.kicad
     kibotPackages.kibot
     kibotPackages.kidiff
   ];
