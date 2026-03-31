@@ -1,0 +1,26 @@
+# This is a working example.
+# For a more complete reference use `--example`
+kibot:
+  version: 1
+
+preflight:
+  erc:
+    dont_stop: true
+    format: HTML,RPT,JSON,CSV
+
+outputs:
+- name: schematic_pdf
+  comment: Schematic in PDF format
+  type: pdf_sch_print
+  dir: Schematic
+- name: report_simple
+  comment: Simple design report
+  type: report
+  output_id: _simple
+  options:
+    template: simple_ASCII
+- name: report_full
+  comment: Full design report
+  type: report
+  options:
+    template: full_SVG
