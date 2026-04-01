@@ -14,15 +14,16 @@ jobs:
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
 
-      - name: build hw flake
+      - name: build hw pkg
         run: nix build .#hw -L
 
       - name: tar outputs
-        run: tar --dereference --hard-dereference -czf outputs.tar.gz result*/
+        run: tar -czf alidade-hw-pkg.tar.gz -C result .
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
-          name: hw-outputs
-          path: outputs.tar.gz
+          name: alidade-hw-pkg
+          path: alidade-hw-pkg.tar.gz
+          archive: false
           retention-days: 7
       
