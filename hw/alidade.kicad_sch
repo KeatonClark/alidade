@@ -872,7 +872,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pmic.kicad_sch"
+		(property "Sheetfile" "schematics/pmic.kicad_sch"
 			(at 182.88 197.4346 0)
 			(effects
 				(font
@@ -994,7 +994,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "hid.kicad_sch"
+		(property "Sheetfile" "schematics/hid.kicad_sch"
 			(at 233.68 166.9546 0)
 			(effects
 				(font
@@ -1316,7 +1316,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mcu.kicad_sch"
+		(property "Sheetfile" "schematics/mcu.kicad_sch"
 			(at 127 197.4346 0)
 			(effects
 				(font
@@ -1538,7 +1538,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fpga.kicad_sch"
+		(property "Sheetfile" "schematics/fpga.kicad_sch"
 			(at 182.88 166.9546 0)
 			(effects
 				(font
