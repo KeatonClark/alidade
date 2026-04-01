@@ -1,0 +1,29 @@
+name: hw build
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: wimpysworld/nothing-but-nix@main
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+
+      - name: build hw pkg
+        run: nix build .#hw -L
+
+      - name: tar outputs
+        run: tar -czf alidade-hw-pkg.tar.gz -C result .
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: alidade-hw-pkg
+          path: alidade-hw-pkg.tar.gz
+          archive: false
+          retention-days: 7
+      

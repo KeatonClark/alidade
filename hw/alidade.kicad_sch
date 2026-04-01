@@ -10,7 +10,213 @@
 		(rev "1.0.0rc1")
 		(company "Keaton Clark")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Alidade:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Alidade:rGND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#rGND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "rGND"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "rGND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "rGND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "rGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "IDK what to do with these\nAny ideas?\nI would like to use the already available switches\nto activate these pins (by pulling to ground)"
+		(exclude_from_sim no)
+		(at 252.222 201.676 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 0 27 1)
+			)
+		)
+		(uuid "4199f709-3e38-48e6-b20e-4b7798d99e17")
+	)
 	(wire
 		(pts
 			(xy 224.79 97.79) (xy 233.68 97.79)
@@ -173,6 +379,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 186.69) (xy 220.98 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460848ea-6ad0-4121-891e-ff68fa166e41")
+	)
+	(wire
+		(pts
 			(xy 173.99 100.33) (xy 182.88 100.33)
 		)
 		(stroke
@@ -220,6 +436,26 @@
 			(type default)
 		)
 		(uuid "561f620b-94a6-4c6c-a06b-5fef2354d4fe")
+	)
+	(wire
+		(pts
+			(xy 207.01 189.23) (xy 215.9 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c83748-0d55-44f3-9b34-e9360ce7bb84")
+	)
+	(wire
+		(pts
+			(xy 215.9 189.23) (xy 215.9 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61aa956b-373a-48dd-a2e3-378eb7bc819d")
 	)
 	(wire
 		(pts
@@ -310,6 +546,16 @@
 			(type default)
 		)
 		(uuid "a753c027-9c2d-48aa-bb5e-aa1ebae2c409")
+	)
+	(wire
+		(pts
+			(xy 207.01 186.69) (xy 220.98 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d79b12-c65e-4a77-b880-465fbe2088b6")
 	)
 	(wire
 		(pts
@@ -471,6 +717,136 @@
 		)
 		(uuid "fbfd7f19-8c3a-4d98-9aa9-d7c9e54f4a42")
 	)
+	(symbol
+		(lib_id "Alidade:GND")
+		(at 220.98 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14809a5a-95a5-4638-864a-2808c4cb3aa1")
+		(property "Reference" "#GND014"
+			(at 220.98 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1607d9e4-9a24-4adc-99c8-7981dc66dd54")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
+					(reference "#GND014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:rGND")
+		(at 215.9 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f273cae-d22b-4daa-80d4-cd6e293ff35a")
+		(property "Reference" "#rGND015"
+			(at 215.9 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "rGND"
+			(at 215.9 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10170798-f35c-4bd1-8531-9d7ab4377cd0")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
+					(reference "#rGND015")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 182.88 176.53)
 		(size 24.13 20.32)
@@ -496,7 +872,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pmic.kicad_sch"
+		(property "Sheetfile" "schematics/pmic.kicad_sch"
 			(at 182.88 197.4346 0)
 			(effects
 				(font
@@ -618,7 +994,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "hid.kicad_sch"
+		(property "Sheetfile" "schematics/hid.kicad_sch"
 			(at 233.68 166.9546 0)
 			(effects
 				(font
@@ -940,7 +1316,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mcu.kicad_sch"
+		(property "Sheetfile" "schematics/mcu.kicad_sch"
 			(at 127 197.4346 0)
 			(effects
 				(font
@@ -1162,7 +1538,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fpga.kicad_sch"
+		(property "Sheetfile" "schematics/fpga.kicad_sch"
 			(at 182.88 166.9546 0)
 			(effects
 				(font
