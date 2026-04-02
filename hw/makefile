@@ -5,11 +5,12 @@ ifeq ($(PROJECT),)
 	$(error No .kicad_pro file found. Set PROJECT=<name> explicitly)
 endif
 
-SCH ?= $(PROJECT).kicad_sch
-PCB ?= $(PROJECT).kicad_pcb
+KICAD_SCH ?= $(PROJECT).kicad_sch
+KICAD_PCB ?= $(PROJECT).kicad_pcb
 CONFIG ?= $(PROJECT).kibot.yaml
+LICENSE ?= LICENSE-CC-BY-SA
 
-OUT_DIR ?= output
+OUT_DIR ?= build
 
 PREFIX ?= /usr/local
 DATAROOTDIR ?= $(PREFIX)/share
@@ -17,7 +18,6 @@ DATADIR ?= $(DATAROOTDIR)/$(PROJECT)
 DESTDIR ?=
 
 INSTALL_DIR := $(DESTDIR)$(DATADIR)
-
 
 SOURCES := $(shell find . \
 	   \( -name '*.kicad_pro' \
@@ -32,7 +32,7 @@ SOURCES := $(shell find . \
 
 STAMP := $(OUT_DIR)/.build_stamp
 
-KIBOT_FLAGS := -e $(SCH) -b $(PCB) -c $(CONFIG) -d $(OUT_DIR)
+KIBOT_FLAGS := -e $(KICAD_SCH) -b $(KICAD_PCB) -c $(CONFIG) -d $(OUT_DIR)
 
 all: $(STAMP)
 
@@ -42,9 +42,10 @@ $(STAMP): $(SOURCES)
 	@touch $@
 
 install: $(STAMP)
-	@echo "installing to $(INSTALL_DIR)"
+	@echo "Installing to $(INSTALL_DIR)"
 	@cd $(OUT_DIR) && install -d $(INSTALL_DIR) && find . -type f -exec \
 		install -D -m 0644 {} $(INSTALL_DIR)/{} \;
+	@install -D -m 0644 $(LICENSE) $(INSTALL_DIR)
 
 clean:
 	rm -rf $(OUT_DIR)
