@@ -11,6 +11,7 @@ CONFIG ?= $(PROJECT).kibot.yaml
 LICENSE ?= LICENSE-CC-BY-SA
 
 OUT_DIR ?= build
+DATASHEET_DIR ?= lib/datasheets
 
 PREFIX ?= /usr/local
 DATAROOTDIR ?= $(PREFIX)/share
@@ -43,9 +44,12 @@ $(STAMP): $(SOURCES)
 
 install: $(STAMP)
 	@echo "Installing to $(INSTALL_DIR)"
-	@cd $(OUT_DIR) && install -d $(INSTALL_DIR) && find . -type f -exec \
+	@install -d $(INSTALL_DIR)
+	@cd $(OUT_DIR) && find . -type f -exec \
 		install -D -m 0644 {} $(INSTALL_DIR)/{} \;
 	@install -D -m 0644 $(LICENSE) $(INSTALL_DIR)
+	@cd $(DATASHEET_DIR) && find . -type f -exec \
+		install -D -m 0644 {} $(INSTALL_DIR)/datasheets/{} \;
 
 clean:
 	rm -rf $(OUT_DIR)

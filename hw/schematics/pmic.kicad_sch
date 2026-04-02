@@ -2195,7 +2195,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(property "Datasheet" ""
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -2210,15 +2210,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "JLCPCB Part #" "C2848620"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
