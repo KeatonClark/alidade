@@ -2415,7 +2415,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin input inverted
 				(at 0 -15.24 0)
 				(length 7.62)
 				(name "CRESET_B"
