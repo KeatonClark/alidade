@@ -8,7 +8,15 @@ preflight:
     dir: erc
 
 outputs:
-- name: schematic_pdf
-  comment: Schematic in PDF format
+- name: Schematic
   type: pdf_sch_print
   dir: schematic
+
+- name: Bill of Materials
+  type: bom
+  dir: bom
+  options:
+    csv: 
+      hide_pcb_info: true
+      hide_stats_info: true
+

@@ -22,10 +22,11 @@
       ];
     };
   in {
+    packages.pkgs = pkgs;
     packages.hw = pkgs.callPackage ./hw { };
     devShells.default = pkgs.mkShell {
       buildInputs = with pkgs; [
-        kicad
+        python3Packages.kicad
         kibotPackages.kibot
         kibotPackages.kidiff
       ];
