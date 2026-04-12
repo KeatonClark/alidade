@@ -809,8 +809,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Alidade:SK8707-01-SENSOR"
+				(at 13.97 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9534,7 +9534,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SK8707-01-SENSOR"
 			(at 115.57 250.19 0)
 			(effects
 				(font
@@ -11827,7 +11827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SK8707-01-SENSOR"
 			(at 44.45 250.19 0)
 			(effects
 				(font
