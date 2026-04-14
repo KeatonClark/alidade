@@ -10,6 +10,128 @@
 		(rev "1.0.0rc1")
 	)
 	(lib_symbols
+		(symbol "Alidade:1V8"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#1V8_"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "1V8"
+				(at 0 3.175 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Alidade:3V3"
 			(power)
 			(pin_names
@@ -1066,6 +1188,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Alidade:r1V8"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#r1V8_"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "r1V8"
+				(at 0 3.175 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "r1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "r1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "r1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Alidade:r3V3"
 			(power)
 			(pin_names
@@ -1286,17 +1530,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Need pull ups on rows?"
-		(exclude_from_sim no)
-		(at 93.472 132.334 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(color 255 26 48 1)
-			)
-		)
-		(uuid "29252978-f357-41fc-8316-3e1a13048b5a")
-	)
 	(text "Trackpoint Module to Sensor connection\nPins are not described in the datasheet,\nbut it is clear that they connect across\n(Do not populate on left board)"
 		(exclude_from_sim no)
 		(at 97.536 232.41 0)
@@ -1316,6 +1549,16 @@
 			)
 		)
 		(uuid "7e8c674c-6565-4dfd-927c-4ac47fdb78e8")
+	)
+	(text "D1..D23,rD1..rD23 \nBAT54-02V-G3-08"
+		(exclude_from_sim no)
+		(at 207.772 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a878c53a-10f9-4ff1-bae8-53b6d1bdec48")
 	)
 	(text "Trackpoint PS/2 Interface\nIDK what the buttons do, so leave them unconnected\n(Do not populate on left board)\n"
 		(exclude_from_sim no)
@@ -1388,6 +1631,12 @@
 		(uuid "10e06e9e-cbca-4eda-bc87-9bb44c14ae72")
 	)
 	(junction
+		(at 378.46 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1153cca9-063a-436a-a270-800a26ab97b2")
+	)
+	(junction
 		(at 125.73 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1410,6 +1659,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1efc0fe2-26f8-425d-90ba-ad7765f0f6cc")
+	)
+	(junction
+		(at 378.46 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20d54b68-6039-40cc-88a6-cdfa64e12dfd")
+	)
+	(junction
+		(at 43.18 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21959800-761c-4bb2-a412-cd76c499b85e")
 	)
 	(junction
 		(at 110.49 91.44)
@@ -1544,6 +1805,12 @@
 		(uuid "73963b73-9d16-4879-8218-a8a3d9796ba2")
 	)
 	(junction
+		(at 43.18 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79939350-41f1-4982-bcb4-170d1baba411")
+	)
+	(junction
 		(at 257.81 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1586,6 +1853,12 @@
 		(uuid "8901c30f-9034-4ae3-b19a-f9d9e6e72167")
 	)
 	(junction
+		(at 378.46 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c316d2a-ff3c-44d1-b173-14e9695d5a89")
+	)
+	(junction
 		(at 367.03 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1608,6 +1881,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a9940eb-8592-4722-aeac-57853181286a")
+	)
+	(junction
+		(at 43.18 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bf8cfe1-720f-4b4f-929d-76348e516b84")
+	)
+	(junction
+		(at 43.18 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f802980-3fe1-4345-a4dc-2d1e01e1cb80")
 	)
 	(junction
 		(at 238.76 82.55)
@@ -1650,6 +1935,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0c00d91-9b0d-4848-99e5-f81c080095de")
+	)
+	(junction
+		(at 378.46 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b77eff91-4688-4c24-9ec1-805609970a18")
 	)
 	(junction
 		(at 330.2 76.2)
@@ -1937,6 +2228,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 91.44) (xy 35.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14977db9-cee6-498a-99b1-15804abd848b")
+	)
+	(wire
+		(pts
 			(xy 148.59 71.12) (xy 148.59 76.2)
 		)
 		(stroke
@@ -2014,6 +2315,16 @@
 			(type default)
 		)
 		(uuid "1d68046a-378a-4b82-b87e-d0e9647e2afe")
+	)
+	(wire
+		(pts
+			(xy 378.46 76.2) (xy 386.08 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cbae2f-0a68-40ac-8b3b-f0b41b5f2e3a")
 	)
 	(wire
 		(pts
@@ -2107,6 +2418,26 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 114.3) (xy 378.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c93ea75-2040-45c4-afa2-65a836d01e37")
+	)
+	(wire
+		(pts
+			(xy 378.46 106.68) (xy 386.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddea9be-ad37-4d57-85f9-6ffb26446dc8")
+	)
+	(wire
+		(pts
 			(xy 129.54 116.84) (xy 129.54 121.92)
 		)
 		(stroke
@@ -2137,13 +2468,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 76.2) (xy 44.45 76.2)
+			(xy 54.61 76.2) (xy 43.18 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ee49c36-d12d-462e-a691-92ff1df8de28")
+	)
+	(wire
+		(pts
+			(xy 378.46 74.93) (xy 378.46 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308d0ae5-db57-4c98-824d-a4941703c3f0")
 	)
 	(wire
 		(pts
@@ -2417,7 +2758,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 121.92) (xy 44.45 121.92)
+			(xy 110.49 121.92) (xy 43.18 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2477,6 +2818,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 83.82) (xy 43.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ddddd6-3c64-41ba-a6b7-b13a83cc2ded")
+	)
+	(wire
+		(pts
 			(xy 292.1 116.84) (xy 292.1 121.92)
 		)
 		(stroke
@@ -2494,6 +2845,16 @@
 			(type default)
 		)
 		(uuid "662a300d-25de-4c6b-b865-380e9a800f1e")
+	)
+	(wire
+		(pts
+			(xy 43.18 76.2) (xy 35.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677e1887-6851-4461-a20d-bc977e9a6486")
 	)
 	(wire
 		(pts
@@ -2527,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 91.44) (xy 44.45 91.44)
+			(xy 54.61 91.44) (xy 43.18 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2627,6 +2988,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 99.06) (xy 43.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721dd146-5580-4aa6-84cf-55a6eaef30ec")
+	)
+	(wire
+		(pts
 			(xy 170.18 219.71) (xy 173.99 219.71)
 		)
 		(stroke
@@ -2647,7 +3018,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 106.68) (xy 377.19 106.68)
+			(xy 367.03 106.68) (xy 378.46 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2684,6 +3055,16 @@
 			(type default)
 		)
 		(uuid "7786708c-00cb-4b4f-990d-e1d90cae251a")
+	)
+	(wire
+		(pts
+			(xy 43.18 106.68) (xy 35.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3b66c7-cf27-4dba-bdb6-40fd76b968ae")
 	)
 	(wire
 		(pts
@@ -2747,6 +3128,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 91.44) (xy 386.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fa1607-4e60-4020-b813-be811048036a")
+	)
+	(wire
+		(pts
 			(xy 311.15 76.2) (xy 330.2 76.2)
 		)
 		(stroke
@@ -2794,6 +3185,16 @@
 			(type default)
 		)
 		(uuid "89c14c34-9da3-4498-9ea8-f2f1e2c7a8ef")
+	)
+	(wire
+		(pts
+			(xy 378.46 120.65) (xy 378.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0ccf29-0274-47a2-a081-5c31aa19d3d0")
 	)
 	(wire
 		(pts
@@ -2847,7 +3248,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 121.92) (xy 377.19 121.92)
+			(xy 311.15 121.92) (xy 378.46 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2864,6 +3265,16 @@
 			(type default)
 		)
 		(uuid "914cb862-9cf5-4aba-94b9-7c88b2a54dea")
+	)
+	(wire
+		(pts
+			(xy 43.18 68.58) (xy 43.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e0adf2-870c-4760-8f2c-1951c2851e79")
 	)
 	(wire
 		(pts
@@ -2927,6 +3338,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 90.17) (xy 43.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ed252e-fd92-4d80-9975-807f146906bb")
+	)
+	(wire
+		(pts
 			(xy 367.03 101.6) (xy 367.03 106.68)
 		)
 		(stroke
@@ -2967,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 106.68) (xy 44.45 106.68)
+			(xy 54.61 106.68) (xy 43.18 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2984,6 +3405,16 @@
 			(type default)
 		)
 		(uuid "a107429d-a385-464d-bc25-af9b760912dd")
+	)
+	(wire
+		(pts
+			(xy 43.18 105.41) (xy 43.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19abe7d-ac53-4bcc-9f3d-3ce2082aac0c")
 	)
 	(wire
 		(pts
@@ -3017,6 +3448,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 90.17) (xy 378.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a568150d-d454-4f5b-a951-bb9be85b0d2e")
+	)
+	(wire
+		(pts
 			(xy 276.86 58.42) (xy 276.86 71.12)
 		)
 		(stroke
@@ -3047,6 +3488,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 105.41) (xy 378.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af074de9-542c-44df-9156-ce2cd032167e")
+	)
+	(wire
+		(pts
 			(xy 351.79 58.42) (xy 351.79 71.12)
 		)
 		(stroke
@@ -3064,6 +3515,16 @@
 			(type default)
 		)
 		(uuid "b17bca17-45e7-4df1-a4d4-ae2742b564b5")
+	)
+	(wire
+		(pts
+			(xy 43.18 114.3) (xy 43.18 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1df931b-49b8-4cd1-a5bd-ee22fa333c81")
 	)
 	(wire
 		(pts
@@ -3114,6 +3575,16 @@
 			(type default)
 		)
 		(uuid "b7b9d5e8-e509-4af3-9649-6f787cddd44c")
+	)
+	(wire
+		(pts
+			(xy 378.46 83.82) (xy 378.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9aaf50c-78c6-498a-a995-737c5508d8d8")
 	)
 	(wire
 		(pts
@@ -3197,6 +3668,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 74.93) (xy 43.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3306320-4bb2-4130-9b45-509e624cadb4")
+	)
+	(wire
+		(pts
 			(xy 106.68 58.42) (xy 106.68 71.12)
 		)
 		(stroke
@@ -3277,7 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 76.2) (xy 377.19 76.2)
+			(xy 367.03 76.2) (xy 378.46 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3367,6 +3848,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 68.58) (xy 378.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d472fa11-c0fc-405a-868c-6e81ad2ce879")
+	)
+	(wire
+		(pts
 			(xy 292.1 91.44) (xy 311.15 91.44)
 		)
 		(stroke
@@ -3427,6 +3918,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 120.65) (xy 43.18 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc01234d-d849-49a1-8a97-7ff7e4feb566")
+	)
+	(wire
+		(pts
 			(xy 91.44 76.2) (xy 72.39 76.2)
 		)
 		(stroke
@@ -3444,6 +3945,16 @@
 			(type default)
 		)
 		(uuid "de30cd31-f83d-4521-9d5b-0f0cab93da78")
+	)
+	(wire
+		(pts
+			(xy 43.18 121.92) (xy 35.56 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1bb0a82-308e-4624-88e2-78a83754d592")
 	)
 	(wire
 		(pts
@@ -3494,6 +4005,16 @@
 			(type default)
 		)
 		(uuid "e669678a-230b-4891-a53b-57766cbf0e1a")
+	)
+	(wire
+		(pts
+			(xy 378.46 121.92) (xy 386.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69abcc0-571f-48cd-baa5-f70e63e8056d")
 	)
 	(wire
 		(pts
@@ -3637,6 +4158,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 99.06) (xy 378.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63450ad-883b-42ef-8491-7423eb4407e3")
+	)
+	(wire
+		(pts
 			(xy 257.81 199.39) (xy 257.81 207.01)
 		)
 		(stroke
@@ -3647,7 +4178,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 91.44) (xy 377.19 91.44)
+			(xy 367.03 91.44) (xy 378.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3719,7 +4250,7 @@
 	)
 	(hierarchical_label "ROW1"
 		(shape output)
-		(at 44.45 106.68 180)
+		(at 35.56 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3730,7 +4261,7 @@
 	)
 	(hierarchical_label "ROW0"
 		(shape output)
-		(at 44.45 121.92 180)
+		(at 35.56 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3741,7 +4272,7 @@
 	)
 	(hierarchical_label "ROW3"
 		(shape output)
-		(at 44.45 76.2 180)
+		(at 35.56 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3796,7 +4327,7 @@
 	)
 	(hierarchical_label "ROW2"
 		(shape output)
-		(at 44.45 91.44 180)
+		(at 35.56 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3840,7 +4371,7 @@
 	)
 	(hierarchical_label "rROW3"
 		(shape output)
-		(at 377.19 76.2 0)
+		(at 386.08 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3884,7 +4415,7 @@
 	)
 	(hierarchical_label "rROW1"
 		(shape output)
-		(at 377.19 106.68 0)
+		(at 386.08 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3972,7 +4503,7 @@
 	)
 	(hierarchical_label "rROW0"
 		(shape output)
-		(at 377.19 121.92 0)
+		(at 386.08 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4038,7 +4569,7 @@
 	)
 	(hierarchical_label "rROW2"
 		(shape output)
-		(at 377.19 91.44 0)
+		(at 386.08 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4087,13 +4618,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 262.89 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4225,13 +4757,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 139.7 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4431,13 +4964,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 82.55 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4501,13 +5035,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 101.6 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4637,13 +5172,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 339.09 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4775,13 +5311,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 356.87 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4888,6 +5425,76 @@
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:R")
+		(at 378.46 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18f86b89-17c5-40b6-bc6e-bd91c3d8ff2d")
+		(property "Reference" "rR20"
+			(at 381 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 376.682 102.87 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6a20680-486d-4df0-97e4-564736d5ab24")
+		)
+		(pin "2"
+			(uuid "4c950b3d-3dac-4bf6-a076-c345523ded06")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "rR20")
 					(unit 1)
 				)
 			)
@@ -5079,13 +5686,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 281.94 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5196,6 +5804,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Alidade:1V8")
+		(at 43.18 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e98a098-4a75-40fb-b178-9ae4b7ecae0a")
+		(property "Reference" "#1V8_011"
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1V8"
+			(at 43.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c317818-6b2a-4df7-9d11-61acab679034")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "#1V8_011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alidade:SW_Push")
 		(at 287.02 71.12 0)
 		(mirror y)
@@ -5281,13 +5954,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 320.04 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5622,13 +6296,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 320.04 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5826,13 +6501,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 300.99 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5872,6 +6548,76 @@
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "rD10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:R")
+		(at 43.18 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "369e8987-d99a-4270-97a8-35891f09c2a5")
+		(property "Reference" "R21"
+			(at 40.64 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 44.958 118.11 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d15a624a-f4e6-4428-9b70-b52e991f3692")
+		)
+		(pin "1"
+			(uuid "3c4b000f-9dac-40c5-8359-6a8288c86aa0")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5964,13 +6710,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 158.75 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6101,13 +6848,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 158.75 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6153,6 +6901,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Alidade:R")
+		(at 43.18 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fbfd505-abd1-45e3-943f-f061a9fe1c17")
+		(property "Reference" "R18"
+			(at 40.64 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 44.958 72.39 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2657958b-a447-4bb6-9c34-d2e4f737df94")
+		)
+		(pin "1"
+			(uuid "aa4daa9c-8e58-46a1-ad14-663a7c866778")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alidade:D")
 		(at 354.33 101.6 0)
 		(unit 1)
@@ -6170,13 +6988,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 356.87 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6240,13 +7059,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
-			(at 177.8 77.724 0)
+		(property "Value" "BAT54-02V-G3-08"
+			(at 183.896 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6445,13 +7265,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 262.89 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6582,13 +7403,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 120.65 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6733,6 +7555,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Alidade:1V8")
+		(at 43.18 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52cd1e4c-411f-414e-9636-fc9d0c3b52e6")
+		(property "Reference" "#1V8_010"
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1V8"
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f66ffeca-01d7-4bac-81fe-18859bf4b288")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "#1V8_010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alidade:D")
 		(at 67.31 101.6 0)
 		(mirror y)
@@ -6751,13 +7638,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 64.77 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6957,13 +7845,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 82.55 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -7027,13 +7916,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 101.6 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -7302,13 +8192,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 120.65 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -7371,13 +8262,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 281.94 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -7508,13 +8400,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 339.09 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -7577,13 +8470,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 262.89 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -7647,13 +8541,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 64.77 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8056,13 +8951,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 139.7 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8126,13 +9022,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 64.77 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8262,13 +9159,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
-			(at 243.84 77.724 0)
+		(property "Value" "BAT54-02V-G3-08"
+			(at 237.236 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8314,6 +9212,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Alidade:R")
+		(at 43.18 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "898457c1-0b44-4742-93e1-098f0ce1a29c")
+		(property "Reference" "R19"
+			(at 40.64 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 44.958 87.63 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9e21578-580b-4c9e-9c1d-c8edf0daf272")
+		)
+		(pin "1"
+			(uuid "d5b2b084-ec35-430a-bcbf-ce56e7cf8df9")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alidade:D")
 		(at 161.29 101.6 0)
 		(mirror y)
@@ -8332,13 +9300,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 158.75 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8636,13 +9605,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 339.09 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8706,13 +9676,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 139.7 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8775,13 +9746,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 243.84 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8827,6 +9799,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Alidade:r1V8")
+		(at 378.46 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92cb6e3f-9bd0-4a2a-a376-edce22b9006e")
+		(property "Reference" "#r1V8_010"
+			(at 378.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "r1V8"
+			(at 378.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cd5de5f-04ae-4c06-bad5-e4b0fa1b4e5b")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "#r1V8_010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:1V8")
+		(at 43.18 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "930cf1ff-9bc1-403d-acdf-5e45513ff7fc")
+		(property "Reference" "#1V8_04"
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1V8"
+			(at 43.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01ae5f34-8501-43f6-9b7c-8d985899156e")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "#1V8_04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alidade:D")
 		(at 161.29 71.12 0)
 		(mirror y)
@@ -8845,13 +9947,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 158.75 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8891,6 +9994,71 @@
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:r1V8")
+		(at 378.46 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9459d4f1-0ce5-4479-98a4-41959426ebb1")
+		(property "Reference" "#r1V8_011"
+			(at 378.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "r1V8"
+			(at 378.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd91cc75-89e3-4fb5-9273-03e5258208ee")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "#r1V8_011")
 					(unit 1)
 				)
 			)
@@ -9028,6 +10196,71 @@
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:r1V8")
+		(at 378.46 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9af0ffff-743a-4c3b-b5bc-e0cd661c287d")
+		(property "Reference" "#r1V8_05"
+			(at 378.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "r1V8"
+			(at 378.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b81f00a-a0f2-4b01-897a-c5c990bcb251")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "#r1V8_05")
 					(unit 1)
 				)
 			)
@@ -9297,6 +10530,146 @@
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:R")
+		(at 378.46 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a24c2ae4-b760-4cb2-8d3a-ccbe5a2df4bf")
+		(property "Reference" "rR21"
+			(at 381 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 376.682 118.11 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e9365f1-489d-4b97-9591-14b1738a8841")
+		)
+		(pin "2"
+			(uuid "5112d6fa-be80-4f93-8b96-0a2e11634752")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "rR21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:R")
+		(at 43.18 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2eaa96a-a767-4236-8381-52c61e8223ad")
+		(property "Reference" "R20"
+			(at 40.64 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 44.958 102.87 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9182714-526e-4a83-875c-f146da610da0")
+		)
+		(pin "1"
+			(uuid "e456493b-2f28-42a5-8af7-86f50c0c4775")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9735,13 +11108,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 281.94 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9804,13 +11178,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 300.99 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9850,6 +11225,71 @@
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "rD11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:r1V8")
+		(at 378.46 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b78c9d16-a68b-4a56-978c-c6c371c188b9")
+		(property "Reference" "#r1V8_09"
+			(at 378.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "r1V8"
+			(at 378.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e36b45f-8efb-44e3-b6d8-68cf2fa1e8a0")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "#r1V8_09")
 					(unit 1)
 				)
 			)
@@ -9915,6 +11355,71 @@
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "#rGND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:1V8")
+		(at 43.18 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb925a38-7b89-48d5-991f-ec89c56127e3")
+		(property "Reference" "#1V8_09"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1V8"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cc59c29-e1d5-4b0e-a108-2fa82cd409b0")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "#1V8_09")
 					(unit 1)
 				)
 			)
@@ -10210,13 +11715,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 120.65 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10416,13 +11922,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 82.55 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10688,13 +12195,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 281.94 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10824,13 +12332,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 356.87 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10894,13 +12403,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 101.6 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11100,13 +12610,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 139.7 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11234,13 +12745,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 262.89 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11303,13 +12815,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 320.04 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11355,6 +12868,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Alidade:R")
+		(at 378.46 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee1e1ba7-d125-4658-a3ab-53c3cbb860ad")
+		(property "Reference" "rR19"
+			(at 381 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 376.682 87.63 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "772c11ff-ca1b-47e2-bcba-a145e16fa505")
+		)
+		(pin "2"
+			(uuid "b38f0ca7-bcf8-40b8-bc70-ef282e2b2e64")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "rR19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alidade:D")
 		(at 180.34 97.79 0)
 		(mirror y)
@@ -11373,13 +12956,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 177.8 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11442,13 +13026,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 300.99 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11494,6 +13079,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Alidade:R")
+		(at 378.46 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc22a63c-a739-48d7-8684-d18a364570ac")
+		(property "Reference" "rR18"
+			(at 381 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 376.682 72.39 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb3c2d19-0f4c-4e3e-ba7a-16b5ebe0928e")
+		)
+		(pin "2"
+			(uuid "b562aef6-6caa-400e-81d9-0fa59cf22df2")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "rR18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alidade:D")
 		(at 298.45 71.12 0)
 		(unit 1)
@@ -11511,13 +13166,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 300.99 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11748,13 +13404,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54-02V-G3-08"
 			(at 120.65 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
