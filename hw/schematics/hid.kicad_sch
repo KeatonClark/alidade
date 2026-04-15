@@ -5251,7 +5251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 248.92 217.17 0)
 			(effects
 				(font
@@ -5458,7 +5458,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 378.46 102.87 0)
 			(effects
 				(font
@@ -5527,7 +5527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 248.92 219.71 0)
 			(effects
 				(font
@@ -6236,7 +6236,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 248.92 222.25 0)
 			(effects
 				(font
@@ -6581,7 +6581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 43.18 118.11 0)
 			(effects
 				(font
@@ -6928,7 +6928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 43.18 72.39 0)
 			(effects
 				(font
@@ -7138,7 +7138,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 173.99 204.47 0)
 			(effects
 				(font
@@ -7995,7 +7995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 180.34 204.47 0)
 			(effects
 				(font
@@ -9239,7 +9239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 43.18 87.63 0)
 			(effects
 				(font
@@ -10091,7 +10091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 176.53 222.25 0)
 			(effects
 				(font
@@ -10425,7 +10425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 176.53 219.71 0)
 			(effects
 				(font
@@ -10563,7 +10563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 378.46 118.11 0)
 			(effects
 				(font
@@ -10633,7 +10633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 43.18 102.87 0)
 			(effects
 				(font
@@ -10769,7 +10769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 252.73 204.47 0)
 			(effects
 				(font
@@ -11519,7 +11519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 246.38 204.47 0)
 			(effects
 				(font
@@ -12549,7 +12549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 176.53 217.17 0)
 			(effects
 				(font
@@ -12895,7 +12895,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 378.46 87.63 0)
 			(effects
 				(font
@@ -13106,7 +13106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SMD_0603"
 			(at 378.46 72.39 0)
 			(effects
 				(font
