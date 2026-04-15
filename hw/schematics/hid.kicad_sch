@@ -4628,7 +4628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 260.35 71.12 90)
 			(effects
 				(font
@@ -4767,7 +4767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 142.24 101.6 90)
 			(effects
 				(font
@@ -4974,7 +4974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 85.09 71.12 90)
 			(effects
 				(font
@@ -5045,7 +5045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 104.14 71.12 90)
 			(effects
 				(font
@@ -5182,7 +5182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 336.55 101.6 90)
 			(effects
 				(font
@@ -5321,7 +5321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 354.33 86.36 90)
 			(effects
 				(font
@@ -5696,7 +5696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 279.4 116.84 90)
 			(effects
 				(font
@@ -5964,7 +5964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 317.5 86.36 90)
 			(effects
 				(font
@@ -6306,7 +6306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 317.5 71.12 90)
 			(effects
 				(font
@@ -6511,7 +6511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 298.45 101.6 90)
 			(effects
 				(font
@@ -6720,7 +6720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 161.29 116.84 90)
 			(effects
 				(font
@@ -6858,7 +6858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 161.29 86.36 90)
 			(effects
 				(font
@@ -6998,7 +6998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 354.33 101.6 90)
 			(effects
 				(font
@@ -7069,7 +7069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 180.34 82.55 90)
 			(effects
 				(font
@@ -7275,7 +7275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 260.35 116.84 90)
 			(effects
 				(font
@@ -7413,7 +7413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 123.19 71.12 90)
 			(effects
 				(font
@@ -7648,7 +7648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 67.31 101.6 90)
 			(effects
 				(font
@@ -7855,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 85.09 101.6 90)
 			(effects
 				(font
@@ -7926,7 +7926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 104.14 86.36 90)
 			(effects
 				(font
@@ -8202,7 +8202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 123.19 101.6 90)
 			(effects
 				(font
@@ -8272,7 +8272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 279.4 86.36 90)
 			(effects
 				(font
@@ -8410,7 +8410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 336.55 71.12 90)
 			(effects
 				(font
@@ -8480,7 +8480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 260.35 101.6 90)
 			(effects
 				(font
@@ -8551,7 +8551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 67.31 71.12 90)
 			(effects
 				(font
@@ -8961,7 +8961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 142.24 71.12 90)
 			(effects
 				(font
@@ -9032,7 +9032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 67.31 86.36 90)
 			(effects
 				(font
@@ -9169,7 +9169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 241.3 82.55 90)
 			(effects
 				(font
@@ -9310,7 +9310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 161.29 101.6 90)
 			(effects
 				(font
@@ -9615,7 +9615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 336.55 86.36 90)
 			(effects
 				(font
@@ -9686,7 +9686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 142.24 116.84 90)
 			(effects
 				(font
@@ -9756,7 +9756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 241.3 97.79 90)
 			(effects
 				(font
@@ -9957,7 +9957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 161.29 71.12 90)
 			(effects
 				(font
@@ -11118,7 +11118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 279.4 71.12 90)
 			(effects
 				(font
@@ -11188,7 +11188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 298.45 86.36 90)
 			(effects
 				(font
@@ -11725,7 +11725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 123.19 116.84 90)
 			(effects
 				(font
@@ -11932,7 +11932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 85.09 86.36 90)
 			(effects
 				(font
@@ -12205,7 +12205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 279.4 101.6 90)
 			(effects
 				(font
@@ -12342,7 +12342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 354.33 71.12 90)
 			(effects
 				(font
@@ -12413,7 +12413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 104.14 101.6 90)
 			(effects
 				(font
@@ -12620,7 +12620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 142.24 86.36 90)
 			(effects
 				(font
@@ -12755,7 +12755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 260.35 86.36 90)
 			(effects
 				(font
@@ -12825,7 +12825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 317.5 101.6 90)
 			(effects
 				(font
@@ -12966,7 +12966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 180.34 97.79 90)
 			(effects
 				(font
@@ -13036,7 +13036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 298.45 116.84 90)
 			(effects
 				(font
@@ -13176,7 +13176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 298.45 71.12 90)
 			(effects
 				(font
@@ -13414,7 +13414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:SOD-523"
 			(at 123.19 86.36 90)
 			(effects
 				(font
