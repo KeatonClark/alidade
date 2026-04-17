@@ -2279,6 +2279,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2678152"
+			(at 12.446 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -5623,6 +5632,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7466043"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -7471,8 +7489,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "TAG Connect Receptacle"
+			(at 0 13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,6 +7740,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C2848620"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "usb universal serial bus type-C USB2.0"
