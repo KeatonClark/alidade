@@ -254,7 +254,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Alidade:D"
+		(symbol "Alidade:BAT54"
 			(pin_numbers
 				(hide yes)
 			)
@@ -274,17 +274,18 @@
 					(justify left)
 				)
 			)
-			(property "Value" "D"
-				(at -3.81 -2.032 0)
+			(property "Value" "BAT54"
+				(at 5.08 -7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 90)
+			(property "Footprint" "Alidade:SOT23"
+				(at 7.366 -5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -310,6 +311,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC Part #" "C8590"
+				(at 7.366 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
 				(at 0 0 0)
 				(effects
@@ -319,7 +329,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
+			(symbol "BAT54_0_1"
 				(polyline
 					(pts
 						(xy -0.762 0) (xy 0.762 0)
@@ -357,7 +367,31 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "BAT54_1_1"
+				(polyline
+					(pts
+						(xy -0.762 1.016) (xy -1.27 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -368,7 +402,26 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -386,7 +439,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4601,7 +4654,7 @@
 		(uuid "fa0bc2c2-b407-4023-8e6d-f19c7de3e187")
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 260.35 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4618,7 +4671,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 262.89 66.294 0)
 			(effects
 				(font
@@ -4628,8 +4681,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 260.35 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 267.716 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,11 +4717,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 267.716 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "945091d9-34d5-4a4d-a294-8499aab68d05")
 		)
 		(pin "2"
 			(uuid "bb6d542f-dcb8-470b-b811-6d4486a2b75d")
+		)
+		(pin "3"
+			(uuid "c47cd3b6-735c-47ec-8859-ba57768c8cc8")
 		)
 		(instances
 			(project "alidade"
@@ -4714,7 +4779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 287.02 81.28 0)
 			(effects
 				(font
@@ -4741,6 +4806,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 287.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46ec86e6-6051-44d9-86dd-71706a50cee0")
 		)
@@ -4757,7 +4831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 142.24 101.6 0)
 		(mirror y)
 		(unit 1)
@@ -4775,7 +4849,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 139.7 96.774 0)
 			(effects
 				(font
@@ -4785,8 +4859,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 142.24 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 134.874 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,11 +4895,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 134.874 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b473e2d-c0c7-44cd-879d-47a87b240990")
 		)
 		(pin "2"
 			(uuid "9c650fce-7e26-4ef4-8374-8e14a9d8b92f")
+		)
+		(pin "3"
+			(uuid "a12b3b81-ea29-4443-8cb3-be3d5683814b")
 		)
 		(instances
 			(project "alidade"
@@ -4871,7 +4957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 267.97 66.04 0)
 			(effects
 				(font
@@ -4890,6 +4976,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 267.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 267.97 71.12 0)
 			(effects
 				(font
@@ -4948,7 +5043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 172.72 92.71 0)
 			(effects
 				(font
@@ -4975,6 +5070,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4673ac2b-ec0c-4393-8c15-e1f408c0e86d")
 		)
@@ -4991,7 +5095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 85.09 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -5009,7 +5113,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 82.55 66.294 0)
 			(effects
 				(font
@@ -5019,8 +5123,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 85.09 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 77.724 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,11 +5159,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 77.724 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6651ab5e-3394-4129-9b12-e8f711f2234d")
 		)
 		(pin "2"
 			(uuid "fb44357d-9ce6-4f93-8c29-50694e727d9f")
+		)
+		(pin "3"
+			(uuid "6f33cca6-fcc7-471d-93e1-4545be0f85dc")
 		)
 		(instances
 			(project "alidade"
@@ -5071,7 +5187,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 104.14 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -5089,7 +5205,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 101.6 66.294 0)
 			(effects
 				(font
@@ -5099,8 +5215,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 104.14 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 96.774 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,11 +5251,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 96.774 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00b57e99-6dd7-48c5-8c1d-9858e3ac6d62")
 		)
 		(pin "2"
 			(uuid "f9694964-d0dc-4e4d-b972-7a8a88201bf1")
+		)
+		(pin "3"
+			(uuid "93566399-0436-4ffd-902a-eb06a9da3920")
 		)
 		(instances
 			(project "alidade"
@@ -5184,7 +5312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 115.57 96.52 0)
 			(effects
 				(font
@@ -5211,6 +5339,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "670e1c92-160a-4fdc-8a49-d0f58359f0b3")
 		)
@@ -5227,7 +5364,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 336.55 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5244,7 +5381,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 339.09 96.774 0)
 			(effects
 				(font
@@ -5254,8 +5391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 336.55 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 343.916 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,11 +5427,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 343.916 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c41f40f-3864-42ec-b437-10a86f8a9fc5")
 		)
 		(pin "2"
 			(uuid "462346e3-631e-426d-94ec-c080ab002090")
+		)
+		(pin "3"
+			(uuid "c490d988-5290-4b71-a4df-056c89e7468e")
 		)
 		(instances
 			(project "alidade"
@@ -5384,7 +5533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 354.33 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5401,7 +5550,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 356.87 81.534 0)
 			(effects
 				(font
@@ -5411,8 +5560,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 354.33 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 361.696 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,11 +5596,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 361.696 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4eab2c74-9c0b-4250-ae17-a8415b896869")
 		)
 		(pin "2"
 			(uuid "d88e05a0-6602-4fe8-8674-6fedc97c5067")
+		)
+		(pin "3"
+			(uuid "c8f37455-1cfc-400e-bb47-25436f984620")
 		)
 		(instances
 			(project "alidade"
@@ -5496,7 +5657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 115.57 111.76 0)
 			(effects
 				(font
@@ -5515,6 +5676,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 115.57 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 115.57 116.84 0)
 			(effects
 				(font
@@ -5804,7 +5974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 279.4 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5821,7 +5991,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 281.94 112.014 0)
 			(effects
 				(font
@@ -5831,8 +6001,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 279.4 116.84 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 286.766 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,11 +6037,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 286.766 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26ab06be-3040-4005-a127-d5e25ebd8fd3")
 		)
 		(pin "2"
 			(uuid "e33f22f1-3549-4d47-b716-9a901a555d23")
+		)
+		(pin "3"
+			(uuid "bc306725-5ec2-44f6-8920-feb8ba6150ad")
 		)
 		(instances
 			(project "alidade"
@@ -6047,7 +6229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 287.02 66.04 0)
 			(effects
 				(font
@@ -6074,6 +6256,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 287.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83b2363c-eb2e-46c4-b381-8ce15146b839")
 		)
@@ -6090,7 +6281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 317.5 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6107,7 +6298,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 320.04 81.534 0)
 			(effects
 				(font
@@ -6117,8 +6308,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 317.5 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 324.866 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,11 +6344,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 324.866 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9efb055e-65ba-4c2f-a489-24d1da217662")
 		)
 		(pin "2"
 			(uuid "3e1ff888-fd9c-4ea6-a762-8ce62b6bbd2e")
+		)
+		(pin "3"
+			(uuid "314cb86e-2fba-4e87-9550-689f94a97280")
 		)
 		(instances
 			(project "alidade"
@@ -6203,7 +6406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 344.17 96.52 0)
 			(effects
 				(font
@@ -6222,6 +6425,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 344.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 344.17 101.6 0)
 			(effects
 				(font
@@ -6279,7 +6491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 111.76 0)
 			(effects
 				(font
@@ -6298,6 +6510,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 153.67 116.84 0)
 			(effects
 				(font
@@ -6356,7 +6577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 325.12 96.52 0)
 			(effects
 				(font
@@ -6375,6 +6596,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 325.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 325.12 101.6 0)
 			(effects
 				(font
@@ -6477,7 +6707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 317.5 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6494,7 +6724,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 320.04 66.294 0)
 			(effects
 				(font
@@ -6504,8 +6734,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 317.5 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 324.866 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,11 +6770,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 324.866 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfc0fea3-8d93-40bc-adf7-9ea88460f921")
 		)
 		(pin "2"
 			(uuid "3ec722dc-de0a-41b8-b0d7-44bf9053e073")
+		)
+		(pin "3"
+			(uuid "c69661bc-4769-4126-890c-7dd1bc127a05")
 		)
 		(instances
 			(project "alidade"
@@ -6590,7 +6832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 115.57 66.04 0)
 			(effects
 				(font
@@ -6609,6 +6851,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 115.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 115.57 71.12 0)
 			(effects
 				(font
@@ -6666,7 +6917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -6693,6 +6944,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 77.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d18314fd-3814-47b6-8143-2696aa94c4dd")
 		)
@@ -6709,7 +6969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 298.45 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6726,7 +6986,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 300.99 96.774 0)
 			(effects
 				(font
@@ -6736,8 +6996,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 298.45 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 305.816 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6772,11 +7032,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 305.816 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a61dc47-bcd4-4cd6-81b4-5d7412b8b93f")
 		)
 		(pin "2"
 			(uuid "e363498a-2f28-49e7-8a5d-576d2895b8fc")
+		)
+		(pin "3"
+			(uuid "7c4272e2-41fb-4e8a-afa7-27f48fbfc327")
 		)
 		(instances
 			(project "alidade"
@@ -6901,7 +7173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 267.97 111.76 0)
 			(effects
 				(font
@@ -6928,6 +7200,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 267.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7989e8f2-c000-4489-81f0-3b7b517476ff")
 		)
@@ -6944,7 +7225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 161.29 116.84 0)
 		(mirror y)
 		(unit 1)
@@ -6962,7 +7243,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 158.75 112.014 0)
 			(effects
 				(font
@@ -6972,8 +7253,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 161.29 116.84 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 153.924 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,11 +7289,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 153.924 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f3299fa-d192-4eea-a211-08f8301ce33f")
 		)
 		(pin "2"
 			(uuid "cf61d07a-6e6b-44b7-abcf-90167818e24f")
+		)
+		(pin "3"
+			(uuid "9eae5ca2-5a31-4a65-9b4b-2f1c89eb2a5f")
 		)
 		(instances
 			(project "alidade"
@@ -7057,7 +7350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 81.28 0)
 			(effects
 				(font
@@ -7084,6 +7377,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5ac2b0c-f20f-448c-95ea-f96e291c0a93")
 		)
@@ -7100,7 +7402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 161.29 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -7118,7 +7420,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 158.75 81.534 0)
 			(effects
 				(font
@@ -7128,8 +7430,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 161.29 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 153.924 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,11 +7466,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 153.924 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e5fb08c-2f4b-4ad1-8683-1fd8a0bf371c")
 		)
 		(pin "2"
 			(uuid "51d47952-08c7-4df2-9536-abcb84fd40a8")
+		)
+		(pin "3"
+			(uuid "88c33765-04f3-467c-8ae3-dc076d99ff74")
 		)
 		(instances
 			(project "alidade"
@@ -7259,7 +7573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 354.33 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7276,7 +7590,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 356.87 96.774 0)
 			(effects
 				(font
@@ -7286,8 +7600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 354.33 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 361.696 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,11 +7636,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 361.696 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6061a57a-4e2d-4386-a3cf-e45ec1ea811c")
 		)
 		(pin "2"
 			(uuid "a7f24a98-21d2-4745-8f58-67ca3d089e4c")
+		)
+		(pin "3"
+			(uuid "daceffcf-b031-40c4-ad75-6ccec80f138f")
 		)
 		(instances
 			(project "alidade"
@@ -7338,7 +7664,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 180.34 82.55 0)
 		(mirror y)
 		(unit 1)
@@ -7356,7 +7682,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 183.896 82.55 0)
 			(effects
 				(font
@@ -7366,8 +7692,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 180.34 82.55 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 172.974 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,11 +7728,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 172.974 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5a5f9ea-d26c-4d3d-b7fc-c28d30296657")
 		)
 		(pin "2"
 			(uuid "60594fb7-2e35-44cb-b6af-4a65912829aa")
+		)
+		(pin "3"
+			(uuid "4ff00e58-f71b-41af-af11-931ea748297c")
 		)
 		(instances
 			(project "alidade"
@@ -7529,7 +7867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 81.28 0)
 			(effects
 				(font
@@ -7556,6 +7894,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50418bf1-a52b-4363-bab8-a75cab91ab2f")
 		)
@@ -7572,7 +7919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 260.35 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7589,7 +7936,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 262.89 112.014 0)
 			(effects
 				(font
@@ -7599,8 +7946,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 260.35 116.84 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 267.716 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,11 +7982,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 267.716 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43ce3bf4-3ef8-42fb-8a76-efe70e03643a")
 		)
 		(pin "2"
 			(uuid "b22b41c6-be43-4cf1-9dbd-1f33d608e532")
+		)
+		(pin "3"
+			(uuid "c53f8659-1d59-419f-ad2e-34fad7ebcf0f")
 		)
 		(instances
 			(project "alidade"
@@ -7684,7 +8043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 96.52 0)
 			(effects
 				(font
@@ -7711,6 +8070,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "848638e6-f2ce-4ab1-91d1-e5f7aae7da0d")
 		)
@@ -7727,7 +8095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 123.19 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -7745,7 +8113,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 120.65 66.294 0)
 			(effects
 				(font
@@ -7755,8 +8123,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 123.19 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 115.824 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7791,11 +8159,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 115.824 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cc9f830-894b-44bb-982c-0be4328aace5")
 		)
 		(pin "2"
 			(uuid "7626091c-8a13-447c-bc79-529e345cc614")
+		)
+		(pin "3"
+			(uuid "b34f4591-283d-43e7-a44c-b4182be1dfcf")
 		)
 		(instances
 			(project "alidade"
@@ -7980,7 +8360,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 67.31 101.6 0)
 		(mirror y)
 		(unit 1)
@@ -7998,7 +8378,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 64.77 96.774 0)
 			(effects
 				(font
@@ -8008,8 +8388,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 67.31 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 59.944 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,11 +8424,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 59.944 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87fdc4bd-a0c7-4d88-a1ee-357ee998ec21")
 		)
 		(pin "2"
 			(uuid "3888a1e3-9f87-4ff7-b060-044bbed51d14")
+		)
+		(pin "3"
+			(uuid "8248d152-e0fb-419a-970a-d3f3524b9dd4")
 		)
 		(instances
 			(project "alidade"
@@ -8094,7 +8486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 344.17 81.28 0)
 			(effects
 				(font
@@ -8113,6 +8505,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 344.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 344.17 86.36 0)
 			(effects
 				(font
@@ -8171,7 +8572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 361.95 96.52 0)
 			(effects
 				(font
@@ -8198,6 +8599,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 361.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "631a4b29-78da-4ab0-a5a8-ec857c17827b")
 		)
@@ -8214,7 +8624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 85.09 101.6 0)
 		(mirror y)
 		(unit 1)
@@ -8232,7 +8642,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 82.55 96.774 0)
 			(effects
 				(font
@@ -8242,8 +8652,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 85.09 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 77.724 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,11 +8688,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 77.724 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0cde8464-6d3d-48a1-aba4-9530b8c4357e")
 		)
 		(pin "2"
 			(uuid "884179fb-e4e3-4d7d-a5c7-7652635f16c7")
+		)
+		(pin "3"
+			(uuid "7a2c3a94-8432-40b5-a517-579932ee3613")
 		)
 		(instances
 			(project "alidade"
@@ -8294,7 +8716,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 104.14 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -8312,7 +8734,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 101.6 81.534 0)
 			(effects
 				(font
@@ -8322,8 +8744,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 104.14 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 96.774 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,11 +8780,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 96.774 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30efbeb4-6d6a-499b-b9e6-e18d25132d37")
 		)
 		(pin "2"
 			(uuid "8de6d7fe-3bef-4c2f-b1ab-b977aba06e37")
+		)
+		(pin "3"
+			(uuid "04c24068-ac59-4656-8bdc-66f0205e45c9")
 		)
 		(instances
 			(project "alidade"
@@ -8486,7 +8920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 306.07 111.76 0)
 			(effects
 				(font
@@ -8505,6 +8939,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 306.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 306.07 116.84 0)
 			(effects
 				(font
@@ -8563,7 +9006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 66.04 0)
 			(effects
 				(font
@@ -8590,6 +9033,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 153.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebf57537-72a2-42e0-a9f0-99d592b1f8ed")
 		)
@@ -8606,7 +9058,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 123.19 101.6 0)
 		(mirror y)
 		(unit 1)
@@ -8624,7 +9076,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 120.65 96.774 0)
 			(effects
 				(font
@@ -8634,8 +9086,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 123.19 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 115.824 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,11 +9122,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 115.824 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20519ce8-508f-4049-b6a0-23088ce978c2")
 		)
 		(pin "2"
 			(uuid "d3e4224c-8c0e-405e-a99c-13850915aa18")
+		)
+		(pin "3"
+			(uuid "180f5cdd-4294-4a3e-ae6d-09d649986dbc")
 		)
 		(instances
 			(project "alidade"
@@ -8686,7 +9150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 279.4 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8703,7 +9167,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 281.94 81.534 0)
 			(effects
 				(font
@@ -8713,8 +9177,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 279.4 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 286.766 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,11 +9213,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 286.766 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "242ed91e-d81e-4b72-87c0-b92f6ae8a34c")
 		)
 		(pin "2"
 			(uuid "04b4446e-db11-4a48-adf3-de5c4de931a3")
+		)
+		(pin "3"
+			(uuid "dcfeecff-8cdf-467e-a86d-93171e4a19d0")
 		)
 		(instances
 			(project "alidade"
@@ -8799,7 +9275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 361.95 66.04 0)
 			(effects
 				(font
@@ -8826,6 +9302,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 361.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94e7666b-3087-4134-9a6e-b759c68e79e2")
 		)
@@ -8842,7 +9327,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 336.55 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8859,7 +9344,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 339.09 66.294 0)
 			(effects
 				(font
@@ -8869,8 +9354,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 336.55 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 343.916 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,11 +9390,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 343.916 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35cadde3-54ac-46c0-a24b-6284152f131f")
 		)
 		(pin "2"
 			(uuid "86da1caf-a0fa-472d-9862-da2ed9b526ca")
+		)
+		(pin "3"
+			(uuid "c9a4ac35-1d24-49f8-bb74-9d102331beae")
 		)
 		(instances
 			(project "alidade"
@@ -8921,7 +9418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 260.35 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8938,7 +9435,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 262.89 96.774 0)
 			(effects
 				(font
@@ -8948,8 +9445,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 260.35 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 267.716 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,11 +9481,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 267.716 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fb891a1-1fda-4bf5-bd5b-da76b862961a")
 		)
 		(pin "2"
 			(uuid "a48cba25-d13d-4bcc-8dd2-9aef7f40080a")
+		)
+		(pin "3"
+			(uuid "214f32b0-64bc-4e8e-8048-e16d6470d26a")
 		)
 		(instances
 			(project "alidade"
@@ -9000,7 +9509,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 67.31 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -9018,7 +9527,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 64.77 66.294 0)
 			(effects
 				(font
@@ -9028,8 +9537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 67.31 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 59.944 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9064,11 +9573,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 59.944 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "823f14df-37b9-4c24-ad83-a3260076e9fc")
 		)
 		(pin "2"
 			(uuid "c2e7643c-c0ad-437d-9e52-8b86925cb433")
+		)
+		(pin "3"
+			(uuid "8194376f-059a-4d2b-9624-3040a55eff63")
 		)
 		(instances
 			(project "alidade"
@@ -9114,7 +9635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 267.97 96.52 0)
 			(effects
 				(font
@@ -9133,6 +9654,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 267.97 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 267.97 101.6 0)
 			(effects
 				(font
@@ -9191,7 +9721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 325.12 66.04 0)
 			(effects
 				(font
@@ -9210,6 +9740,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 325.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 325.12 71.12 0)
 			(effects
 				(font
@@ -9267,7 +9806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 115.57 81.28 0)
 			(effects
 				(font
@@ -9286,6 +9825,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 115.57 86.36 0)
 			(effects
 				(font
@@ -9344,7 +9892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 66.04 0)
 			(effects
 				(font
@@ -9363,6 +9911,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 96.52 71.12 0)
 			(effects
 				(font
@@ -9421,7 +9978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 172.72 77.47 0)
 			(effects
 				(font
@@ -9448,6 +10005,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "116ff9e1-9ec5-4905-a387-6f8373492a4e")
 		)
@@ -9464,7 +10030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 142.24 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -9482,7 +10048,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 139.7 66.294 0)
 			(effects
 				(font
@@ -9492,8 +10058,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 142.24 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 134.874 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9528,11 +10094,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 134.874 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7376243f-33ba-43c6-8fc5-86638d19b4c2")
 		)
 		(pin "2"
 			(uuid "d172fc56-6543-4cba-a44e-44cb97c03bf5")
+		)
+		(pin "3"
+			(uuid "1d9d1062-b5bd-4c72-ad63-fd6a40bc812b")
 		)
 		(instances
 			(project "alidade"
@@ -9544,7 +10122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 67.31 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -9562,7 +10140,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 64.77 81.534 0)
 			(effects
 				(font
@@ -9572,8 +10150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 67.31 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 59.944 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,11 +10186,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 59.944 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1fa4bc7-4439-4093-8aef-e9f0a18339cf")
 		)
 		(pin "2"
 			(uuid "85063875-a23f-4fda-9422-332378a99ef9")
+		)
+		(pin "3"
+			(uuid "ccb34ad4-eb9f-4781-a088-9f904caa0bb8")
 		)
 		(instances
 			(project "alidade"
@@ -9657,7 +10247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 248.92 92.71 0)
 			(effects
 				(font
@@ -9684,6 +10274,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 248.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2829cb79-b001-4db9-b123-a5403bfe2673")
 		)
@@ -9700,7 +10299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 241.3 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9717,7 +10316,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 237.236 82.55 0)
 			(effects
 				(font
@@ -9727,8 +10326,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 241.3 82.55 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 248.666 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,11 +10362,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 248.666 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1634eba-7117-4b87-b89e-375ecd33cbec")
 		)
 		(pin "2"
 			(uuid "af207102-bb37-405a-bdd2-8317433fa15e")
+		)
+		(pin "3"
+			(uuid "ef69b451-5953-4e7c-8f07-58603972f91d")
 		)
 		(instances
 			(project "alidade"
@@ -9858,7 +10469,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 161.29 101.6 0)
 		(mirror y)
 		(unit 1)
@@ -9876,7 +10487,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 158.75 96.774 0)
 			(effects
 				(font
@@ -9886,8 +10497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 161.29 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 153.924 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,11 +10533,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 153.924 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c073fe8f-d354-4f02-8661-79d5aea35594")
 		)
 		(pin "2"
 			(uuid "e5bdfed4-d10b-4f7f-8ad4-cec0357adf02")
+		)
+		(pin "3"
+			(uuid "56a1fe93-6f47-44a7-94a6-e5ca5b597b01")
 		)
 		(instances
 			(project "alidade"
@@ -9972,7 +10595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 287.02 96.52 0)
 			(effects
 				(font
@@ -9991,6 +10614,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 287.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 287.02 101.6 0)
 			(effects
 				(font
@@ -10049,7 +10681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 325.12 81.28 0)
 			(effects
 				(font
@@ -10068,6 +10700,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 325.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 325.12 86.36 0)
 			(effects
 				(font
@@ -10200,7 +10841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 336.55 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10217,7 +10858,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 339.09 81.534 0)
 			(effects
 				(font
@@ -10227,8 +10868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 336.55 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 343.916 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,11 +10904,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 343.916 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb44b882-b171-4ce4-9b13-c15e9db177fa")
 		)
 		(pin "2"
 			(uuid "1f6cb039-ebe3-4a2c-a390-5489ef757fe8")
+		)
+		(pin "3"
+			(uuid "35d7e442-b38b-4004-a800-ae158cb5a003")
 		)
 		(instances
 			(project "alidade"
@@ -10279,7 +10932,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 142.24 116.84 0)
 		(mirror y)
 		(unit 1)
@@ -10297,7 +10950,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 139.7 112.014 0)
 			(effects
 				(font
@@ -10307,8 +10960,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 142.24 116.84 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 134.874 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10343,11 +10996,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 134.874 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9ef4688-f9f2-4300-be80-92cd5c0d3a3b")
 		)
 		(pin "2"
 			(uuid "3b82b885-e40f-4cc6-89e3-69715e08ae26")
+		)
+		(pin "3"
+			(uuid "0d7679ad-f9c7-400a-9fa9-6fe30f8ed67b")
 		)
 		(instances
 			(project "alidade"
@@ -10359,7 +11024,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 241.3 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10376,7 +11041,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 243.84 92.964 0)
 			(effects
 				(font
@@ -10386,8 +11051,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 241.3 97.79 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 248.666 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,11 +11087,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 248.666 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "419fed44-dc66-4a61-a7ba-0cd378a0b99e")
 		)
 		(pin "2"
 			(uuid "3e3b923d-d660-42e0-9f2b-f59e3faaab9e")
+		)
+		(pin "3"
+			(uuid "efa7f327-37b0-4702-95ca-58054c55a584")
 		)
 		(instances
 			(project "alidade"
@@ -10568,7 +11245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 161.29 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -10586,7 +11263,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 158.75 66.294 0)
 			(effects
 				(font
@@ -10596,8 +11273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 161.29 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 153.924 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,11 +11309,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 153.924 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c04e204-117b-4192-96ac-b49297d48842")
 		)
 		(pin "2"
 			(uuid "c308264a-b004-45c5-b34c-704dbaee2775")
+		)
+		(pin "3"
+			(uuid "a05f4377-5003-47f7-8c6a-67032045c358")
 		)
 		(instances
 			(project "alidade"
@@ -10825,7 +11514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 66.04 0)
 			(effects
 				(font
@@ -10844,6 +11533,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 134.62 71.12 0)
 			(effects
 				(font
@@ -11031,7 +11729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -11050,6 +11748,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 96.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 96.52 86.36 0)
 			(effects
 				(font
@@ -11186,7 +11893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 77.47 66.04 0)
 			(effects
 				(font
@@ -11205,6 +11912,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -11420,7 +12136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 77.47 81.28 0)
 			(effects
 				(font
@@ -11439,6 +12155,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 77.47 86.36 0)
 			(effects
 				(font
@@ -11575,7 +12300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 267.97 81.28 0)
 			(effects
 				(font
@@ -11594,6 +12319,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 267.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 267.97 86.36 0)
 			(effects
 				(font
@@ -11736,7 +12470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 59.69 96.52 0)
 			(effects
 				(font
@@ -11755,6 +12489,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 59.69 101.6 0)
 			(effects
 				(font
@@ -11813,7 +12556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 361.95 81.28 0)
 			(effects
 				(font
@@ -11840,6 +12583,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 361.95 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97947908-ca5e-4b93-b855-56b7e36515c7")
 		)
@@ -11856,7 +12608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 279.4 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11873,7 +12625,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 281.94 66.294 0)
 			(effects
 				(font
@@ -11883,8 +12635,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 279.4 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 286.766 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11919,11 +12671,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 286.766 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44889f9a-5e23-4bd8-881c-c0a681764ebd")
 		)
 		(pin "2"
 			(uuid "722e9e3a-5bf9-490a-9a21-4210d875bb35")
+		)
+		(pin "3"
+			(uuid "bd3ca389-5d16-4802-8e5c-70ae2187c7c9")
 		)
 		(instances
 			(project "alidade"
@@ -11935,7 +12699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 298.45 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11952,7 +12716,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 300.99 81.534 0)
 			(effects
 				(font
@@ -11962,8 +12726,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 298.45 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 305.816 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,11 +12762,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 305.816 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4160317e-10d8-4f43-8bb4-b856be6eaaed")
 		)
 		(pin "2"
 			(uuid "3862bf35-1c09-474e-abff-0388f99c13dd")
+		)
+		(pin "3"
+			(uuid "6b242006-0560-401f-8f43-0fdd0a11b709")
 		)
 		(instances
 			(project "alidade"
@@ -12242,7 +13018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 59.69 81.28 0)
 			(effects
 				(font
@@ -12261,6 +13037,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 59.69 86.36 0)
 			(effects
 				(font
@@ -12397,7 +13182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 306.07 81.28 0)
 			(effects
 				(font
@@ -12416,6 +13201,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 306.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 306.07 86.36 0)
 			(effects
 				(font
@@ -12473,7 +13267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 111.76 0)
 			(effects
 				(font
@@ -12500,6 +13294,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34ce71d5-5675-4d94-97a4-3300d2919482")
 		)
@@ -12516,7 +13319,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 123.19 116.84 0)
 		(mirror y)
 		(unit 1)
@@ -12534,7 +13337,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 120.65 112.014 0)
 			(effects
 				(font
@@ -12544,8 +13347,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 123.19 116.84 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 115.824 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12580,11 +13383,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 115.824 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76646673-f64b-4ad0-8c69-33dd304eb9f8")
 		)
 		(pin "2"
 			(uuid "36772513-5122-4b14-9fd9-ebd2842e28f1")
+		)
+		(pin "3"
+			(uuid "3e2910dc-df8b-44a9-8ebf-2e9fb678bd87")
 		)
 		(instances
 			(project "alidade"
@@ -12630,7 +13445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 344.17 66.04 0)
 			(effects
 				(font
@@ -12649,6 +13464,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 344.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 344.17 71.12 0)
 			(effects
 				(font
@@ -12707,7 +13531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 287.02 111.76 0)
 			(effects
 				(font
@@ -12734,6 +13558,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 287.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca0a2a2d-082c-4681-ab47-9c53a02aaae4")
 		)
@@ -12750,7 +13583,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 85.09 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -12768,7 +13601,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 82.55 81.534 0)
 			(effects
 				(font
@@ -12778,8 +13611,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 85.09 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 77.724 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12814,11 +13647,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 77.724 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1774dbb-5c4f-497d-b373-68b93cc36773")
 		)
 		(pin "2"
 			(uuid "bbc0ec7d-8d51-4b80-a97f-10a944328390")
+		)
+		(pin "3"
+			(uuid "264e6b1d-d068-4d68-93bb-532b924ef384")
 		)
 		(instances
 			(project "alidade"
@@ -12863,7 +13708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 96.52 0)
 			(effects
 				(font
@@ -12882,6 +13727,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 153.67 101.6 0)
 			(effects
 				(font
@@ -12940,7 +13794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 306.07 96.52 0)
 			(effects
 				(font
@@ -12959,6 +13813,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 306.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 306.07 101.6 0)
 			(effects
 				(font
@@ -13017,7 +13880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 306.07 66.04 0)
 			(effects
 				(font
@@ -13044,6 +13907,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 306.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f29d97b5-b64e-4264-8d68-920be60c8af5")
 		)
@@ -13060,7 +13932,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 279.4 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13077,7 +13949,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 281.94 96.774 0)
 			(effects
 				(font
@@ -13087,8 +13959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 279.4 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 286.766 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13123,11 +13995,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 286.766 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b03a3b3d-7192-4490-81bc-092b1cc15c0a")
 		)
 		(pin "2"
 			(uuid "e4d843a1-fead-4d7d-9442-71c0ddccb00b")
+		)
+		(pin "3"
+			(uuid "d4259db8-9d6f-4fe1-a953-bf0ad19c1ea0")
 		)
 		(instances
 			(project "alidade"
@@ -13172,7 +14056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 96.52 0)
 			(effects
 				(font
@@ -13199,6 +14083,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "~"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f523e44d-d497-4ed4-a86e-abd5b7235b61")
 		)
@@ -13215,7 +14108,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 354.33 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13232,7 +14125,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 356.87 66.294 0)
 			(effects
 				(font
@@ -13242,8 +14135,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 354.33 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 361.696 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13278,11 +14171,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 361.696 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adbdc9c4-9a58-4fac-86ba-127a750b4b67")
 		)
 		(pin "2"
 			(uuid "d9555f9e-66e6-4251-8673-49efad537b63")
+		)
+		(pin "3"
+			(uuid "90151ef6-5660-4c96-80f0-7a978baa810b")
 		)
 		(instances
 			(project "alidade"
@@ -13294,7 +14199,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 104.14 101.6 0)
 		(mirror y)
 		(unit 1)
@@ -13312,7 +14217,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 101.6 96.774 0)
 			(effects
 				(font
@@ -13322,8 +14227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 104.14 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 96.774 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13358,11 +14263,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 96.774 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d75cb80-1300-4b36-a7a1-cbafd1d1d76c")
 		)
 		(pin "2"
 			(uuid "75c612aa-40f3-4800-9c3d-bbe392511fae")
+		)
+		(pin "3"
+			(uuid "48e72c71-29fb-4c28-b0de-092d6dd48a86")
 		)
 		(instances
 			(project "alidade"
@@ -13407,7 +14324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 248.92 77.47 0)
 			(effects
 				(font
@@ -13426,6 +14343,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 248.92 82.55 0)
 			(effects
 				(font
@@ -13528,7 +14454,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 142.24 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -13546,7 +14472,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 139.7 81.534 0)
 			(effects
 				(font
@@ -13556,8 +14482,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 142.24 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 134.874 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13592,11 +14518,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 134.874 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac839783-7976-447c-b525-3bba0ef1775c")
 		)
 		(pin "2"
 			(uuid "51f0bf71-4a64-4dd0-b0fa-da3c1b1c9cf1")
+		)
+		(pin "3"
+			(uuid "101eb47a-c0d2-4b44-a8d0-ca95464f0e58")
 		)
 		(instances
 			(project "alidade"
@@ -13673,7 +14611,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 260.35 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13690,7 +14628,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 262.89 81.534 0)
 			(effects
 				(font
@@ -13700,8 +14638,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 260.35 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 267.716 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13736,11 +14674,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 267.716 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "814495bf-0809-46a6-9aaa-4a9c0b11d72a")
 		)
 		(pin "2"
 			(uuid "206af4b6-d9a2-4401-abfb-3911d964c953")
+		)
+		(pin "3"
+			(uuid "33af953d-4027-4e2e-99ef-088792c8eab3")
 		)
 		(instances
 			(project "alidade"
@@ -13752,7 +14702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 317.5 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13769,7 +14719,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 320.04 96.774 0)
 			(effects
 				(font
@@ -13779,8 +14729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 317.5 101.6 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 324.866 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13815,11 +14765,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 324.866 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7069aa05-0d24-4ca0-89b4-c070147b926c")
 		)
 		(pin "2"
 			(uuid "dc8a0432-96e5-43fa-b907-1668d523dcf5")
+		)
+		(pin "3"
+			(uuid "ad1ee5ef-3fb9-41ba-b0a3-366857600a80")
 		)
 		(instances
 			(project "alidade"
@@ -13910,7 +14872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 180.34 97.79 0)
 		(mirror y)
 		(unit 1)
@@ -13928,7 +14890,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 177.8 92.964 0)
 			(effects
 				(font
@@ -13938,8 +14900,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 180.34 97.79 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 172.974 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13974,11 +14936,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 172.974 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef399867-b280-4f86-9378-b9df87905bfb")
 		)
 		(pin "2"
 			(uuid "1311aec4-eea2-4ad8-a993-950a21666570")
+		)
+		(pin "3"
+			(uuid "a0dddfc2-9822-4419-8a6b-c74ac4fb75f0")
 		)
 		(instances
 			(project "alidade"
@@ -13990,7 +14964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 298.45 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14007,7 +14981,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 300.99 112.014 0)
 			(effects
 				(font
@@ -14017,8 +14991,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 298.45 116.84 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 305.816 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14053,11 +15027,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 305.816 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "367ad730-1e4c-43b6-a4a7-a9dd46ec27a5")
 		)
 		(pin "2"
 			(uuid "49253266-857e-42c3-95ef-0b983910aa04")
+		)
+		(pin "3"
+			(uuid "a24c63e9-96c5-452f-96d7-d77d399897e8")
 		)
 		(instances
 			(project "alidade"
@@ -14148,7 +15134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 298.45 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14165,7 +15151,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 300.99 66.294 0)
 			(effects
 				(font
@@ -14175,8 +15161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 298.45 71.12 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 305.816 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14211,11 +15197,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 305.816 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2286273-b8e0-41ce-a2a8-b2420a5b91e1")
 		)
 		(pin "2"
 			(uuid "695fb643-c6d7-4a84-ada1-6f4492b77d54")
+		)
+		(pin "3"
+			(uuid "424f56d2-18cb-4649-8d75-da731d6ec789")
 		)
 		(instances
 			(project "alidade"
@@ -14261,7 +15259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 59.69 66.04 0)
 			(effects
 				(font
@@ -14280,6 +15278,15 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
+			(at 59.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "~"
 			(at 59.69 71.12 0)
 			(effects
 				(font
@@ -14412,7 +15419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:D")
+		(lib_id "Alidade:BAT54")
 		(at 123.19 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -14430,7 +15437,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BAT54-02V-G3-08"
+		(property "Value" "BAT54"
 			(at 120.65 81.534 0)
 			(effects
 				(font
@@ -14440,8 +15447,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Alidade:SOD-523"
-			(at 123.19 86.36 90)
+		(property "Footprint" "Alidade:SOT23"
+			(at 115.824 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14476,11 +15483,23 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8590"
+			(at 115.824 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2652b2b0-7a11-45d3-a4ce-02472bc59096")
 		)
 		(pin "2"
 			(uuid "92226434-67e3-4a3a-a113-bb8fa0a83c11")
+		)
+		(pin "3"
+			(uuid "fe22ba27-c23d-46f4-9ce2-9507a3077160")
 		)
 		(instances
 			(project "alidade"
