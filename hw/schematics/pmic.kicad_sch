@@ -7085,7 +7085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 44.45 143.51 0)
 			(effects
 				(font
@@ -7105,15 +7105,6 @@
 		)
 		(property "Description" ""
 			(at 44.45 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 44.45 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,15 +7490,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 166.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "A1"
 			(uuid "99a7efc8-5e11-4178-ab9d-123d5c81a0ce")
 		)
@@ -7833,7 +7815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 367.03 148.59 0)
 			(effects
 				(font
@@ -7860,7 +7842,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 367.03 148.59 0)
 			(effects
 				(font
@@ -7911,7 +7893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 265.43 148.59 0)
 			(effects
 				(font
@@ -7938,7 +7920,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 265.43 148.59 0)
 			(effects
 				(font
@@ -8017,15 +7999,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 271.78 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "124cd021-c258-4b47-ad82-5a155141e376")
 		)
@@ -8068,7 +8041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 374.65 148.59 0)
 			(effects
 				(font
@@ -8095,7 +8068,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 374.65 148.59 0)
 			(effects
 				(font
@@ -8277,7 +8250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 212.09 236.22 0)
 			(effects
 				(font
@@ -8304,7 +8277,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 212.09 236.22 0)
 			(effects
 				(font
@@ -8353,7 +8326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 139.7 147.32 0)
 			(effects
 				(font
@@ -8373,15 +8346,6 @@
 		)
 		(property "Description" ""
 			(at 139.7 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 139.7 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8517,15 +8481,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 360.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 360.68 44.45 0)
 			(effects
 				(font
@@ -8851,7 +8806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 273.05 148.59 0)
 			(effects
 				(font
@@ -8878,7 +8833,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 273.05 148.59 0)
 			(effects
 				(font
@@ -8994,7 +8949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 355.6 49.53 0)
 			(effects
 				(font
@@ -9021,7 +8976,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 355.6 49.53 90)
 			(effects
 				(font
@@ -9339,15 +9294,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 191.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C7466043"
 			(at 191.77 45.72 0)
 			(effects
@@ -9557,7 +9503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 257.81 148.59 0)
 			(effects
 				(font
@@ -9584,7 +9530,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 257.81 148.59 0)
 			(effects
 				(font
@@ -9635,7 +9581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 351.79 148.59 0)
 			(effects
 				(font
@@ -9662,7 +9608,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 351.79 148.59 0)
 			(effects
 				(font
@@ -9910,7 +9856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 250.19 148.59 0)
 			(effects
 				(font
@@ -9937,7 +9883,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 250.19 148.59 0)
 			(effects
 				(font
@@ -10053,7 +9999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 359.41 148.59 0)
 			(effects
 				(font
@@ -10080,7 +10026,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 359.41 148.59 0)
 			(effects
 				(font
@@ -10130,7 +10076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 284.48 48.26 0)
 			(effects
 				(font
@@ -10157,7 +10103,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 284.48 48.26 90)
 			(effects
 				(font
@@ -10381,7 +10327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 205.74 236.22 0)
 			(effects
 				(font
@@ -10408,7 +10354,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 205.74 236.22 0)
 			(effects
 				(font
@@ -10459,7 +10405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 142.24 153.67 0)
 			(effects
 				(font
@@ -10486,7 +10432,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C21189"
 			(at 142.24 153.67 90)
 			(effects
 				(font
@@ -10667,7 +10613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 295.91 148.59 0)
 			(effects
 				(font
@@ -10694,7 +10640,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 295.91 148.59 0)
 			(effects
 				(font
@@ -10745,7 +10691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 321.31 148.59 0)
 			(effects
 				(font
@@ -10772,7 +10718,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C15849"
 			(at 321.31 148.59 0)
 			(effects
 				(font
@@ -10889,7 +10835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 46.99 149.86 0)
 			(effects
 				(font
@@ -10916,7 +10862,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25819"
 			(at 46.99 149.86 90)
 			(effects
 				(font
@@ -10967,7 +10913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 288.29 148.59 0)
 			(effects
 				(font
@@ -10994,7 +10940,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 288.29 148.59 0)
 			(effects
 				(font
@@ -11110,7 +11056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 87.63 148.59 0)
 			(effects
 				(font
@@ -11137,7 +11083,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25819"
 			(at 87.63 148.59 90)
 			(effects
 				(font
@@ -11188,7 +11134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 328.93 148.59 0)
 			(effects
 				(font
@@ -11215,7 +11161,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C23630"
 			(at 328.93 148.59 0)
 			(effects
 				(font
@@ -11292,15 +11238,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 342.9 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "00344d93-ea6b-4983-908c-ca4bd7437404")
 		)
@@ -11343,7 +11280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 234.95 148.59 0)
 			(effects
 				(font
@@ -11370,7 +11307,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C15849"
 			(at 234.95 148.59 0)
 			(effects
 				(font
@@ -11421,7 +11358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 279.4 237.49 0)
 			(effects
 				(font
@@ -11448,7 +11385,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 279.4 237.49 0)
 			(effects
 				(font
@@ -11524,15 +11461,6 @@
 			)
 		)
 		(property "LCSC Part #" "C2848620"
-			(at 60.96 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 60.96 64.77 0)
 			(effects
 				(font
@@ -11649,15 +11577,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 293.37 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 293.37 237.49 0)
 			(effects
 				(font
@@ -11808,7 +11727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 85.09 142.24 0)
 			(effects
 				(font
@@ -11828,15 +11747,6 @@
 		)
 		(property "Description" ""
 			(at 85.09 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 85.09 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,7 +11796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 382.27 148.59 0)
 			(effects
 				(font
@@ -11913,7 +11823,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 382.27 148.59 0)
 			(effects
 				(font
@@ -12333,7 +12243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 280.67 148.59 0)
 			(effects
 				(font
@@ -12360,7 +12270,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 280.67 148.59 0)
 			(effects
 				(font
@@ -12411,7 +12321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 303.53 148.59 0)
 			(effects
 				(font
@@ -12438,7 +12348,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C15849"
 			(at 303.53 148.59 0)
 			(effects
 				(font
@@ -12553,7 +12463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 182.88 146.05 0)
 			(effects
 				(font
@@ -12573,15 +12483,6 @@
 		)
 		(property "Description" ""
 			(at 182.88 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 182.88 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12631,7 +12532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 389.89 148.59 0)
 			(effects
 				(font
@@ -12658,7 +12559,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C15849"
 			(at 389.89 148.59 0)
 			(effects
 				(font
@@ -12730,15 +12631,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 354.33 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 354.33 87.63 0)
 			(effects
 				(font
@@ -12891,7 +12783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 285.75 237.49 0)
 			(effects
 				(font
@@ -12918,7 +12810,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 285.75 237.49 0)
 			(effects
 				(font
@@ -12969,7 +12861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 185.42 152.4 0)
 			(effects
 				(font
@@ -12996,7 +12888,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C21189"
 			(at 185.42 152.4 90)
 			(effects
 				(font
@@ -13047,7 +12939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 336.55 148.59 0)
 			(effects
 				(font
@@ -13074,7 +12966,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 336.55 148.59 0)
 			(effects
 				(font
@@ -13211,15 +13103,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 186.69 140.97 0)
 			(effects
 				(font
@@ -13394,15 +13277,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 345.44 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 345.44 190.5 0)
 			(effects
 				(font
@@ -13823,15 +13697,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C7466043"
 			(at 88.9 137.16 0)
 			(effects
@@ -13976,7 +13841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 344.17 148.59 0)
 			(effects
 				(font
@@ -14003,7 +13868,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 344.17 148.59 0)
 			(effects
 				(font
@@ -14256,15 +14121,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 138.43 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C7466043"
 			(at 138.43 226.06 0)
 			(effects
@@ -14409,7 +14265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 242.57 148.59 0)
 			(effects
 				(font
@@ -14436,7 +14292,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C23630"
 			(at 242.57 148.59 0)
 			(effects
 				(font

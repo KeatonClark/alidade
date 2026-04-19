@@ -4708,15 +4708,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 260.35 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 267.716 74.676 0)
 			(effects
@@ -4789,15 +4780,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 287.02 86.36 0)
 			(effects
 				(font
@@ -4886,15 +4868,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 142.24 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 134.874 105.156 0)
 			(effects
@@ -4967,15 +4940,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 267.97 71.12 0)
 			(effects
 				(font
@@ -5061,15 +5025,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 172.72 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 172.72 97.79 0)
 			(effects
@@ -5142,15 +5097,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 85.09 71.12 0)
 			(effects
 				(font
@@ -5242,15 +5188,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 104.14 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 96.774 74.676 0)
 			(effects
@@ -5322,15 +5259,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -5418,15 +5346,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 336.55 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 343.916 105.156 0)
 			(effects
@@ -5481,7 +5400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 248.92 217.17 0)
 			(effects
 				(font
@@ -5508,7 +5427,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C21189"
 			(at 248.92 217.17 90)
 			(effects
 				(font
@@ -5579,15 +5498,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 354.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 354.33 86.36 0)
 			(effects
 				(font
@@ -5675,15 +5585,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 115.57 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 115.57 116.84 0)
 			(effects
@@ -5736,7 +5637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 378.46 102.87 0)
 			(effects
 				(font
@@ -5763,7 +5664,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 378.46 102.87 0)
 			(effects
 				(font
@@ -5814,7 +5715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 248.92 219.71 0)
 			(effects
 				(font
@@ -5841,7 +5742,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C21189"
 			(at 248.92 219.71 90)
 			(effects
 				(font
@@ -5919,7 +5820,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "~"
 			(at 260.35 204.47 0)
 			(effects
 				(font
@@ -6020,15 +5921,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 279.4 116.84 0)
 			(effects
 				(font
@@ -6247,15 +6139,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 287.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 287.02 71.12 0)
 			(effects
@@ -6327,15 +6210,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 317.5 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 317.5 86.36 0)
 			(effects
 				(font
@@ -6424,15 +6298,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 344.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 344.17 101.6 0)
 			(effects
@@ -6501,15 +6366,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 153.67 116.84 0)
 			(effects
 				(font
@@ -6595,15 +6451,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 325.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 325.12 101.6 0)
 			(effects
@@ -6655,7 +6502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 248.92 222.25 0)
 			(effects
 				(font
@@ -6682,7 +6529,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C21189"
 			(at 248.92 222.25 90)
 			(effects
 				(font
@@ -6753,15 +6600,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 317.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 317.5 71.12 0)
 			(effects
 				(font
@@ -6850,15 +6688,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 115.57 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 115.57 71.12 0)
 			(effects
@@ -6927,15 +6756,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 77.47 101.6 0)
 			(effects
 				(font
@@ -7023,15 +6843,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 298.45 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 305.816 105.156 0)
 			(effects
@@ -7087,7 +6898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 43.18 118.11 0)
 			(effects
 				(font
@@ -7114,7 +6925,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 43.18 118.11 0)
 			(effects
 				(font
@@ -7183,15 +6994,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 267.97 116.84 0)
 			(effects
 				(font
@@ -7280,15 +7082,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 161.29 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 153.924 120.396 0)
 			(effects
@@ -7360,15 +7153,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 153.67 86.36 0)
 			(effects
 				(font
@@ -7457,15 +7241,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 161.29 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 153.924 89.916 0)
 			(effects
@@ -7521,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 43.18 72.39 0)
 			(effects
 				(font
@@ -7548,7 +7323,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 43.18 72.39 0)
 			(effects
 				(font
@@ -7619,15 +7394,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 354.33 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 354.33 101.6 0)
 			(effects
 				(font
@@ -7719,15 +7485,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 180.34 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 172.974 86.106 0)
 			(effects
@@ -7782,7 +7539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 173.99 204.47 0)
 			(effects
 				(font
@@ -7809,7 +7566,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 173.99 204.47 0)
 			(effects
 				(font
@@ -7877,15 +7634,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 134.62 86.36 0)
 			(effects
 				(font
@@ -7973,15 +7721,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 260.35 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 267.716 120.396 0)
 			(effects
@@ -8053,15 +7792,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 134.62 101.6 0)
 			(effects
 				(font
@@ -8142,15 +7872,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 123.19 71.12 0)
 			(effects
 				(font
@@ -8240,7 +7961,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "~"
 			(at 137.16 250.19 0)
 			(effects
 				(font
@@ -8415,15 +8136,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 67.31 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 59.944 105.156 0)
 			(effects
@@ -8496,15 +8208,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 344.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 344.17 86.36 0)
 			(effects
 				(font
@@ -8590,15 +8293,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 361.95 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 361.95 101.6 0)
 			(effects
@@ -8671,15 +8365,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 85.09 101.6 0)
 			(effects
 				(font
@@ -8771,15 +8456,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 104.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 96.774 89.916 0)
 			(effects
@@ -8834,7 +8510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 180.34 204.47 0)
 			(effects
 				(font
@@ -8861,7 +8537,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 180.34 204.47 0)
 			(effects
 				(font
@@ -8930,15 +8606,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 306.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 306.07 116.84 0)
 			(effects
 				(font
@@ -9024,15 +8691,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 153.67 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 153.67 71.12 0)
 			(effects
@@ -9105,15 +8763,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 123.19 101.6 0)
 			(effects
 				(font
@@ -9204,15 +8853,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 279.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 286.766 89.916 0)
 			(effects
@@ -9285,15 +8925,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 361.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 361.95 71.12 0)
 			(effects
 				(font
@@ -9381,15 +9012,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 336.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 343.916 74.676 0)
 			(effects
@@ -9464,15 +9086,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 260.35 101.6 0)
 			(effects
 				(font
@@ -9564,15 +9177,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 67.31 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 59.944 74.676 0)
 			(effects
@@ -9645,15 +9249,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 267.97 101.6 0)
 			(effects
 				(font
@@ -9739,15 +9334,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 325.12 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 325.12 71.12 0)
 			(effects
@@ -9816,15 +9402,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 115.57 86.36 0)
 			(effects
 				(font
@@ -9910,15 +9487,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 96.52 71.12 0)
 			(effects
@@ -9988,15 +9556,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 172.72 82.55 0)
 			(effects
 				(font
@@ -10077,15 +9636,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -10177,15 +9727,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 67.31 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 59.944 89.916 0)
 			(effects
@@ -10257,15 +9798,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 248.92 97.79 0)
 			(effects
 				(font
@@ -10353,15 +9885,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 241.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 248.666 86.106 0)
 			(effects
@@ -10417,7 +9940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 43.18 87.63 0)
 			(effects
 				(font
@@ -10444,7 +9967,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 43.18 87.63 0)
 			(effects
 				(font
@@ -10516,15 +10039,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 161.29 101.6 0)
 			(effects
 				(font
@@ -10613,15 +10127,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 287.02 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 287.02 101.6 0)
 			(effects
@@ -10691,15 +10196,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 325.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 325.12 86.36 0)
 			(effects
 				(font
@@ -10786,7 +10282,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "~"
 			(at 66.04 250.19 0)
 			(effects
 				(font
@@ -10895,15 +10391,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 336.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 343.916 89.916 0)
 			(effects
@@ -10987,15 +10474,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 142.24 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 134.874 120.396 0)
 			(effects
@@ -11070,15 +10548,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 241.3 97.79 0)
 			(effects
 				(font
@@ -11300,15 +10769,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 161.29 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 153.924 74.676 0)
 			(effects
@@ -11428,7 +10888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 176.53 222.25 0)
 			(effects
 				(font
@@ -11455,7 +10915,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C21189"
 			(at 176.53 222.25 90)
 			(effects
 				(font
@@ -11524,15 +10984,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 134.62 71.12 0)
 			(effects
 				(font
@@ -11747,15 +11198,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 96.52 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 96.52 86.36 0)
 			(effects
@@ -11807,7 +11249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 176.53 219.71 0)
 			(effects
 				(font
@@ -11834,7 +11276,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C21189"
 			(at 176.53 219.71 90)
 			(effects
 				(font
@@ -11911,15 +11353,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 77.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 77.47 71.12 0)
 			(effects
@@ -11972,7 +11405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 378.46 118.11 0)
 			(effects
 				(font
@@ -11999,7 +11432,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 378.46 118.11 0)
 			(effects
 				(font
@@ -12051,7 +11484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 43.18 102.87 0)
 			(effects
 				(font
@@ -12078,7 +11511,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 43.18 102.87 0)
 			(effects
 				(font
@@ -12154,15 +11587,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 77.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 77.47 86.36 0)
 			(effects
@@ -12214,7 +11638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 252.73 204.47 0)
 			(effects
 				(font
@@ -12241,7 +11665,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 252.73 204.47 0)
 			(effects
 				(font
@@ -12310,15 +11734,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 267.97 86.36 0)
 			(effects
 				(font
@@ -12406,7 +11821,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "~"
 			(at 115.57 250.19 0)
 			(effects
 				(font
@@ -12488,15 +11903,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 59.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 59.69 101.6 0)
 			(effects
@@ -12566,15 +11972,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 361.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 361.95 86.36 0)
 			(effects
 				(font
@@ -12662,15 +12059,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 279.4 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 286.766 74.676 0)
 			(effects
@@ -12745,15 +12133,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 298.45 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 298.45 86.36 0)
 			(effects
 				(font
@@ -13036,15 +12415,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 59.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 59.69 86.36 0)
 			(effects
@@ -13096,7 +12466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 246.38 204.47 0)
 			(effects
 				(font
@@ -13123,7 +12493,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 246.38 204.47 0)
 			(effects
 				(font
@@ -13200,15 +12570,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 306.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 306.07 86.36 0)
 			(effects
@@ -13277,15 +12638,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 134.62 116.84 0)
 			(effects
 				(font
@@ -13374,15 +12726,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 123.19 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 115.824 120.396 0)
 			(effects
@@ -13463,15 +12806,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 344.17 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 344.17 71.12 0)
 			(effects
@@ -13541,15 +12875,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 287.02 116.84 0)
 			(effects
 				(font
@@ -13638,15 +12963,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 85.09 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 77.724 89.916 0)
 			(effects
@@ -13718,15 +13034,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 153.67 101.6 0)
 			(effects
 				(font
@@ -13812,15 +13119,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 306.07 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 306.07 101.6 0)
 			(effects
@@ -13890,15 +13188,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 306.07 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 306.07 71.12 0)
 			(effects
 				(font
@@ -13986,15 +13275,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 279.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 286.766 105.156 0)
 			(effects
@@ -14074,15 +13354,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 96.52 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 96.52 101.6 0)
 			(effects
@@ -14154,15 +13425,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 354.33 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 354.33 71.12 0)
 			(effects
 				(font
@@ -14254,15 +13516,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 104.14 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 96.774 105.156 0)
 			(effects
@@ -14342,15 +13595,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 248.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 248.92 82.55 0)
 			(effects
@@ -14402,7 +13646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 176.53 217.17 0)
 			(effects
 				(font
@@ -14429,7 +13673,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C21189"
 			(at 176.53 217.17 90)
 			(effects
 				(font
@@ -14501,15 +13745,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 142.24 86.36 0)
 			(effects
 				(font
@@ -14665,15 +13900,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 260.35 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 267.716 89.916 0)
 			(effects
@@ -14756,15 +13982,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 317.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 324.866 105.156 0)
 			(effects
@@ -14820,7 +14037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 378.46 87.63 0)
 			(effects
 				(font
@@ -14847,7 +14064,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 378.46 87.63 0)
 			(effects
 				(font
@@ -14919,15 +14136,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 180.34 97.79 0)
 			(effects
 				(font
@@ -15018,15 +14226,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 298.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 305.816 120.396 0)
 			(effects
@@ -15082,7 +14281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SMD_0603"
+		(property "Footprint" "Alidade:0603"
 			(at 378.46 72.39 0)
 			(effects
 				(font
@@ -15109,7 +14308,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "C25804"
 			(at 378.46 72.39 0)
 			(effects
 				(font
@@ -15180,15 +14379,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 298.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
 			(at 298.45 71.12 0)
 			(effects
 				(font
@@ -15277,15 +14467,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 59.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "~"
 			(at 59.69 71.12 0)
 			(effects
@@ -15364,7 +14545,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "~"
 			(at 187.96 204.47 0)
 			(effects
 				(font
@@ -15474,15 +14655,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 123.19 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C8590"
 			(at 115.824 89.916 0)
 			(effects
@@ -15565,7 +14737,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "LCSC Part #" "~"
 			(at 44.45 250.19 0)
 			(effects
 				(font

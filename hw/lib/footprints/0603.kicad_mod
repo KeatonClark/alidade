@@ -1,4 +1,4 @@
-(footprint "SMD_0603"
+(footprint "0603"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SMD_0603"
+	(property "Value" "0603"
 		(at 0 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
