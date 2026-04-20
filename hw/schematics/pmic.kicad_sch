@@ -1319,6 +1319,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC Part #" "C7466043"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
@@ -2210,6 +2219,15 @@
 					(font
 						(size 1.27 1.27)
 					)
+				)
+			)
+			(property "LCSC Part #" "C2848620"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
@@ -7059,7 +7077,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uH"
 			(at 44.4181 145.034 90)
 			(effects
 				(font
@@ -7067,7 +7085,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 44.45 143.51 0)
 			(effects
 				(font
@@ -7295,6 +7313,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7466043"
+			(at 266.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "189fa781-2eff-4c7f-85e1-82d4c94db1eb")
 		)
@@ -7454,7 +7481,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C2848620"
+		(property "LCSC Part #" "C2848620"
 			(at 166.37 63.5 0)
 			(effects
 				(font
@@ -7571,6 +7598,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 289.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7466043"
 			(at 289.56 43.18 0)
 			(effects
 				(font
@@ -7779,7 +7815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 367.03 148.59 0)
 			(effects
 				(font
@@ -7798,6 +7834,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 367.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 367.03 148.59 0)
 			(effects
 				(font
@@ -7848,7 +7893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 265.43 148.59 0)
 			(effects
 				(font
@@ -7867,6 +7912,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 265.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 265.43 148.59 0)
 			(effects
 				(font
@@ -7927,7 +7981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 271.78 45.72 0)
 			(effects
 				(font
@@ -7987,7 +8041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 374.65 148.59 0)
 			(effects
 				(font
@@ -8006,6 +8060,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 374.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 374.65 148.59 0)
 			(effects
 				(font
@@ -8187,7 +8250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 212.09 236.22 0)
 			(effects
 				(font
@@ -8206,6 +8269,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.09 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
 			(at 212.09 236.22 0)
 			(effects
 				(font
@@ -8246,7 +8318,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uH"
 			(at 139.446 148.59 90)
 			(effects
 				(font
@@ -8254,7 +8326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 139.7 147.32 0)
 			(effects
 				(font
@@ -8409,6 +8481,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 360.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7466043"
 			(at 360.68 44.45 0)
 			(effects
 				(font
@@ -8581,6 +8662,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7466043"
+			(at 86.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "189fa781-2eff-4c7f-85e1-82d4c94db1ed")
 		)
@@ -8716,7 +8806,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 273.05 148.59 0)
 			(effects
 				(font
@@ -8735,6 +8825,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 273.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 273.05 148.59 0)
 			(effects
 				(font
@@ -8850,7 +8949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 355.6 49.53 0)
 			(effects
 				(font
@@ -8870,6 +8969,15 @@
 		)
 		(property "Description" ""
 			(at 355.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 355.6 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9005,6 +9113,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 77.47 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7466043"
 			(at 77.47 224.79 0)
 			(effects
 				(font
@@ -9169,6 +9286,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 191.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7466043"
 			(at 191.77 45.72 0)
 			(effects
 				(font
@@ -9377,7 +9503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 257.81 148.59 0)
 			(effects
 				(font
@@ -9396,6 +9522,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 257.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 257.81 148.59 0)
 			(effects
 				(font
@@ -9446,7 +9581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 351.79 148.59 0)
 			(effects
 				(font
@@ -9465,6 +9600,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 351.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 351.79 148.59 0)
 			(effects
 				(font
@@ -9712,7 +9856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 250.19 148.59 0)
 			(effects
 				(font
@@ -9731,6 +9875,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 250.19 148.59 0)
 			(effects
 				(font
@@ -9846,7 +9999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 359.41 148.59 0)
 			(effects
 				(font
@@ -9865,6 +10018,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 359.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 359.41 148.59 0)
 			(effects
 				(font
@@ -9914,7 +10076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 284.48 48.26 0)
 			(effects
 				(font
@@ -9934,6 +10096,15 @@
 		)
 		(property "Description" ""
 			(at 284.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 284.48 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,6 +10175,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7466043"
 			(at 48.26 138.43 0)
 			(effects
 				(font
@@ -10147,7 +10327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 205.74 236.22 0)
 			(effects
 				(font
@@ -10166,6 +10346,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
 			(at 205.74 236.22 0)
 			(effects
 				(font
@@ -10216,7 +10405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 142.24 153.67 0)
 			(effects
 				(font
@@ -10236,6 +10425,15 @@
 		)
 		(property "Description" ""
 			(at 142.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21189"
+			(at 142.24 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10415,7 +10613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 295.91 148.59 0)
 			(effects
 				(font
@@ -10434,6 +10632,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 295.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 295.91 148.59 0)
 			(effects
 				(font
@@ -10484,7 +10691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 321.31 148.59 0)
 			(effects
 				(font
@@ -10503,6 +10710,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 321.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15849"
 			(at 321.31 148.59 0)
 			(effects
 				(font
@@ -10619,7 +10835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 46.99 149.86 0)
 			(effects
 				(font
@@ -10639,6 +10855,15 @@
 		)
 		(property "Description" ""
 			(at 46.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25819"
+			(at 46.99 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10688,7 +10913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 288.29 148.59 0)
 			(effects
 				(font
@@ -10707,6 +10932,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 288.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 288.29 148.59 0)
 			(effects
 				(font
@@ -10822,7 +11056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 87.63 148.59 0)
 			(effects
 				(font
@@ -10842,6 +11076,15 @@
 		)
 		(property "Description" ""
 			(at 87.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25819"
+			(at 87.63 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,7 +11134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 328.93 148.59 0)
 			(effects
 				(font
@@ -10910,6 +11153,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 328.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23630"
 			(at 328.93 148.59 0)
 			(effects
 				(font
@@ -10968,7 +11220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 342.9 46.99 0)
 			(effects
 				(font
@@ -11028,7 +11280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 234.95 148.59 0)
 			(effects
 				(font
@@ -11047,6 +11299,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 234.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15849"
 			(at 234.95 148.59 0)
 			(effects
 				(font
@@ -11097,7 +11358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 279.4 237.49 0)
 			(effects
 				(font
@@ -11116,6 +11377,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 279.4 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
 			(at 279.4 237.49 0)
 			(effects
 				(font
@@ -11190,7 +11460,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C2848620"
+		(property "LCSC Part #" "C2848620"
 			(at 60.96 64.77 0)
 			(effects
 				(font
@@ -11307,6 +11577,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 293.37 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7466043"
 			(at 293.37 237.49 0)
 			(effects
 				(font
@@ -11440,7 +11719,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uH"
 			(at 84.582 144.018 90)
 			(effects
 				(font
@@ -11448,7 +11727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 85.09 142.24 0)
 			(effects
 				(font
@@ -11517,7 +11796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 382.27 148.59 0)
 			(effects
 				(font
@@ -11536,6 +11815,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 382.27 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 382.27 148.59 0)
 			(effects
 				(font
@@ -11746,6 +12034,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7466043"
+			(at 287.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "189fa781-2eff-4c7f-85e1-82d4c94db1f0")
 		)
@@ -11946,7 +12243,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 280.67 148.59 0)
 			(effects
 				(font
@@ -11965,6 +12262,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 280.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 280.67 148.59 0)
 			(effects
 				(font
@@ -12015,7 +12321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 303.53 148.59 0)
 			(effects
 				(font
@@ -12034,6 +12340,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 303.53 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15849"
 			(at 303.53 148.59 0)
 			(effects
 				(font
@@ -12140,7 +12455,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uH"
 			(at 182.372 147.32 90)
 			(effects
 				(font
@@ -12148,7 +12463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 182.88 146.05 0)
 			(effects
 				(font
@@ -12217,7 +12532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 389.89 148.59 0)
 			(effects
 				(font
@@ -12236,6 +12551,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 389.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15849"
 			(at 389.89 148.59 0)
 			(effects
 				(font
@@ -12307,6 +12631,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 354.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7466043"
 			(at 354.33 87.63 0)
 			(effects
 				(font
@@ -12450,7 +12783,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 285.75 237.49 0)
 			(effects
 				(font
@@ -12469,6 +12802,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 285.75 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
 			(at 285.75 237.49 0)
 			(effects
 				(font
@@ -12519,7 +12861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 185.42 152.4 0)
 			(effects
 				(font
@@ -12539,6 +12881,15 @@
 		)
 		(property "Description" ""
 			(at 185.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21189"
+			(at 185.42 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 336.55 148.59 0)
 			(effects
 				(font
@@ -12607,6 +12958,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 336.55 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 336.55 148.59 0)
 			(effects
 				(font
@@ -12743,6 +13103,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7466043"
 			(at 186.69 140.97 0)
 			(effects
 				(font
@@ -12916,6 +13285,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7466043"
+			(at 345.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "31"
 			(uuid "22c86f85-80af-488b-831d-52a4000b99c0")
 		)
@@ -13072,6 +13450,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7466043"
 			(at 143.51 142.24 0)
 			(effects
 				(font
@@ -13310,6 +13697,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7466043"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "31"
 			(uuid "22c86f85-80af-488b-831d-52a4000b99c1")
 		)
@@ -13445,7 +13841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 344.17 148.59 0)
 			(effects
 				(font
@@ -13464,6 +13860,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 344.17 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C96446"
 			(at 344.17 148.59 0)
 			(effects
 				(font
@@ -13535,6 +13940,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7466043"
 			(at 219.71 236.22 0)
 			(effects
 				(font
@@ -13707,6 +14121,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7466043"
+			(at 138.43 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "31"
 			(uuid "22c86f85-80af-488b-831d-52a4000b99c2")
 		)
@@ -13842,7 +14265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 242.57 148.59 0)
 			(effects
 				(font
@@ -13861,6 +14284,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 242.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23630"
 			(at 242.57 148.59 0)
 			(effects
 				(font
