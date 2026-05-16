@@ -9,6 +9,6 @@ kikit.overrideAttrs (old: rec {
     owner = "INTI-CMNB";
     repo = pname;
     rev = version;
-    sha256 = "sha256-4ax/i7cA8xFEGxMtbWqcIJIC+IIDyK8Nft9hagRytLE=";
+    sha256 = "sha256-IBma9TRZ/x5m3vErvK+Z1BRWGD2ViOe7rdOGYRiIzHE=";
   };
 })
