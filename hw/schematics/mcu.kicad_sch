@@ -3921,28 +3921,6 @@
 		)
 		(uuid "fd33ea53-f5f7-43e5-8847-8e93356e3b09")
 	)
-	(hierarchical_label "rCRESET"
-		(shape output)
-		(at 351.79 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "007b3156-11d3-488e-abbe-6c8039f54f89")
-	)
-	(hierarchical_label "CRESET"
-		(shape output)
-		(at 298.45 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "025b6a88-08b0-45e7-89d2-9c8243691daa")
-	)
 	(hierarchical_label "PMICSCL"
 		(shape output)
 		(at 298.45 170.18 180)
@@ -3954,7 +3932,7 @@
 		)
 		(uuid "06ecce3c-a06f-4b41-9f1e-d88d781f40a0")
 	)
-	(hierarchical_label "rFPGASI"
+	(hierarchical_label "rMISO"
 		(shape output)
 		(at 232.41 73.66 180)
 		(effects
@@ -3965,18 +3943,7 @@
 		)
 		(uuid "0941edac-1850-4ab4-a526-4bb6e677321b")
 	)
-	(hierarchical_label "CDONE"
-		(shape input)
-		(at 298.45 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e703a70-c5bb-4d32-a7d5-622a9396974e")
-	)
-	(hierarchical_label "rFPGASCK"
+	(hierarchical_label "rSCK"
 		(shape bidirectional)
 		(at 232.41 81.28 180)
 		(effects
@@ -3987,7 +3954,7 @@
 		)
 		(uuid "52114502-b362-4098-8cf2-03fb41b71b39")
 	)
-	(hierarchical_label "rFPGACS"
+	(hierarchical_label "rCS"
 		(shape bidirectional)
 		(at 232.41 71.12 180)
 		(effects
@@ -4009,7 +3976,7 @@
 		)
 		(uuid "6ba95a25-04d5-4e56-941d-c4d8fd05c3c3")
 	)
-	(hierarchical_label "FPGACS"
+	(hierarchical_label "CS"
 		(shape bidirectional)
 		(at 154.94 72.39 180)
 		(effects
@@ -4042,18 +4009,7 @@
 		)
 		(uuid "9fa93c6f-5751-43eb-8cab-0d863b8236ca")
 	)
-	(hierarchical_label "rCDONE"
-		(shape input)
-		(at 351.79 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2b28976-cc26-449d-b2cb-f924c215e303")
-	)
-	(hierarchical_label "FPGASO"
+	(hierarchical_label "MISO"
 		(shape input)
 		(at 154.94 74.93 180)
 		(effects
@@ -4064,7 +4020,7 @@
 		)
 		(uuid "a8e1a617-72c2-4f23-8e4b-cb1f14ad6d56")
 	)
-	(hierarchical_label "FPGASI"
+	(hierarchical_label "MOSI"
 		(shape output)
 		(at 154.94 77.47 180)
 		(effects
@@ -4075,7 +4031,7 @@
 		)
 		(uuid "b85bd97f-9f79-4885-a2d2-652b1a981a6c")
 	)
-	(hierarchical_label "FPGASCK"
+	(hierarchical_label "SCK"
 		(shape bidirectional)
 		(at 154.94 82.55 180)
 		(effects
@@ -4108,7 +4064,7 @@
 		)
 		(uuid "eac69f80-794a-4a8a-b9b0-8151ab4ff635")
 	)
-	(hierarchical_label "rFPGASO"
+	(hierarchical_label "rMOSI"
 		(shape input)
 		(at 232.41 76.2 180)
 		(effects
