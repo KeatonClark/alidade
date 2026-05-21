@@ -1218,7 +1218,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -5.08 -2.54 0)
 				(length 3.81)
 				(name "Pin_2"
@@ -4834,7 +4834,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "SW1"
@@ -4901,7 +4901,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "SW2"
