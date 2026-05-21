@@ -2,7 +2,7 @@ name: Hardware
 
 on:
   push:
-    branches: ["main"]
+    branches: ["**"]
   pull_request:
 
 jobs:
@@ -14,16 +14,17 @@ jobs:
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
 
-
       - name: Build Hardware Package
         run: nix build .#hw -L
+
+      - name: Parse ERC Results
+        run: python3 .github/scripts/parse_erc.py result/share/alidade/erc/alidade-erc.csv
 
       - name: Gather Outputs
         run: tar -czf alidade-hw-pkg.tar.gz -C result .
 
-      - uses: actions/upload-artifact@v7
+      - uses: actions/upload-artifact@v4
         with:
+          name: alidade-hw-pkg
           path: alidade-hw-pkg.tar.gz
-          archive: false
           retention-days: 7
-      

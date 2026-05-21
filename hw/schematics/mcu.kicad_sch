@@ -1637,8 +1637,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "TAG Connect Receptacle"
+				(at 0 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2101,7 +2101,7 @@
 		)
 		(uuid "b0c1e410-8194-4b59-9302-702d4213d96c")
 	)
-	(text "Port 1\nPMICSDA/SCL pulled up on PMIC sheet\nCRESET/CDONE pulled up on FPGA sheet"
+	(text "Port 1\nPMICSDA/SCL pulled up on PMIC sheet"
 		(exclude_from_sim no)
 		(at 333.502 149.606 0)
 		(effects
@@ -2326,16 +2326,16 @@
 		(uuid "1966730f-d469-4a4c-a7ec-dc48a66ba18a")
 	)
 	(no_connect
-		(at 358.14 55.88)
-		(uuid "1b41e382-5913-41d6-ba5f-8a8f4c4973ad")
-	)
-	(no_connect
 		(at 332.74 133.35)
 		(uuid "1e1dfa32-01bc-469a-b1c4-c1229987ddb0")
 	)
 	(no_connect
 		(at 369.57 88.9)
 		(uuid "1fb94044-458f-4715-b6ad-a0697a36db99")
+	)
+	(no_connect
+		(at 298.45 177.8)
+		(uuid "23695c26-44dc-4ca8-ac50-8a37dcdbf799")
 	)
 	(no_connect
 		(at 351.79 198.12)
@@ -2348,6 +2348,14 @@
 	(no_connect
 		(at 298.45 180.34)
 		(uuid "418222df-57d8-4883-8560-aab01852b62a")
+	)
+	(no_connect
+		(at 358.14 53.34)
+		(uuid "42169423-d08a-452b-ac96-0b87100a0796")
+	)
+	(no_connect
+		(at 240.03 71.12)
+		(uuid "42b314e6-ac62-40ac-a210-8c96b41c5161")
 	)
 	(no_connect
 		(at 351.79 185.42)
@@ -2402,20 +2410,16 @@
 		(uuid "74a7a90b-4460-44c0-96b2-cdcda91bec52")
 	)
 	(no_connect
+		(at 351.79 177.8)
+		(uuid "7874816b-ca06-44ca-8e29-8b6da7c2a692")
+	)
+	(no_connect
 		(at 369.57 127)
 		(uuid "7aa9d03c-f637-43c2-9cf6-fb52f9bde2bc")
 	)
 	(no_connect
-		(at 328.93 48.26)
-		(uuid "7ae3577d-99d0-4608-b86b-3e456378aa14")
-	)
-	(no_connect
 		(at 332.74 95.25)
 		(uuid "82ea46a6-c3aa-4130-a2d5-0a8d7bd7dec4")
-	)
-	(no_connect
-		(at 358.14 48.26)
-		(uuid "8347886d-22c1-4003-9cfa-8bf906645524")
 	)
 	(no_connect
 		(at 369.57 114.3)
@@ -2430,16 +2434,8 @@
 		(uuid "93bf3c9a-8626-4252-a8fc-cd51b273b626")
 	)
 	(no_connect
-		(at 358.14 53.34)
-		(uuid "94afe7ca-f966-4110-ac27-d311c78433da")
-	)
-	(no_connect
 		(at 369.57 109.22)
 		(uuid "977d3c7e-2dff-4321-8a5b-5ebeea20207d")
-	)
-	(no_connect
-		(at 358.14 45.72)
-		(uuid "9a0c3e46-b283-4547-8843-2fecf99a1970")
 	)
 	(no_connect
 		(at 369.57 124.46)
@@ -2448,6 +2444,10 @@
 	(no_connect
 		(at 332.74 85.09)
 		(uuid "a10cc843-4af9-4a53-b0e5-2cda6935513c")
+	)
+	(no_connect
+		(at 298.45 175.26)
+		(uuid "a61d2ea9-3d86-458b-bb4d-22c91bcdd43d")
 	)
 	(no_connect
 		(at 298.45 190.5)
@@ -2510,20 +2510,16 @@
 		(uuid "d7004e0f-4607-4a8c-9b46-a90fcb6c615d")
 	)
 	(no_connect
+		(at 162.56 72.39)
+		(uuid "d7cd18b5-6f0a-493d-a424-5178ec5db98f")
+	)
+	(no_connect
+		(at 358.14 55.88)
+		(uuid "d9ceee8b-66ef-44f3-b236-7f2a37813a02")
+	)
+	(no_connect
 		(at 369.57 119.38)
 		(uuid "dabd3648-dceb-4abe-bac3-3c297ccbd069")
-	)
-	(no_connect
-		(at 328.93 50.8)
-		(uuid "df2c7bc2-ace8-46bf-8b1b-36ba0ee34cc2")
-	)
-	(no_connect
-		(at 358.14 50.8)
-		(uuid "e1c51ebc-8bfa-490f-b9e3-a65db9e55720")
-	)
-	(no_connect
-		(at 328.93 45.72)
-		(uuid "e462d3b2-3ffa-4fb7-8d9c-3d7be6547c32")
 	)
 	(no_connect
 		(at 369.57 121.92)
@@ -2560,6 +2556,10 @@
 	(no_connect
 		(at 369.57 96.52)
 		(uuid "f21314dd-51b6-497c-a6f1-39c7113933aa")
+	)
+	(no_connect
+		(at 351.79 175.26)
+		(uuid "f2811ec2-264f-4ed8-9acc-757c90b0eab9")
 	)
 	(wire
 		(pts
@@ -2830,16 +2830,6 @@
 			(type default)
 		)
 		(uuid "3995e8da-1073-41d0-be40-506f0f567e48")
-	)
-	(wire
-		(pts
-			(xy 154.94 72.39) (xy 162.56 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a063985-1a87-438d-a222-c77d72e6d15c")
 	)
 	(wire
 		(pts
@@ -3260,16 +3250,6 @@
 			(type default)
 		)
 		(uuid "9630d4a7-36eb-4cd9-b95e-77028d33e3ea")
-	)
-	(wire
-		(pts
-			(xy 232.41 71.12) (xy 240.03 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97198c29-ee21-498a-823b-e4a2a6254f35")
 	)
 	(wire
 		(pts
@@ -3921,7 +3901,7 @@
 		)
 		(uuid "fd33ea53-f5f7-43e5-8847-8e93356e3b09")
 	)
-	(hierarchical_label "PMICSCL"
+	(hierarchical_label "SCL"
 		(shape output)
 		(at 298.45 170.18 180)
 		(effects
@@ -3933,7 +3913,7 @@
 		(uuid "06ecce3c-a06f-4b41-9f1e-d88d781f40a0")
 	)
 	(hierarchical_label "rMISO"
-		(shape output)
+		(shape input)
 		(at 232.41 73.66 180)
 		(effects
 			(font
@@ -3943,8 +3923,52 @@
 		)
 		(uuid "0941edac-1850-4ab4-a526-4bb6e677321b")
 	)
+	(hierarchical_label "rFAULT"
+		(shape input)
+		(at 358.14 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1094b186-5a1d-4fe6-bc5b-759ce353e49c")
+	)
+	(hierarchical_label "FAULT"
+		(shape input)
+		(at 328.93 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b34ea8d-722b-412b-afea-039e2f8ebd67")
+	)
+	(hierarchical_label "rADCCS"
+		(shape output)
+		(at 358.14 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "452fae66-58e3-4fdf-87c1-3469639624b0")
+	)
+	(hierarchical_label "DRDY"
+		(shape input)
+		(at 328.93 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f2f0dbf-9105-4802-b607-7008052b8635")
+	)
 	(hierarchical_label "rSCK"
-		(shape bidirectional)
+		(shape output)
 		(at 232.41 81.28 180)
 		(effects
 			(font
@@ -3954,18 +3978,7 @@
 		)
 		(uuid "52114502-b362-4098-8cf2-03fb41b71b39")
 	)
-	(hierarchical_label "rCS"
-		(shape bidirectional)
-		(at 232.41 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62ef5706-c4e5-4be6-8834-1bd5ff415651")
-	)
-	(hierarchical_label "rPMICSCL"
+	(hierarchical_label "rSCL"
 		(shape output)
 		(at 351.79 170.18 180)
 		(effects
@@ -3975,17 +3988,6 @@
 			(justify right)
 		)
 		(uuid "6ba95a25-04d5-4e56-941d-c4d8fd05c3c3")
-	)
-	(hierarchical_label "CS"
-		(shape bidirectional)
-		(at 154.94 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "78e358d0-f2f0-4443-8cad-c02cdd44d5ab")
 	)
 	(hierarchical_label "rPMICINT"
 		(shape input)
@@ -4020,6 +4022,17 @@
 		)
 		(uuid "a8e1a617-72c2-4f23-8e4b-cb1f14ad6d56")
 	)
+	(hierarchical_label "rDRDY"
+		(shape input)
+		(at 358.14 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aaa29b57-17b5-483f-915e-9897c066b907")
+	)
 	(hierarchical_label "MOSI"
 		(shape output)
 		(at 154.94 77.47 180)
@@ -4032,7 +4045,7 @@
 		(uuid "b85bd97f-9f79-4885-a2d2-652b1a981a6c")
 	)
 	(hierarchical_label "SCK"
-		(shape bidirectional)
+		(shape output)
 		(at 154.94 82.55 180)
 		(effects
 			(font
@@ -4042,7 +4055,18 @@
 		)
 		(uuid "cd370ffe-6931-4098-9de9-1df78671af65")
 	)
-	(hierarchical_label "rPMICSDA"
+	(hierarchical_label "ADCCS"
+		(shape output)
+		(at 328.93 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdbbdaa5-c685-4204-bbdf-7d4f1542e941")
+	)
+	(hierarchical_label "rSDA"
 		(shape bidirectional)
 		(at 351.79 167.64 180)
 		(effects
@@ -4053,7 +4077,7 @@
 		)
 		(uuid "e028c07f-1f50-498c-9b64-b744cf0a9d94")
 	)
-	(hierarchical_label "PMICSDA"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 298.45 167.64 180)
 		(effects
@@ -4065,7 +4089,7 @@
 		(uuid "eac69f80-794a-4a8a-b9b0-8151ab4ff635")
 	)
 	(hierarchical_label "rMOSI"
-		(shape input)
+		(shape output)
 		(at 232.41 76.2 180)
 		(effects
 			(font
@@ -4523,7 +4547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TAG Connect Receptacle"
 			(at 168.91 143.51 0)
 			(effects
 				(font
@@ -6999,7 +7023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TAG Connect Receptacle"
 			(at 90.17 144.78 0)
 			(effects
 				(font
