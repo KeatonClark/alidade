@@ -5839,7 +5839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "032c5f52-069e-4c82-b363-3122c1cd9594")
-		(property "Reference" "rC15"
+		(property "Reference" "rC10"
 			(at 159.766 217.678 0)
 			(effects
 				(font
@@ -5893,7 +5893,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "rC15")
+					(reference "rC10")
 					(unit 1)
 				)
 			)
@@ -6357,7 +6357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d6dea96-2187-4ae9-bd41-bd6da20be91f")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 35.306 215.138 0)
 			(effects
 				(font
@@ -6411,7 +6411,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8947,7 +8947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d71391a-2ff2-4c92-96d0-f36831983a46")
-		(property "Reference" "rC13"
+		(property "Reference" "rC9"
 			(at 150.876 217.678 0)
 			(effects
 				(font
@@ -9001,7 +9001,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "rC13")
+					(reference "rC9")
 					(unit 1)
 				)
 			)
@@ -12137,7 +12137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9def37d5-e272-4798-bf01-af406edb6153")
-		(property "Reference" "R3"
+		(property "Reference" "R10"
 			(at 77.724 246.38 0)
 			(effects
 				(font
@@ -12191,7 +12191,7 @@
 		(instances
 			(project ""
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "R3")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12570,7 +12570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abeae039-dc54-4511-9382-96731aa7fd41")
-		(property "Reference" "rR3"
+		(property "Reference" "rR10"
 			(at 202.184 248.92 0)
 			(effects
 				(font
@@ -12624,7 +12624,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "rR3")
+					(reference "rR10")
 					(unit 1)
 				)
 			)
@@ -13168,7 +13168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bab091b9-74a3-4fa6-9435-f5e9e1341052")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 26.416 215.138 0)
 			(effects
 				(font
@@ -13222,7 +13222,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13237,7 +13237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb09932a-a388-4a9d-8427-826f4a4264af")
-		(property "Reference" "R5"
+		(property "Reference" "R11"
 			(at 77.724 254 0)
 			(effects
 				(font
@@ -13291,7 +13291,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "R5")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15242,7 +15242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5fead84-a399-4af1-a8b9-6d43242a29f6")
-		(property "Reference" "rR5"
+		(property "Reference" "rR11"
 			(at 202.184 256.54 0)
 			(effects
 				(font
@@ -15296,7 +15296,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "rR5")
+					(reference "rR11")
 					(unit 1)
 				)
 			)
