@@ -26,3 +26,5 @@ outputs:
   options:
     source: 
       - "schematic" 
+    local_script: false
+    overlay: false
