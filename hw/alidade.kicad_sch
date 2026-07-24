@@ -11,17 +11,6 @@
 		(company "Keaton Clark")
 	)
 	(lib_symbols)
-	(text "IDK what to do with these\nAny ideas?\nI would like to use the already available switches\nto activate these pins (by pulling to ground)"
-		(exclude_from_sim no)
-		(at 255.778 213.868 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 255 0 27 1)
-			)
-		)
-		(uuid "4199f709-3e38-48e6-b20e-4b7798d99e17")
-	)
 	(wire
 		(pts
 			(xy 173.99 154.94) (xy 194.31 154.94)
