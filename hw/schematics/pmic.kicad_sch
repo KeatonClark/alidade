@@ -10,7 +10,7 @@
 		(rev "1.0.0rc1")
 	)
 	(lib_symbols
-		(symbol "1V8_1"
+		(symbol "Alidade:AVDD"
 			(power)
 			(pin_names
 				(offset 0)
@@ -18,7 +18,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#1V8_"
+			(property "Reference" "#AVDD"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "1V8"
+			(property "Value" "AVDD"
 				(at 0 3.175 90)
 				(effects
 					(font
@@ -71,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1V8_1_0_1"
+			(symbol "AVDD_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -109,256 +109,12 @@
 					)
 				)
 			)
-			(symbol "1V8_1_1_1"
+			(symbol "AVDD_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
 					(hide yes)
-					(name "1V8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Alidade:1V8"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#1V8_"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "1V8"
-				(at 0 3.175 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1V8_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1V8_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "1V8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Alidade:3V3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#3V3_"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "3V3"
-				(at 0 3.175 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "3V3"
+					(name "AVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -639,6 +395,128 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Alidade:DVDD"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#DVDD"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "DVDD"
+				(at 0 3.175 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DVDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DVDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2981,7 +2859,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Alidade:r1V8"
+		(symbol "Alidade:rAVDD"
 			(power)
 			(pin_names
 				(offset 0)
@@ -2989,7 +2867,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#r1V8_"
+			(property "Reference" "#rAVDD"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2998,7 +2876,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "r1V8"
+			(property "Value" "rAVDD"
 				(at 0 3.175 90)
 				(effects
 					(font
@@ -3042,7 +2920,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "r1V8_0_1"
+			(symbol "rAVDD_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -3080,12 +2958,12 @@
 					)
 				)
 			)
-			(symbol "r1V8_1_1"
+			(symbol "rAVDD_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
 					(hide yes)
-					(name "r1V8"
+					(name "rAVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3103,7 +2981,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Alidade:r3V3"
+		(symbol "Alidade:rDVDD"
 			(power)
 			(pin_names
 				(offset 0)
@@ -3111,7 +2989,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#r3V3_"
+			(property "Reference" "#rDVDD"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -3120,7 +2998,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "r3V3"
+			(property "Value" "rDVDD"
 				(at 0 3.175 90)
 				(effects
 					(font
@@ -3164,7 +3042,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "r3V3_0_1"
+			(symbol "rDVDD_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -3202,12 +3080,12 @@
 					)
 				)
 			)
-			(symbol "r3V3_1_1"
+			(symbol "rDVDD_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
 					(hide yes)
-					(name "r3V3"
+					(name "rDVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3955,7 +3833,7 @@
 		)
 		(uuid "9dac1d64-3f24-4dbe-84dd-86c26c46e92d")
 	)
-	(text "3V3 Buck\nR2 = 0, VOUT2 = 0 (OFF)\nMust be configured after boot"
+	(text "AVDD Buck\nR2 = 0, VOUT2 = 0 (OFF)\nMust be configured after boot"
 		(exclude_from_sim no)
 		(at 169.672 126.746 0)
 		(effects
@@ -3965,7 +3843,7 @@
 		)
 		(uuid "af8d9781-a380-425a-8c10-756c362dc71d")
 	)
-	(text "1V8 Buck\nR1 = 47k, VOUT1 = 1v8"
+	(text "DVDD Buck\nR1 = 47k, VOUT1 = 1v8"
 		(exclude_from_sim no)
 		(at 71.374 125.222 0)
 		(effects
@@ -6701,7 +6579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:r1V8")
+		(lib_id "Alidade:rDVDD")
 		(at 290.83 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6710,7 +6588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07917a46-0a8f-4f2b-9978-abad7c19a111")
-		(property "Reference" "#r1V8_03"
+		(property "Reference" "#rDVDD0101"
 			(at 290.83 231.14 0)
 			(effects
 				(font
@@ -6719,7 +6597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "r1V8"
+		(property "Value" "rDVDD"
 			(at 290.83 222.25 0)
 			(effects
 				(font
@@ -6759,7 +6637,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/29a12dcc-0491-44a2-8290-cbef7c573a8c"
-					(reference "#r1V8_03")
+					(reference "#rDVDD0101")
 					(unit 1)
 				)
 			)
@@ -6833,7 +6711,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:1V8")
+		(lib_id "Alidade:DVDD")
 		(at 40.64 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6842,7 +6720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bd3bbcf-cb22-4161-9e73-038657faebcc")
-		(property "Reference" "#1V8_01"
+		(property "Reference" "#DVDD0102"
 			(at 40.64 142.24 0)
 			(effects
 				(font
@@ -6851,7 +6729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1V8"
+		(property "Value" "DVDD"
 			(at 40.64 133.35 0)
 			(effects
 				(font
@@ -6891,7 +6769,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/29a12dcc-0491-44a2-8290-cbef7c573a8c"
-					(reference "#1V8_01")
+					(reference "#DVDD0102")
 					(unit 1)
 				)
 			)
@@ -7796,7 +7674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:r3V3")
+		(lib_id "Alidade:rAVDD")
 		(at 179.07 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7805,7 +7683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a45273-6965-4888-b71b-3169de32fd20")
-		(property "Reference" "#r3V3_01"
+		(property "Reference" "#rAVDD0101"
 			(at 179.07 144.78 0)
 			(effects
 				(font
@@ -7814,7 +7692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "r3V3"
+		(property "Value" "rAVDD"
 			(at 179.07 135.89 0)
 			(effects
 				(font
@@ -7854,7 +7732,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/29a12dcc-0491-44a2-8290-cbef7c573a8c"
-					(reference "#r3V3_01")
+					(reference "#rAVDD0101")
 					(unit 1)
 				)
 			)
@@ -9205,7 +9083,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:r1V8")
+		(lib_id "Alidade:rDVDD")
 		(at 81.28 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9214,7 +9092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52e41860-60bc-4d72-84b1-1558e09970cc")
-		(property "Reference" "#r1V8_01"
+		(property "Reference" "#rDVDD0102"
 			(at 81.28 140.97 0)
 			(effects
 				(font
@@ -9223,7 +9101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "r1V8"
+		(property "Value" "rDVDD"
 			(at 81.28 132.08 0)
 			(effects
 				(font
@@ -9263,15 +9141,14 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/29a12dcc-0491-44a2-8290-cbef7c573a8c"
-					(reference "#r1V8_01")
+					(reference "#rDVDD0102")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "1V8_1")
-		(lib_id "Alidade:1V8")
+		(lib_id "Alidade:DVDD")
 		(at 217.17 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9280,7 +9157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "593149c2-cc14-4879-9084-c42b427a25e0")
-		(property "Reference" "#1V8_03"
+		(property "Reference" "#DVDD0101"
 			(at 217.17 232.41 0)
 			(effects
 				(font
@@ -9289,7 +9166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1V8"
+		(property "Value" "DVDD"
 			(at 217.17 223.52 0)
 			(effects
 				(font
@@ -9329,7 +9206,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/29a12dcc-0491-44a2-8290-cbef7c573a8c"
-					(reference "#1V8_03")
+					(reference "#DVDD0101")
 					(unit 1)
 				)
 			)
@@ -9963,7 +9840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:3V3")
+		(lib_id "Alidade:AVDD")
 		(at 135.89 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9972,7 +9849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78c6c5ce-ff06-4b52-9167-5c2ff686b2b7")
-		(property "Reference" "#3V3_01"
+		(property "Reference" "#AVDD0101"
 			(at 135.89 146.05 0)
 			(effects
 				(font
@@ -9981,7 +9858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "AVDD"
 			(at 135.89 137.16 0)
 			(effects
 				(font
@@ -10021,7 +9898,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/29a12dcc-0491-44a2-8290-cbef7c573a8c"
-					(reference "#3V3_01")
+					(reference "#AVDD0101")
 					(unit 1)
 				)
 			)
