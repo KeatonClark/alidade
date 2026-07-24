@@ -4599,6 +4599,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 207.01) (xy 271.78 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7c9318-421c-4605-9fda-a12bf2e3f5c2")
+	)
+	(wire
+		(pts
 			(xy 273.05 146.05) (xy 273.05 143.51)
 		)
 		(stroke
@@ -4939,16 +4949,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 207.01) (xy 331.47 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f08fa95-f9ef-4309-b669-13f4254a993e")
-	)
-	(wire
-		(pts
 			(xy 142.24 156.21) (xy 142.24 157.48)
 		)
 		(stroke
@@ -5036,16 +5036,6 @@
 			(type default)
 		)
 		(uuid "5df519a0-fb9a-4972-820f-380f73a7256e")
-	)
-	(wire
-		(pts
-			(xy 276.86 207.01) (xy 271.78 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f4b44ee-57b8-4ccb-aff7-bb9c35592a78")
 	)
 	(wire
 		(pts
@@ -5396,6 +5386,16 @@
 			(type default)
 		)
 		(uuid "8ee74b63-ddc3-4d02-882c-faefd0628b67")
+	)
+	(wire
+		(pts
+			(xy 325.12 207.01) (xy 331.47 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903f5c34-743b-477f-85ac-8370e9ade150")
 	)
 	(wire
 		(pts
@@ -6238,7 +6238,7 @@
 		(uuid "34332618-bfa3-4411-b818-4e412ed09c6e")
 	)
 	(label "VSYS"
-		(at 271.78 207.01 0)
+		(at 266.7 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6318,7 +6318,7 @@
 		(uuid "6929bca6-cf33-44f2-b667-aa1dcbe9e73d")
 	)
 	(label "rVSYS"
-		(at 331.47 207.01 0)
+		(at 325.12 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6548,7 +6548,7 @@
 		(uuid "f9fec7c4-7e8d-485a-910a-f3d7376631eb")
 	)
 	(hierarchical_label "SHPHLD"
-		(shape input)
+		(shape passive)
 		(at 201.93 246.38 180)
 		(effects
 			(font
@@ -6581,7 +6581,7 @@
 		(uuid "213791b5-4092-47f4-b94c-60dd3f49d62a")
 	)
 	(hierarchical_label "rSHPHLD"
-		(shape input)
+		(shape passive)
 		(at 275.59 247.65 180)
 		(effects
 			(font
@@ -10251,6 +10251,84 @@
 	)
 	(symbol
 		(lib_id "Alidade:R")
+		(at 274.32 207.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f3a092c-04d3-4ae0-bbe4-1ca6ccc9df79")
+		(property "Reference" "R15"
+			(at 272.796 203.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 274.32 205.232 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alidade:0603"
+			(at 274.32 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21189"
+			(at 274.32 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0ec5b24-9e61-48b1-88a8-a99192a8f1b0")
+		)
+		(pin "1"
+			(uuid "b89dee54-3d4b-42bf-a6bb-a85392613083")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/29a12dcc-0491-44a2-8290-cbef7c573a8c"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:R")
 		(at 87.63 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11288,6 +11366,84 @@
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/29a12dcc-0491-44a2-8290-cbef7c573a8c"
 					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:R")
+		(at 334.01 207.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2a5acf6-04e1-40e5-a916-94efa079ff86")
+		(property "Reference" "rR15"
+			(at 332.486 203.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 334.01 205.232 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alidade:0603"
+			(at 334.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21189"
+			(at 334.01 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "764fe5ba-0293-439c-b151-09e8c510bf92")
+		)
+		(pin "1"
+			(uuid "16fbedb1-6766-4bde-91d6-6a4b6d96626e")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/29a12dcc-0491-44a2-8290-cbef7c573a8c"
+					(reference "rR15")
+					(unit 1)
 				)
 			)
 		)
