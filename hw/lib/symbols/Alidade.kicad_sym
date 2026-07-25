@@ -5228,7 +5228,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SK8701-01-004-SENSOR"
+	(symbol "SK8701-01-005-SENSOR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5240,7 +5240,7 @@
 				)
 			)
 		)
-		(property "Value" "SK8701-01-004-SENSOR"
+		(property "Value" "SK8701-01-005-SENSOR"
 			(at 12.954 1.016 0)
 			(effects
 				(font
@@ -5248,7 +5248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:SK8707-01-SENSOR"
+		(property "Footprint" "Alidade:SK8707-01-005-SENSOR"
 			(at 13.97 4.826 0)
 			(effects
 				(font
@@ -5275,7 +5275,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SK8701-01-004-SENSOR_0_1"
+		(symbol "SK8701-01-005-SENSOR_0_1"
 			(polyline
 				(pts
 					(xy 0.508 -6.604) (xy 0.508 -7.112)
@@ -5805,7 +5805,7 @@
 				)
 			)
 		)
-		(symbol "SK8701-01-004-SENSOR_1_1"
+		(symbol "SK8701-01-005-SENSOR_1_1"
 			(pin passive line
 				(at 0 -2.54 0)
 				(length 2.54)
