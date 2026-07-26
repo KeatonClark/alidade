@@ -20,3 +20,11 @@ outputs:
       hide_pcb_info: true
       hide_stats_info: true
 
+- name: HTML
+  type: kicanvas
+  dir: html
+  options:
+    source: 
+      - "schematic" 
+    local_script: false
+    overlay: false
