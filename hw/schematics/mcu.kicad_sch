@@ -2805,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.4246 160.02) (xy 90.17 160.02)
+			(xy 87.63 160.02) (xy 90.17 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2905,7 +2905,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 160.02) (xy 82.3446 160.02)
+			(xy 74.93 160.02) (xy 82.55 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4444,7 +4444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 227.33 81.28 0)
 			(effects
 				(font
@@ -4747,7 +4747,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:R")
-		(at 84.8846 160.02 90)
+		(at 85.09 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4755,7 +4755,7 @@
 		(dnp no)
 		(uuid "165e3ead-1f85-49f1-84ac-f63bfdef76ec")
 		(property "Reference" "R403"
-			(at 84.8846 158.242 90)
+			(at 85.09 158.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4763,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 84.8846 161.798 90)
+			(at 85.09 161.798 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4771,8 +4771,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 84.8846 160.02 0)
+		(property "Footprint" "Alidade:0603"
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +4781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 84.8846 160.02 0)
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +4790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 84.8846 160.02 0)
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5020,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 163.83 153.67 0)
 			(effects
 				(font
@@ -5153,7 +5153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 149.86 77.47 0)
 			(effects
 				(font
@@ -5221,7 +5221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 163.83 158.75 0)
 			(effects
 				(font
@@ -5354,7 +5354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 163.83 148.59 0)
 			(effects
 				(font
@@ -6005,7 +6005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 85.09 149.86 0)
 			(effects
 				(font
@@ -6683,7 +6683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 227.33 76.2 0)
 			(effects
 				(font
@@ -7075,7 +7075,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 149.86 82.55 0)
 			(effects
 				(font
@@ -8555,7 +8555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:0603"
 			(at 85.09 154.94 0)
 			(effects
 				(font
