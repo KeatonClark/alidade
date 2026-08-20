@@ -2,25 +2,19 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "1V2"
-		(power)
+	(symbol "228A"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0)
+			(offset 1.016)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "#1V2_"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "1V2"
-			(at 0 3.175 90)
+		(property "Reference" "SWD"
+			(at -2.794 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28,8 +22,16 @@
 				(justify left)
 			)
 		)
+		(property "Value" "228A"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,7 +40,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,21 +54,21 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "global power"
+		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(symbol "1V2_0_1"
+		(symbol "228A_1_1"
 			(polyline
 				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
+					(xy -3.81 0) (xy -3.81 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -78,7 +80,53 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
+					(xy -3.81 -1.778) (xy -2.54 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.032 -1.778)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 -1.778) (xy -1.524 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 -1.778)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0) (xy 3.81 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -90,7 +138,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 3.81 -1.778) (xy 2.54 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -100,13 +148,10 @@
 					(type none)
 				)
 			)
-		)
-		(symbol "1V2_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(hide yes)
-				(name "1V2"
+			(pin passive line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -121,121 +166,36 @@
 					)
 				)
 			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "1V8"
-		(power)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "#1V8_"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(pin passive line
+				(at -6.35 -3.81 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(hide yes)
-			)
-		)
-		(property "Value" "1V8"
-			(at 0 3.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "1V8_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "1V8_1_1"
-			(pin power_in line
-				(at 0 0 90)
+			(pin no_connect line
+				(at 0 0 0)
 				(length 0)
 				(hide yes)
-				(name "1V8"
+				(name "MH1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "MH1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -243,121 +203,314 @@
 					)
 				)
 			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "3V3"
-		(power)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "#3V3_"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 0 3.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "3V3_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "3V3_1_1"
-			(pin power_in line
-				(at 0 0 90)
+			(pin no_connect line
+				(at 0 -3.81 0)
 				(length 0)
 				(hide yes)
-				(name "3V3"
+				(name "MH2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -3.81 180)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "228A_2_1"
+			(polyline
+				(pts
+					(xy -2.54 -3.556) (xy -2.54 -6.604) (xy -2.54 -6.35) (xy -2.54 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -6.604) (xy -0.762 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -8.382) (xy -1.016 -8.89) (xy -1.778 -9.144) (xy -1.524 -8.382)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -2.54) (xy 0.762 -3.556) (xy -0.762 -4.572) (xy -0.762 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -3.556) (xy -2.54 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -7.62) (xy -0.762 -5.588)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -9.144) (xy -0.254 -9.652) (xy -1.016 -9.906) (xy -0.762 -9.144)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -1.778) (xy 0.508 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 -7.62) (xy -1.27 -8.636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 -2.54) (xy 1.27 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -8.382) (xy -0.508 -9.398)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.016) (xy 0.254 -0.508) (xy 1.016 -0.254) (xy 0.762 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -2.54) (xy 0.762 -4.572)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -6.604) (xy 2.54 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -7.62) (xy -0.762 -6.604) (xy 0.762 -5.588) (xy 0.762 -7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 -1.778) (xy 1.016 -1.27) (xy 1.778 -1.016) (xy 1.524 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -3.556) (xy 0.762 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -3.556) (xy 2.54 -6.604)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 2.54)
+				(name "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -5.08 180)
+				(length 2.54)
+				(name "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -760,6 +913,128 @@
 					)
 				)
 				(number "TP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "AVDD"
+		(power)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#AVDD"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 0 3.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AVDD_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AVDD_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(hide yes)
+				(name "AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1931,6 +2206,128 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DVDD"
+		(power)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#DVDD"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DVDD"
+			(at 0 3.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DVDD_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DVDD_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(hide yes)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3615,25 +4012,28 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LS1V8"
-		(power)
+	(symbol "LED_RGB_COM_ANODE"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0)
+			(offset 0.254)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "#LS1V8_"
-			(at 0 -3.81 0)
+		(property "Reference" "D"
+			(at -8.382 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "LS1V8"
-			(at 0 3.175 90)
+		(property "Value" "LED_RGB_COM_ANODE"
+			(at -9.906 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +4042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +4051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,9 +4065,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "ki_keywords" "global power"
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3676,10 +4077,49 @@
 				(hide yes)
 			)
 		)
-		(symbol "LS1V8_0_1"
+		(symbol "LED_RGB_COM_ANODE_0_1"
 			(polyline
 				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
+					(xy -0.762 4.064) (xy -0.762 6.096)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -1.016) (xy -0.762 1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 255 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -6.096) (xy -0.762 -4.064)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 4.064) (xy -1.27 3.048)
 				)
 				(stroke
 					(width 0)
@@ -3691,7 +4131,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
+					(xy -0.254 -1.016) (xy -1.27 -2.032)
 				)
 				(stroke
 					(width 0)
@@ -3703,7 +4143,43 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy -0.254 -6.096) (xy -1.27 -7.112)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 3.302) (xy -0.508 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.778) (xy -0.508 -2.794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -6.858) (xy -0.508 -7.874)
 				)
 				(stroke
 					(width 0)
@@ -3714,12 +4190,227 @@
 				)
 			)
 		)
-		(symbol "LS1V8_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(hide yes)
-				(name "LS1V8"
+		(symbol "LED_RGB_COM_ANODE_1_1"
+			(polyline
+				(pts
+					(xy -2.032 5.08) (xy -0.762 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0) (xy -0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -5.08) (xy -0.762 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 3.302) (xy -1.016 2.794) (xy -1.778 2.54) (xy -1.524 3.302)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -1.778) (xy -1.016 -2.286) (xy -1.778 -2.54) (xy -1.524 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -6.858) (xy -1.016 -7.366) (xy -1.778 -7.62) (xy -1.524 -6.858)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 2.54) (xy -0.254 2.032) (xy -1.016 1.778) (xy -0.762 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -2.54) (xy -0.254 -3.048) (xy -1.016 -3.302) (xy -0.762 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -7.62) (xy -0.254 -8.128) (xy -1.016 -8.382) (xy -0.762 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 0)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 4.064) (xy -0.762 5.08) (xy 0.762 6.096) (xy 0.762 4.064)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 255 0 1)
+				)
+				(fill
+					(type color)
+					(color 0 255 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -6.096) (xy -0.762 -5.08) (xy 0.762 -4.064) (xy 0.762 -6.096)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 255 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 5.08) (xy 0.762 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 5.08) (xy 3.302 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0) (xy 3.302 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -5.08) (xy 0.762 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 5.08 0)
+				(length 1.778)
+				(name "R"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3727,6 +4418,60 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.778)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -5.08 0)
+				(length 1.778)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 1.778)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4633,7 +5378,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin open_collector line
 				(at 0 -15.24 0)
 				(length 7.62)
 				(name "LED0"
@@ -4651,7 +5396,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin open_collector line
 				(at 0 -17.78 0)
 				(length 7.62)
 				(name "LED1"
@@ -4669,7 +5414,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin open_collector line
 				(at 0 -20.32 0)
 				(length 7.62)
 				(name "LED2"
@@ -6277,7 +7022,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 1.27 2.54 0)
+			(at 0.762 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,8 +7030,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 0 -1.524 0)
+		(property "Value" "SW_PUSH"
+			(at 0 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,7 +8104,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "VBAT"
+	(symbol "rAVDD"
 		(power)
 		(pin_names
 			(offset 0)
@@ -7367,373 +8112,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "#VBAT"
-			(at -7.366 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 0 3.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "VBAT_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "VBAT_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(hide yes)
-				(name "VBAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "VBUSOUT"
-		(power)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "#VBUSOUT"
-			(at -7.366 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUSOUT"
-			(at 0 3.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "VBUSOUT_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "VBUSOUT_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(hide yes)
-				(name "VBUSOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "VSYS"
-		(power)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "#VSYS"
-			(at -7.366 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 0 3.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "VSYS_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "VSYS_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(hide yes)
-				(name "VSYS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "r1V2"
-		(power)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "#r1V2_"
+		(property "Reference" "#rAVDD"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -7742,7 +8121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "r1V2"
+		(property "Value" "rAVDD"
 			(at 0 3.175 90)
 			(effects
 				(font
@@ -7786,7 +8165,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "r1V2_0_1"
+		(symbol "rAVDD_0_1"
 			(polyline
 				(pts
 					(xy -0.762 1.27) (xy 0 2.54)
@@ -7824,12 +8203,12 @@
 				)
 			)
 		)
-		(symbol "r1V2_1_1"
+		(symbol "rAVDD_1_1"
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
 				(hide yes)
-				(name "r1V2"
+				(name "rAVDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7847,7 +8226,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "r1V8"
+	(symbol "rDVDD"
 		(power)
 		(pin_names
 			(offset 0)
@@ -7855,7 +8234,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "#r1V8_"
+		(property "Reference" "#rDVDD"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -7864,7 +8243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "r1V8"
+		(property "Value" "rDVDD"
 			(at 0 3.175 90)
 			(effects
 				(font
@@ -7908,7 +8287,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "r1V8_0_1"
+		(symbol "rDVDD_0_1"
 			(polyline
 				(pts
 					(xy -0.762 1.27) (xy 0 2.54)
@@ -7946,134 +8325,12 @@
 				)
 			)
 		)
-		(symbol "r1V8_1_1"
+		(symbol "rDVDD_1_1"
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
 				(hide yes)
-				(name "r1V8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "r3V3"
-		(power)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "#r3V3_"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "r3V3"
-			(at 0 3.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "r3V3_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "r3V3_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(hide yes)
-				(name "r3V3"
+				(name "rDVDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8171,494 +8428,6 @@
 				(length 0)
 				(hide yes)
 				(name "rGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "rLS1V8"
-		(power)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "#rLS1V8_"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "rLS1V8"
-			(at 0 3.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "rLS1V8_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "rLS1V8_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(hide yes)
-				(name "rLS1V8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "rVBAT"
-		(power)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "#rVBAT"
-			(at -7.366 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "rVBAT"
-			(at 0 3.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "rVBAT_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "rVBAT_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(hide yes)
-				(name "rVBAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "rVBUSOUT"
-		(power)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "#rVBUSOUT"
-			(at -7.366 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "rVBUSOUT"
-			(at 0 3.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "rVBUSOUT_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "rVBUSOUT_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(hide yes)
-				(name "rVBUSOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "rVSYS"
-		(power)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "#rVSYS"
-			(at -7.366 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "rVSYS"
-			(at 0 3.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "global power"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "rVSYS_0_1"
-			(polyline
-				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "rVSYS_1_1"
-			(pin power_in line
-				(at 0 0 90)
-				(length 0)
-				(hide yes)
-				(name "rVSYS"
 					(effects
 						(font
 							(size 1.27 1.27)
