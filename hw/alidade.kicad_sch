@@ -33,7 +33,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 189.23) (xy 194.31 189.23)
+			(xy 173.99 199.39) (xy 194.31 199.39)
 		)
 		(stroke
 			(width 0)
@@ -43,7 +43,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 191.77) (xy 194.31 191.77)
+			(xy 173.99 194.31) (xy 194.31 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e806a78-806e-4e58-b453-d3306aef845a")
+	)
+	(wire
+		(pts
+			(xy 173.99 201.93) (xy 194.31 201.93)
 		)
 		(stroke
 			(width 0)
@@ -63,6 +73,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 186.69) (xy 194.31 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4f1766-941f-442d-b031-e0d7a60dd2a5")
+	)
+	(wire
+		(pts
 			(xy 173.99 160.02) (xy 194.31 160.02)
 		)
 		(stroke
@@ -73,7 +93,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 194.31) (xy 194.31 194.31)
+			(xy 173.99 204.47) (xy 194.31 204.47)
 		)
 		(stroke
 			(width 0)
@@ -233,6 +253,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 196.85) (xy 194.31 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df04196-f76a-4c0a-ac8a-5b0b1dc93a03")
+	)
+	(wire
+		(pts
 			(xy 173.99 101.6) (xy 194.31 101.6)
 		)
 		(stroke
@@ -330,6 +360,16 @@
 			(type default)
 		)
 		(uuid "bff9add2-7888-40db-9c70-3bd0db112b4b")
+	)
+	(wire
+		(pts
+			(xy 173.99 189.23) (xy 194.31 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bc481c-a2fb-4766-9c1e-96e3e396d982")
 	)
 	(wire
 		(pts
@@ -453,7 +493,7 @@
 	)
 	(sheet
 		(at 194.31 176.53)
-		(size 24.13 20.32)
+		(size 24.13 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -477,7 +517,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/pmic.kicad_sch"
-			(at 194.31 197.4346 0)
+			(at 194.31 207.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -496,7 +536,7 @@
 			)
 		)
 		(pin "rPMICINT" output
-			(at 194.31 194.31 180)
+			(at 194.31 204.47 180)
 			(uuid "77c666b4-cdb2-4a7f-a37d-bc75a2b174b4")
 			(effects
 				(font
@@ -506,7 +546,7 @@
 			)
 		)
 		(pin "rSCL" input
-			(at 194.31 191.77 180)
+			(at 194.31 201.93 180)
 			(uuid "6f790353-e5f7-4df1-8c7d-c3f2625f7020")
 			(effects
 				(font
@@ -516,7 +556,7 @@
 			)
 		)
 		(pin "rSDA" bidirectional
-			(at 194.31 189.23 180)
+			(at 194.31 199.39 180)
 			(uuid "4aa720e6-a64f-4067-a2ed-284dd217c6da")
 			(effects
 				(font
@@ -563,6 +603,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "PMICGPIO2" bidirectional
+			(at 194.31 186.69 180)
+			(uuid "47c8d248-9a91-4137-ba45-fb4a02914862")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PMICGPIO3" bidirectional
+			(at 194.31 189.23 180)
+			(uuid "79a2842b-a4e8-468e-a028-aa6f7a4ddd1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "rPMICGPIO2" bidirectional
+			(at 194.31 196.85 180)
+			(uuid "03efc303-5d27-45ba-b74a-5ea964d6145e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "rPMICGPIO3" bidirectional
+			(at 194.31 194.31 180)
+			(uuid "10a5e109-e942-44d6-9ad4-90d126a2af8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -977,7 +1057,7 @@
 	)
 	(sheet
 		(at 127 58.42)
-		(size 46.99 138.43)
+		(size 46.99 148.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1001,7 +1081,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/mcu.kicad_sch"
-			(at 127 197.4346 0)
+			(at 127 207.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1100,7 @@
 			)
 		)
 		(pin "rPMICINT" input
-			(at 173.99 194.31 0)
+			(at 173.99 204.47 0)
 			(uuid "0f93e834-7d67-4135-9329-0558c37c1490")
 			(effects
 				(font
@@ -1090,7 +1170,7 @@
 			)
 		)
 		(pin "rSCL" output
-			(at 173.99 191.77 0)
+			(at 173.99 201.93 0)
 			(uuid "2a68049a-c88a-4096-ac23-537f98a95e78")
 			(effects
 				(font
@@ -1100,7 +1180,7 @@
 			)
 		)
 		(pin "rSDA" bidirectional
-			(at 173.99 189.23 0)
+			(at 173.99 199.39 0)
 			(uuid "af63d21f-b1d5-4a00-b01e-696f5de611d9")
 			(effects
 				(font
@@ -1402,6 +1482,46 @@
 		(pin "rROW4" output
 			(at 173.99 118.11 0)
 			(uuid "722c076e-956a-4664-ae71-92fe83d635e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PMICGPIO2" bidirectional
+			(at 173.99 186.69 0)
+			(uuid "499ead9f-e6ca-4282-ae74-8d0ba54bb749")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PMICGPIO3" bidirectional
+			(at 173.99 189.23 0)
+			(uuid "8e2981f2-0e18-4fdc-8dca-b258e04e25fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "rPMICGPIO2" bidirectional
+			(at 173.99 196.85 0)
+			(uuid "5ae5a0b8-5937-4a34-a3a5-8c9c7dcb50dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "rPMICGPIO3" bidirectional
+			(at 173.99 194.31 0)
+			(uuid "337e2fca-dad1-4e80-b5b1-a72c3f0cde55")
 			(effects
 				(font
 					(size 1.27 1.27)
