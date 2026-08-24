@@ -6412,7 +6412,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -15.24 0)
 				(length 7.62)
 				(name "VSS"
@@ -6430,7 +6430,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -17.78 0)
 				(length 7.62)
 				(name "VSS"
@@ -6942,7 +6942,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -30.48 0)
 				(length 7.62)
 				(name "NRESET"
@@ -6960,7 +6960,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 0 -33.02 0)
 				(length 7.62)
 				(name "SWDCLK"
@@ -6978,7 +6978,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -35.56 0)
 				(length 7.62)
 				(name "SWDIO"
@@ -7112,7 +7112,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "ANT"
@@ -7130,7 +7130,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "VSS_PA"
@@ -7148,7 +7148,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "XC2"
@@ -7197,7 +7197,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "DCC"
@@ -7215,7 +7215,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "DECD"
@@ -7233,7 +7233,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "DECA"
@@ -7251,7 +7251,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -10.16 0)
 				(length 7.62)
 				(name "DECRF"
