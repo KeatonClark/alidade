@@ -1,0 +1,19 @@
+site_name: Alidade
+site_url: https://keatonclark.github.io/alidade/
+docs_dir: ./src
+
+plugins:
+  - fetch-files:
+      paths: 
+        - source: !ENV ALIDADE_HW
+          destination: alidade-hw
+
+theme:
+  name: material
+
+nav:
+  - Home: Index.md
+  - Schematic: Schematic.md
+  - Bom: Bom.md
+  - Datasheets: Datasheets.md
+  - Electrical Rules Checking: ERC.md

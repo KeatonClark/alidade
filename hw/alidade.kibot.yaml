@@ -20,9 +20,9 @@ outputs:
       hide_pcb_info: true
       hide_stats_info: true
 
-- name: HTML
+- name: KiCanvas
   type: kicanvas
-  dir: html
+  dir: kicanvas
   options:
     source: 
       - "schematic" 

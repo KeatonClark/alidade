@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mkdocs-fetch-files"
+version = "0.1.0"
+description = "Expose external directories as generated files in MkDocs"
+
+[project.entry-points."mkdocs.plugins"]
+fetch-files = "mkdocs_fetch_files.plugin:FetchFilesPlugin"

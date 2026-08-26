@@ -18,18 +18,13 @@
             kicost = super.callPackage ./nix/kicost.nix { };
             kikit = super.callPackage ./nix/kikit.nix { };
           };
+          mkdocsFetchFiles = super.callPackage ./nix/mkdocs-fetch-files { };
         })
       ];
     };
   in {
     packages.pkgs = pkgs;
     packages.hw = pkgs.callPackage ./hw { };
-    devShells.default = pkgs.mkShell {
-      buildInputs = with pkgs; [
-        python3Packages.kicad
-        kibotPackages.kibot
-        kibotPackages.kidiff
-      ];
-    };
+    packages.docs = pkgs.callPackage ./docs { alidade-hw = self.packages.${system}.hw; };
   });
 }
