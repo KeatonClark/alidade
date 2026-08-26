@@ -12,7 +12,7 @@ theme:
   name: material
 
 nav:
-  - Home: Index.md
+  - Home: index.md
   - Schematic: Schematic.md
   - Bom: Bom.md
   - Datasheets: Datasheets.md
