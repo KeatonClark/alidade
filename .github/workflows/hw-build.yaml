@@ -1,4 +1,4 @@
-name: Hardware
+name: Build Hardware
 
 on:
   push:
