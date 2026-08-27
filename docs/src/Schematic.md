@@ -1,16 +1,7 @@
-# Interactive
-[Full Screen](alidade-hw/kicanvas/alidade-kicanvas.html)
-<iframe 
-    src="../alidade-hw/kicanvas/alidade-kicanvas.html"
-    style="
-        width: 100%;
-        border: 0;
-        aspect-ratio: 1 / 1;
-    "
-></iframe>
+# Schematic
+[Interactive](alidade-hw/kicanvas/alidade-kicanvas.html)
 
-# PDF
-[Download](alidade-hw/schematic/alidade-schematic.pdf)
+[Download PDF](alidade-hw/schematic/alidade-schematic.pdf)
 <iframe
     src="../alidade-hw/schematic/alidade-schematic.pdf"
     style="

@@ -10,10 +10,20 @@ plugins:
 
 theme:
   name: material
+  palette:
+    scheme: slate
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/gruvbox.css
+
 
 nav:
   - Home: index.md
-  - Schematic: Schematic.md
-  - Bom: Bom.md
-  - Datasheets: Datasheets.md
-  - Electrical Rules Checking: ERC.md
+  - Hardware:
+    - Schematic: Schematic.md
+    - Bom: Bom.md
+    - Datasheets: Datasheets.md
+    - Electrical Rules Checking: ERC.md
