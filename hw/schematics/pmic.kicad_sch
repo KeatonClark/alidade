@@ -6407,7 +6407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:L_0603_1608Metric"
 			(at 43.18 143.51 0)
 			(effects
 				(font
@@ -7347,7 +7347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 182.88 220.98 0)
 			(effects
 				(font
@@ -7423,7 +7423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:L_0603_1608Metric"
 			(at 138.43 147.32 0)
 			(effects
 				(font
@@ -7665,7 +7665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 350.52 133.35 0)
 			(effects
 				(font
@@ -7981,7 +7981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 356.87 69.85 0)
 			(effects
 				(font
@@ -8232,7 +8232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 335.28 133.35 0)
 			(effects
 				(font
@@ -8483,7 +8483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 279.4 133.35 0)
 			(effects
 				(font
@@ -8626,7 +8626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 347.98 73.66 0)
 			(effects
 				(font
@@ -8835,7 +8835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -8913,7 +8913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 256.54 133.35 0)
 			(effects
 				(font
@@ -8990,7 +8990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 285.75 68.58 0)
 			(effects
 				(font
@@ -9241,7 +9241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 176.53 220.98 0)
 			(effects
 				(font
@@ -9319,7 +9319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 142.24 153.67 0)
 			(effects
 				(font
@@ -9593,7 +9593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 46.99 149.86 0)
 			(effects
 				(font
@@ -9736,7 +9736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 273.05 185.42 0)
 			(effects
 				(font
@@ -9814,7 +9814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 87.63 148.59 0)
 			(effects
 				(font
@@ -9892,7 +9892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -9970,7 +9970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 133.35 153.67 0)
 			(effects
 				(font
@@ -10116,7 +10116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 250.19 222.25 0)
 			(effects
 				(font
@@ -10485,7 +10485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:L_0603_1608Metric"
 			(at 83.82 142.24 0)
 			(effects
 				(font
@@ -10857,7 +10857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 332.74 185.42 0)
 			(effects
 				(font
@@ -11076,7 +11076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 38.1 149.86 0)
 			(effects
 				(font
@@ -11152,7 +11152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:L_0603_1608Metric"
 			(at 181.61 146.05 0)
 			(effects
 				(font
@@ -11394,7 +11394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 78.74 148.59 0)
 			(effects
 				(font
@@ -11472,7 +11472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 256.54 222.25 0)
 			(effects
 				(font
@@ -11550,7 +11550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 327.66 133.35 0)
 			(effects
 				(font
@@ -11628,7 +11628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 185.42 152.4 0)
 			(effects
 				(font
@@ -11706,7 +11706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 271.78 133.35 0)
 			(effects
 				(font
@@ -11784,7 +11784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 176.53 152.4 0)
 			(effects
 				(font
@@ -12381,7 +12381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 186.69 59.69 0)
 			(effects
 				(font
@@ -12698,7 +12698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 342.9 133.35 0)
 			(effects
 				(font
@@ -12776,7 +12776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 276.86 72.39 0)
 			(effects
 				(font
