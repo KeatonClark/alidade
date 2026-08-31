@@ -30,7 +30,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:228ADS2"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -521,7 +521,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ADS122S14"
+	(symbol "ADS122S14IRTER"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -533,7 +533,7 @@
 				)
 			)
 		)
-		(property "Value" "ADS122S14"
+		(property "Value" "ADS122S14IRTER"
 			(at 5.588 1.524 0)
 			(effects
 				(font
@@ -541,7 +541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:WQFN16_3X3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -568,6 +568,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C53283827"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -576,7 +585,7 @@
 				)
 			)
 		)
-		(symbol "ADS122S14_1_1"
+		(symbol "ADS122S14IRTER_1_1"
 			(rectangle
 				(start 7.62 0)
 				(end 33.02 -22.86)
@@ -733,7 +742,7 @@
 				)
 			)
 		)
-		(symbol "ADS122S14_2_1"
+		(symbol "ADS122S14IRTER_2_1"
 			(rectangle
 				(start 7.62 0)
 				(end 20.32 -12.7)
@@ -818,7 +827,7 @@
 				)
 			)
 		)
-		(symbol "ADS122S14_3_1"
+		(symbol "ADS122S14IRTER_3_1"
 			(rectangle
 				(start 7.62 0)
 				(end 17.78 -15.24)
@@ -1514,6 +1523,155 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Crystal"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "quartz ceramic resonator oscillator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Crystal*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Crystal_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -0.762) (xy -1.27 0.762)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.762 1.524)
+				(end 0.762 -1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -0.762) (xy 1.27 0.762)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Crystal_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Crystal_GND24"
 		(pin_names
 			(offset 1.016)
@@ -1558,7 +1716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(property "Description" ""
 			(at 1.524 12.7 0)
 			(effects
 				(font
@@ -5466,7 +5624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:QFN32_5X5_NOR"
+		(property "Footprint" "Alidade:QFN32_5X5"
 			(at 10.922 9.144 0)
 			(effects
 				(font
@@ -5476,7 +5634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NPM1300-QEAA-R"
+		(property "Datasheet" ""
 			(at 10.922 9.144 0)
 			(effects
 				(font
@@ -6255,7 +6413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:QFN48_6X6_NOR"
+		(property "Footprint" "Alidade:QFN48_6X6"
 			(at 14.732 11.938 0)
 			(effects
 				(font
@@ -6276,6 +6434,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C42458750"
 			(at 0 0 0)
 			(effects
 				(font
