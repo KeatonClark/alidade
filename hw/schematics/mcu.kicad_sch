@@ -8010,7 +8010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:XTAL_ABM8G-32.000MHZ-B4Y-T"
 			(at 195.58 147.32 0)
 			(effects
 				(font
@@ -8092,7 +8092,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:XTAL_ABM8G-32.000MHZ-B4Y-T"
 			(at 83.82 148.59 0)
 			(effects
 				(font
@@ -9962,7 +9962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:XTAL_ABS07-32.768KHZ-1-T"
 			(at 347.98 105.41 0)
 			(effects
 				(font
@@ -12160,7 +12160,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SWRA117D"
 			(at 27.94 142.2399 0)
 			(effects
 				(font
@@ -12426,7 +12426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SWRA117D"
 			(at 139.7 140.9699 0)
 			(effects
 				(font
@@ -15058,7 +15058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:XTAL_ABS07-32.768KHZ-1-T"
 			(at 270.51 104.14 0)
 			(effects
 				(font

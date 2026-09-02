@@ -6047,7 +6047,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_RGB_COM_ANODE"
+		(property "Value" "19-237/R6GHBHC-A01/2T"
 			(at 339.725 176.53 0)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:19-237_R6GHBHC-A01_2T"
 			(at 340.36 185.42 90)
 			(effects
 				(font
@@ -6075,6 +6075,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 340.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C60105"
 			(at 340.36 185.42 0)
 			(effects
 				(font
@@ -6654,7 +6663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "S2B-PH-SM4-TB"
 			(at 273.304 62.484 0)
 			(effects
 				(font
@@ -6663,7 +6672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:JST_S2B-PH-SM4-TB"
 			(at 270.51 66.04 0)
 			(effects
 				(font
@@ -6683,6 +6692,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02"
 			(at 268.224 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295747"
+			(at 270.51 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9407,7 +9425,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "S2B-PH-SM4-TB"
 			(at 341.376 63.246 0)
 			(effects
 				(font
@@ -9415,7 +9433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:JST_S2B-PH-SM4-TB"
 			(at 341.63 67.31 0)
 			(effects
 				(font
@@ -9435,6 +9453,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02"
 			(at 339.344 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295747"
+			(at 341.63 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10302,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_RGB_COM_ANODE"
+		(property "Value" "19-237/R6GHBHC-A01/2T"
 			(at 280.035 176.53 0)
 			(effects
 				(font
@@ -10284,7 +10311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:19-237_R6GHBHC-A01_2T"
 			(at 280.67 185.42 90)
 			(effects
 				(font
@@ -10303,6 +10330,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 280.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C60105"
 			(at 280.67 185.42 0)
 			(effects
 				(font
