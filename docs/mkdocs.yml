@@ -7,6 +7,11 @@ plugins:
       paths: 
         - source: !ENV ALIDADE_HW
           destination: alidade-hw
+  - search
+
+extra_javascript:
+  - https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js
+  - javascripts/bom-table.js
 
 theme:
   name: material
@@ -17,7 +22,9 @@ extra:
   generator: false
 
 extra_css:
+  - https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css
   - stylesheets/gruvbox.css
+  - stylesheets/tabulator.css
 
 
 nav:

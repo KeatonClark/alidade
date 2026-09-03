@@ -18,7 +18,7 @@
             kicost = super.callPackage ./nix/kicost.nix { };
             kikit = super.callPackage ./nix/kikit.nix { };
           };
-          mkdocsFetchFiles = super.callPackage ./nix/mkdocs-fetch-files { };
+          mkdocs-fetch-files-plugin = super.callPackage ./nix/mkdocs-fetch-files { };
         })
       ];
     };
