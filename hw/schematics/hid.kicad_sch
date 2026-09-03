@@ -38,7 +38,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Alidade:228ADS2"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -185,44 +185,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -3.81 0)
-					(length 0)
-					(hide yes)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -529,7 +491,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Alidade:ADS122S14"
+		(symbol "Alidade:ADS122S14IRTER"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -541,7 +503,7 @@
 					)
 				)
 			)
-			(property "Value" "ADS122S14"
+			(property "Value" "ADS122S14IRTER"
 				(at 5.588 1.524 0)
 				(effects
 					(font
@@ -549,7 +511,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Alidade:WQFN16_3X3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -576,6 +538,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC Part #" "C53283827"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
@@ -584,7 +555,7 @@
 					)
 				)
 			)
-			(symbol "ADS122S14_1_1"
+			(symbol "ADS122S14IRTER_1_1"
 				(rectangle
 					(start 7.62 0)
 					(end 33.02 -22.86)
@@ -741,7 +712,7 @@
 					)
 				)
 			)
-			(symbol "ADS122S14_2_1"
+			(symbol "ADS122S14IRTER_2_1"
 				(rectangle
 					(start 7.62 0)
 					(end 20.32 -12.7)
@@ -826,7 +797,7 @@
 					)
 				)
 			)
-			(symbol "ADS122S14_3_1"
+			(symbol "ADS122S14IRTER_3_1"
 				(rectangle
 					(start 7.62 0)
 					(end 17.78 -15.24)
@@ -920,7 +891,7 @@
 							)
 						)
 					)
-					(number "TP"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6980,7 +6951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 158.75 219.71 0)
 			(effects
 				(font
@@ -6989,7 +6960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 158.75 219.71 0)
 			(effects
 				(font
@@ -7050,7 +7021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 46.99 118.11 0)
 			(effects
 				(font
@@ -7059,7 +7030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 46.99 118.11 0)
 			(effects
 				(font
@@ -7210,15 +7181,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 287.02 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "46ec86e6-6051-44d9-86dd-71706a50cee0")
 		)
@@ -7345,7 +7307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 342.9 199.39 0)
 			(effects
 				(font
@@ -7354,7 +7316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 342.9 199.39 0)
 			(effects
 				(font
@@ -7440,15 +7402,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "56ca8e53-e1f4-458e-8e49-ef03151d4b3d")
 		)
@@ -7517,15 +7470,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 172.72 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4673ac2b-ec0c-4393-8c15-e1f408c0e86d")
 		)
@@ -7568,7 +7512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 34.29 217.17 0)
 			(effects
 				(font
@@ -7577,7 +7521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 34.29 217.17 0)
 			(effects
 				(font
@@ -7828,15 +7772,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 115.57 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "670e1c92-160a-4fdc-8a49-d0f58359f0b3")
 		)
@@ -7935,16 +7870,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:ADS122S14")
+		(lib_id "Alidade:ADS122S14IRTER")
 		(at 91.44 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "137b9fcb-1153-4167-a3c5-72f5d36bbe64")
+		(uuid "13371adf-6132-42d5-a80b-d86ab971c8c3")
 		(property "Reference" "U3"
-			(at 91.694 236.474 0)
+			(at 91.44 236.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,8 +7887,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADS122S14"
-			(at 91.694 239.014 0)
+		(property "Value" "ADS122S14IRTER"
+			(at 91.44 239.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +7896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Alidade:RTE0016C-MFG"
+		(property "Footprint" "Alidade:WQFN16_3X3"
 			(at 91.44 242.57 0)
 			(effects
 				(font
@@ -7988,56 +7923,65 @@
 				(hide yes)
 			)
 		)
-		(pin "10"
-			(uuid "1af15ad3-6f0c-4e08-8732-56455a7ebfb0")
-		)
-		(pin "TP"
-			(uuid "27179bdf-622c-4e79-a973-10139df4607d")
-		)
-		(pin "14"
-			(uuid "a57fcc35-abf1-4c92-9e5f-2f47eb09efc3")
-		)
-		(pin "16"
-			(uuid "6bb6bea5-1469-476e-9517-4b6cbbb6d96a")
-		)
-		(pin "6"
-			(uuid "77ea80e8-eb18-4be6-8730-be18e2ab1dde")
+		(property "LCSC Part #" "C53283827"
+			(at 91.44 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "13"
-			(uuid "3b9ea823-fb91-4a1b-832d-6ddda356be7b")
+			(uuid "4c07863a-61b4-4669-9780-19c74456085f")
 		)
-		(pin "4"
-			(uuid "df15d125-3953-4e06-965e-f675fc46fc0d")
-		)
-		(pin "7"
-			(uuid "6d4793ab-546d-403e-a0bf-dd0686a9d5ec")
-		)
-		(pin "9"
-			(uuid "da1a1a72-dc3c-4423-b8d4-4f0aa1e557fc")
-		)
-		(pin "2"
-			(uuid "18c69ac5-da2a-4546-839b-aeedba1d2457")
-		)
-		(pin "1"
-			(uuid "5e75ff50-e10c-4716-8dd2-63a08e0b6186")
-		)
-		(pin "8"
-			(uuid "64a4a067-720a-4449-a75b-a286b8189dd0")
-		)
-		(pin "12"
-			(uuid "ec75608d-0a10-40f5-b790-46e1fe846902")
-		)
-		(pin "3"
-			(uuid "c537bcc5-84a1-442b-b779-bcd55af38caa")
-		)
-		(pin "5"
-			(uuid "0fc5dc1d-b14b-46a6-9bf4-0dda4141b19b")
-		)
-		(pin "15"
-			(uuid "97a6d08e-06cd-4e25-a68b-3d9ff951dade")
+		(pin "17"
+			(uuid "d1b2f877-dc2f-4515-a95a-6af8453156b9")
 		)
 		(pin "11"
-			(uuid "106c9578-b89d-4488-8b56-2cee5e1347fc")
+			(uuid "ed4b22ab-9fe7-4d36-baee-2000dbb4dcfd")
+		)
+		(pin "4"
+			(uuid "0767bcde-980b-47a6-9fbb-3dffae4405ad")
+		)
+		(pin "5"
+			(uuid "38e36ebc-b588-43a8-9583-816dfa528509")
+		)
+		(pin "6"
+			(uuid "1833b9c6-d547-4432-b378-fca1b3037e67")
+		)
+		(pin "3"
+			(uuid "51f85db0-68e9-4c96-9467-222736453c1e")
+		)
+		(pin "14"
+			(uuid "eb9163a5-73cb-4af8-89b7-5625178937da")
+		)
+		(pin "16"
+			(uuid "20f34c91-25cd-4af8-8e8b-8cd8f7208d60")
+		)
+		(pin "15"
+			(uuid "1d06a89b-8106-472d-8ca0-15d8ad488e4d")
+		)
+		(pin "9"
+			(uuid "2ac04d80-b214-4346-9c74-a0a684b97f77")
+		)
+		(pin "8"
+			(uuid "39a8ae82-b201-40c0-ab54-860f575f54bc")
+		)
+		(pin "7"
+			(uuid "a47817af-d486-4682-9b94-2cbd3bbf7b27")
+		)
+		(pin "2"
+			(uuid "1f405fa0-997e-4df6-8ce6-936d9bd56674")
+		)
+		(pin "1"
+			(uuid "8a6cdfd4-adfd-49f2-8f17-b8af0a1c7825")
+		)
+		(pin "10"
+			(uuid "5057e852-72a9-481f-a4cf-6ef18a931626")
+		)
+		(pin "12"
+			(uuid "0023198e-c587-4a0e-8400-fcccbe98efc3")
 		)
 		(instances
 			(project ""
@@ -8076,7 +8020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 304.8 200.66 0)
 			(effects
 				(font
@@ -8085,7 +8029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 304.8 200.66 0)
 			(effects
 				(font
@@ -8252,15 +8196,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 115.57 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f85dc769-0c80-4c31-a96d-3f3dc89becbc")
 		)
@@ -8403,15 +8338,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 287.02 71.12 0)
 			(effects
 				(font
@@ -8570,15 +8496,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 344.17 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3c4d141f-ac2b-4274-abbf-7b949cc31878")
 		)
@@ -8638,15 +8555,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 153.67 116.84 0)
 			(effects
 				(font
@@ -8723,15 +8631,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 325.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "939aa0c2-92e8-4f45-939c-a822f17109fd")
 		)
@@ -8774,7 +8673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 167.64 219.71 0)
 			(effects
 				(font
@@ -8783,7 +8682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 167.64 219.71 0)
 			(effects
 				(font
@@ -9016,15 +8915,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 115.57 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "90d359ba-536a-47bb-a05c-7e582db0f94e")
 		)
@@ -9092,15 +8982,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 77.47 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d18314fd-3814-47b6-8143-2696aa94c4dd")
 		)
@@ -9142,7 +9023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:228ADS2"
 			(at 290.83 158.75 0)
 			(effects
 				(font
@@ -9172,9 +9053,6 @@
 		(pin "2"
 			(uuid "b6284e0c-f1d7-4d52-9657-c80e6a874845")
 		)
-		(pin "MH2"
-			(uuid "1db43ea1-0423-4ae5-b367-60f7fd0b20b6")
-		)
 		(pin "4"
 			(uuid "26a53559-8c00-405e-a7da-1591f0c61b97")
 		)
@@ -9189,9 +9067,6 @@
 		)
 		(pin "L1"
 			(uuid "7dde3355-67ab-4ef1-bc70-e7ba83beab35")
-		)
-		(pin "MH1"
-			(uuid "1b07e486-7dce-4c79-abe2-43c8b21cdabe")
 		)
 		(instances
 			(project ""
@@ -9263,120 +9138,6 @@
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "#rDVDD0106")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Alidade:ADS122S14")
-		(at 54.61 204.47 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35998f3b-6f2a-4f1a-9613-69fc23bee2af")
-		(property "Reference" "U3"
-			(at 54.61 197.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS122S14"
-			(at 54.61 199.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alidade:RTE0016C-MFG"
-			(at 54.61 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "1af15ad3-6f0c-4e08-8732-56455a7ebfb1")
-		)
-		(pin "TP"
-			(uuid "27179bdf-622c-4e79-a973-10139df4607e")
-		)
-		(pin "14"
-			(uuid "a57fcc35-abf1-4c92-9e5f-2f47eb09efc4")
-		)
-		(pin "16"
-			(uuid "6bb6bea5-1469-476e-9517-4b6cbbb6d96b")
-		)
-		(pin "6"
-			(uuid "77ea80e8-eb18-4be6-8730-be18e2ab1ddf")
-		)
-		(pin "13"
-			(uuid "3b9ea823-fb91-4a1b-832d-6ddda356be7c")
-		)
-		(pin "4"
-			(uuid "df15d125-3953-4e06-965e-f675fc46fc0e")
-		)
-		(pin "7"
-			(uuid "6d4793ab-546d-403e-a0bf-dd0686a9d5ed")
-		)
-		(pin "9"
-			(uuid "da1a1a72-dc3c-4423-b8d4-4f0aa1e557fd")
-		)
-		(pin "2"
-			(uuid "18c69ac5-da2a-4546-839b-aeedba1d2458")
-		)
-		(pin "1"
-			(uuid "5e75ff50-e10c-4716-8dd2-63a08e0b6187")
-		)
-		(pin "8"
-			(uuid "64a4a067-720a-4449-a75b-a286b8189dd1")
-		)
-		(pin "12"
-			(uuid "ec75608d-0a10-40f5-b790-46e1fe846903")
-		)
-		(pin "3"
-			(uuid "c537bcc5-84a1-442b-b779-bcd55af38cab")
-		)
-		(pin "5"
-			(uuid "0fc5dc1d-b14b-46a6-9bf4-0dda4141b19c")
-		)
-		(pin "15"
-			(uuid "97a6d08e-06cd-4e25-a68b-3d9ff951dadf")
-		)
-		(pin "11"
-			(uuid "106c9578-b89d-4488-8b56-2cee5e1347fd")
-		)
-		(instances
-			(project ""
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "U3")
-					(unit 3)
 				)
 			)
 		)
@@ -9508,15 +9269,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 267.97 116.84 0)
 			(effects
 				(font
@@ -9805,15 +9557,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 153.67 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d5ac2b0c-f20f-448c-95ea-f96e291c0a93")
 		)
@@ -10004,7 +9747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 374.65 118.11 0)
 			(effects
 				(font
@@ -10013,7 +9756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 374.65 118.11 0)
 			(effects
 				(font
@@ -10328,15 +10071,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "50418bf1-a52b-4363-bab8-a75cab91ab2f")
 		)
@@ -10379,7 +10113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 149.86 219.71 0)
 			(effects
 				(font
@@ -10388,7 +10122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 149.86 219.71 0)
 			(effects
 				(font
@@ -10547,15 +10281,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 134.62 101.6 0)
 			(effects
 				(font
@@ -10798,15 +10523,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 344.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c79f9ba4-8fe9-4519-94c6-c737d75dbebb")
 		)
@@ -10875,15 +10591,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 361.95 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "631a4b29-78da-4ab0-a5a8-ec857c17827b")
 		)
@@ -10927,7 +10634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 279.4 200.66 0)
 			(effects
 				(font
@@ -10936,7 +10643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 279.4 200.66 0)
 			(effects
 				(font
@@ -11004,7 +10711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 156.21 246.38 0)
 			(effects
 				(font
@@ -11262,15 +10969,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 306.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e042f29a-9ed1-40d8-988b-a224c35e0311")
 		)
@@ -11331,15 +11029,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 153.67 71.12 0)
 			(effects
 				(font
@@ -11581,15 +11270,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 361.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "94e7666b-3087-4134-9a6e-b759c68e79e2")
 		)
@@ -11640,7 +11320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 31.75 243.84 0)
 			(effects
 				(font
@@ -11979,15 +11659,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 267.97 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "87484d56-50d6-40e4-a687-b878a64cf62b")
 		)
@@ -12056,15 +11727,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 325.12 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "006cd43c-071a-486c-8dfb-fe5a3c8a032f")
 		)
@@ -12108,7 +11770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 342.9 189.23 0)
 			(effects
 				(font
@@ -12117,7 +11779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 342.9 189.23 0)
 			(effects
 				(font
@@ -12202,15 +11864,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 115.57 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7ab26121-32e9-4421-9547-7075ced4eb7c")
 		)
@@ -12271,15 +11924,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 96.52 71.12 0)
 			(effects
 				(font
@@ -12356,15 +12000,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 172.72 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "116ff9e1-9ec5-4905-a387-6f8373492a4e")
 		)
@@ -12408,7 +12043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 46.99 102.87 0)
 			(effects
 				(font
@@ -12417,7 +12052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 46.99 102.87 0)
 			(effects
 				(font
@@ -12733,15 +12368,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 248.92 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2829cb79-b001-4db9-b123-a5403bfe2673")
 		)
@@ -12753,6 +12379,129 @@
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "rEXSW2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:ADS122S14IRTER")
+		(at 54.61 204.47 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8776034e-9814-404f-a404-af2f06e486cc")
+		(property "Reference" "U3"
+			(at 54.61 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS122S14IRTER"
+			(at 54.61 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Alidade:WQFN16_3X3"
+			(at 54.61 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53283827"
+			(at 54.61 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "4c07863a-61b4-4669-9780-19c744560860")
+		)
+		(pin "17"
+			(uuid "d1b2f877-dc2f-4515-a95a-6af8453156ba")
+		)
+		(pin "11"
+			(uuid "ed4b22ab-9fe7-4d36-baee-2000dbb4dcfe")
+		)
+		(pin "4"
+			(uuid "0767bcde-980b-47a6-9fbb-3dffae4405ae")
+		)
+		(pin "5"
+			(uuid "38e36ebc-b588-43a8-9583-816dfa52850a")
+		)
+		(pin "6"
+			(uuid "1833b9c6-d547-4432-b378-fca1b3037e68")
+		)
+		(pin "3"
+			(uuid "51f85db0-68e9-4c96-9467-222736453c1f")
+		)
+		(pin "14"
+			(uuid "eb9163a5-73cb-4af8-89b7-5625178937db")
+		)
+		(pin "16"
+			(uuid "20f34c91-25cd-4af8-8e8b-8cd8f7208d61")
+		)
+		(pin "15"
+			(uuid "1d06a89b-8106-472d-8ca0-15d8ad488e4e")
+		)
+		(pin "9"
+			(uuid "2ac04d80-b214-4346-9c74-a0a684b97f78")
+		)
+		(pin "8"
+			(uuid "39a8ae82-b201-40c0-ab54-860f575f54bd")
+		)
+		(pin "7"
+			(uuid "a47817af-d486-4682-9b94-2cbd3bbf7b28")
+		)
+		(pin "2"
+			(uuid "1f405fa0-997e-4df6-8ce6-936d9bd56675")
+		)
+		(pin "1"
+			(uuid "8a6cdfd4-adfd-49f2-8f17-b8af0a1c7826")
+		)
+		(pin "10"
+			(uuid "5057e852-72a9-481f-a4cf-6ef18a931627")
+		)
+		(pin "12"
+			(uuid "0023198e-c587-4a0e-8400-fcccbe98efc4")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "U3")
+					(unit 3)
 				)
 			)
 		)
@@ -12975,15 +12724,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 287.02 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2ec2cdcd-d810-4e50-b3a8-525362728d10")
 		)
@@ -12994,6 +12734,129 @@
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "rSW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:ADS122S14IRTER")
+		(at 215.9 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bf2564c-4181-432f-8ded-31937eb54af6")
+		(property "Reference" "rU3"
+			(at 215.9 239.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS122S14IRTER"
+			(at 215.9 241.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Alidade:WQFN16_3X3"
+			(at 215.9 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53283827"
+			(at 215.9 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "4c07863a-61b4-4669-9780-19c744560861")
+		)
+		(pin "17"
+			(uuid "d1b2f877-dc2f-4515-a95a-6af8453156bb")
+		)
+		(pin "11"
+			(uuid "ed4b22ab-9fe7-4d36-baee-2000dbb4dcff")
+		)
+		(pin "4"
+			(uuid "8a6b862b-5aff-4941-aee9-2434c4cbb2f2")
+		)
+		(pin "5"
+			(uuid "3d4ebff6-7008-41fe-ae9c-8c277ddcb0dd")
+		)
+		(pin "6"
+			(uuid "80c97808-006c-4f97-a656-f2d2a3869780")
+		)
+		(pin "3"
+			(uuid "3959b08b-5f07-448d-a0da-728d4ea11ce2")
+		)
+		(pin "14"
+			(uuid "eb9163a5-73cb-4af8-89b7-5625178937dc")
+		)
+		(pin "16"
+			(uuid "20f34c91-25cd-4af8-8e8b-8cd8f7208d62")
+		)
+		(pin "15"
+			(uuid "1d06a89b-8106-472d-8ca0-15d8ad488e4f")
+		)
+		(pin "9"
+			(uuid "2ac04d80-b214-4346-9c74-a0a684b97f79")
+		)
+		(pin "8"
+			(uuid "0864621c-f2b7-4205-b36d-08236336dc1c")
+		)
+		(pin "7"
+			(uuid "ffe0f617-7caa-4e77-8e8a-79b629300d09")
+		)
+		(pin "2"
+			(uuid "76034d50-6a92-4f79-9453-0d3405f1f6e6")
+		)
+		(pin "1"
+			(uuid "8a0c999d-3ea1-4f54-8fa7-213161405d58")
+		)
+		(pin "10"
+			(uuid "5057e852-72a9-481f-a4cf-6ef18a931628")
+		)
+		(pin "12"
+			(uuid "0023198e-c587-4a0e-8400-fcccbe98efc5")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "rU3")
 					(unit 1)
 				)
 			)
@@ -13052,15 +12915,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 325.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7416dd23-5c9a-40ef-bc4f-9c7e4e8b623c")
 		)
@@ -13072,6 +12926,129 @@
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "rSW14")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:ADS122S14IRTER")
+		(at 179.07 207.01 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ffd0be9-1db9-4aba-9d24-b48694acae98")
+		(property "Reference" "rU3"
+			(at 179.07 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS122S14IRTER"
+			(at 179.07 203.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Alidade:WQFN16_3X3"
+			(at 179.07 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53283827"
+			(at 179.07 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "cb50106e-a63c-42e8-b37b-d7889db64041")
+		)
+		(pin "17"
+			(uuid "3a30d365-b3de-4db1-a9c8-4b9be83fb9f0")
+		)
+		(pin "11"
+			(uuid "ed4b22ab-9fe7-4d36-baee-2000dbb4dd00")
+		)
+		(pin "4"
+			(uuid "0767bcde-980b-47a6-9fbb-3dffae4405af")
+		)
+		(pin "5"
+			(uuid "38e36ebc-b588-43a8-9583-816dfa52850b")
+		)
+		(pin "6"
+			(uuid "1833b9c6-d547-4432-b378-fca1b3037e69")
+		)
+		(pin "3"
+			(uuid "51f85db0-68e9-4c96-9467-222736453c20")
+		)
+		(pin "14"
+			(uuid "5583c060-ab7a-42fb-a423-2d01915ea251")
+		)
+		(pin "16"
+			(uuid "c43e34c7-7341-4f0b-825c-edd8cff36129")
+		)
+		(pin "15"
+			(uuid "055cb5ed-6bfc-46e0-bd38-e1d556c9d72f")
+		)
+		(pin "9"
+			(uuid "2ac04d80-b214-4346-9c74-a0a684b97f7a")
+		)
+		(pin "8"
+			(uuid "39a8ae82-b201-40c0-ab54-860f575f54be")
+		)
+		(pin "7"
+			(uuid "a47817af-d486-4682-9b94-2cbd3bbf7b29")
+		)
+		(pin "2"
+			(uuid "1f405fa0-997e-4df6-8ce6-936d9bd56676")
+		)
+		(pin "1"
+			(uuid "8a6cdfd4-adfd-49f2-8f17-b8af0a1c7827")
+		)
+		(pin "10"
+			(uuid "5057e852-72a9-481f-a4cf-6ef18a931629")
+		)
+		(pin "12"
+			(uuid "0023198e-c587-4a0e-8400-fcccbe98efc6")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "rU3")
+					(unit 3)
 				)
 			)
 		)
@@ -13185,7 +13162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 374.65 87.63 0)
 			(effects
 				(font
@@ -13194,7 +13171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 374.65 87.63 0)
 			(effects
 				(font
@@ -13403,7 +13380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 279.4 190.5 0)
 			(effects
 				(font
@@ -13412,7 +13389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 279.4 190.5 0)
 			(effects
 				(font
@@ -13793,15 +13770,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 134.62 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0a685ccf-1bba-45a8-81e2-7d742e8d1862")
 		)
@@ -13845,7 +13813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 304.8 190.5 0)
 			(effects
 				(font
@@ -13854,7 +13822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 304.8 190.5 0)
 			(effects
 				(font
@@ -13912,7 +13880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:228ADS2"
 			(at 355.6 184.15 0)
 			(effects
 				(font
@@ -13954,12 +13922,6 @@
 		(pin "3"
 			(uuid "a3c312e1-9a66-4fc0-a174-52bfdb6a63d9")
 		)
-		(pin "MH1"
-			(uuid "45c6ce79-fc0b-496b-b44d-3b13d2e339f4")
-		)
-		(pin "MH2"
-			(uuid "c320ab76-4df4-4dc4-ab3a-f484afc51cec")
-		)
 		(pin "L1"
 			(uuid "b2ba67f3-2f63-43ed-b6b6-4174e9c23e02")
 		)
@@ -13967,6 +13929,129 @@
 			(project ""
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "rSWD1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:ADS122S14IRTER")
+		(at 222.25 208.28 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ce1ee56-e6c4-45dd-8e92-87fe68211f69")
+		(property "Reference" "rU3"
+			(at 222.25 202.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS122S14IRTER"
+			(at 222.25 205.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Alidade:WQFN16_3X3"
+			(at 222.25 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53283827"
+			(at 222.25 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "4c07863a-61b4-4669-9780-19c744560862")
+		)
+		(pin "17"
+			(uuid "d1b2f877-dc2f-4515-a95a-6af8453156bc")
+		)
+		(pin "11"
+			(uuid "b3c32979-44dc-4fe1-99b8-3195ddbae467")
+		)
+		(pin "4"
+			(uuid "0767bcde-980b-47a6-9fbb-3dffae4405b0")
+		)
+		(pin "5"
+			(uuid "38e36ebc-b588-43a8-9583-816dfa52850c")
+		)
+		(pin "6"
+			(uuid "1833b9c6-d547-4432-b378-fca1b3037e6a")
+		)
+		(pin "3"
+			(uuid "51f85db0-68e9-4c96-9467-222736453c21")
+		)
+		(pin "14"
+			(uuid "eb9163a5-73cb-4af8-89b7-5625178937dd")
+		)
+		(pin "16"
+			(uuid "20f34c91-25cd-4af8-8e8b-8cd8f7208d63")
+		)
+		(pin "15"
+			(uuid "1d06a89b-8106-472d-8ca0-15d8ad488e50")
+		)
+		(pin "9"
+			(uuid "06d84191-1463-4523-b2ad-6135fb62e1c4")
+		)
+		(pin "8"
+			(uuid "39a8ae82-b201-40c0-ab54-860f575f54bf")
+		)
+		(pin "7"
+			(uuid "a47817af-d486-4682-9b94-2cbd3bbf7b2a")
+		)
+		(pin "2"
+			(uuid "1f405fa0-997e-4df6-8ce6-936d9bd56677")
+		)
+		(pin "1"
+			(uuid "8a6cdfd4-adfd-49f2-8f17-b8af0a1c7828")
+		)
+		(pin "10"
+			(uuid "5a4ce03d-f220-4f77-b2b9-c417a2840409")
+		)
+		(pin "12"
+			(uuid "7e09cc00-237e-4c1e-a523-ae90475f951d")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "rU3")
 					(unit 2)
 				)
 			)
@@ -13999,7 +14084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 76.2 246.38 0)
 			(effects
 				(font
@@ -14008,7 +14093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 76.2 246.38 0)
 			(effects
 				(font
@@ -14093,15 +14178,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 96.52 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "86114c73-cab6-4513-8ad6-3d69d12eb6dc")
 		)
@@ -14145,7 +14221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 46.99 72.39 0)
 			(effects
 				(font
@@ -14154,7 +14230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 46.99 72.39 0)
 			(effects
 				(font
@@ -14232,15 +14308,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 77.47 71.12 0)
 			(effects
 				(font
@@ -14356,7 +14423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 368.3 189.23 0)
 			(effects
 				(font
@@ -14365,7 +14432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 368.3 189.23 0)
 			(effects
 				(font
@@ -14450,15 +14517,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 77.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "dc13a015-8b9a-49d1-a530-5582e96ddda4")
 		)
@@ -14501,7 +14559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 200.66 248.92 0)
 			(effects
 				(font
@@ -14510,7 +14568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 248.92 0)
 			(effects
 				(font
@@ -14588,15 +14646,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 267.97 86.36 0)
 			(effects
 				(font
@@ -14737,15 +14786,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 59.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8cff2f40-6391-4eb7-8f98-85d15cd939e9")
 		)
@@ -14853,7 +14893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 368.3 199.39 0)
 			(effects
 				(font
@@ -14862,7 +14902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 368.3 199.39 0)
 			(effects
 				(font
@@ -14948,15 +14988,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 361.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "97947908-ca5e-4b93-b855-56b7e36515c7")
 		)
@@ -15000,7 +15031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 46.99 87.63 0)
 			(effects
 				(font
@@ -15009,7 +15040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 46.99 87.63 0)
 			(effects
 				(font
@@ -15297,7 +15328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:228ADS2"
 			(at 355.6 156.21 0)
 			(effects
 				(font
@@ -15327,9 +15358,6 @@
 		(pin "2"
 			(uuid "81f0f3ca-5af1-4198-a5ac-ced4c76f6702")
 		)
-		(pin "MH2"
-			(uuid "484013c4-3459-4025-a847-01c8a790ddcd")
-		)
 		(pin "4"
 			(uuid "11eb41d8-894f-4da1-b29e-1b9af8764eba")
 		)
@@ -15338,9 +15366,6 @@
 		)
 		(pin "3"
 			(uuid "a3c312e1-9a66-4fc0-a174-52bfdb6a63da")
-		)
-		(pin "MH1"
-			(uuid "45c6ce79-fc0b-496b-b44d-3b13d2e339f5")
 		)
 		(pin "L2"
 			(uuid "4ab0ebd1-809f-4b9c-ad44-e82ae9744640")
@@ -15384,7 +15409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 25.4 217.17 0)
 			(effects
 				(font
@@ -15393,7 +15418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 25.4 217.17 0)
 			(effects
 				(font
@@ -15453,7 +15478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 76.2 254 0)
 			(effects
 				(font
@@ -15462,7 +15487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 76.2 254 0)
 			(effects
 				(font
@@ -15547,15 +15572,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 59.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e959fdf9-092d-4776-a725-56033a9c4ab3")
 		)
@@ -15624,15 +15640,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 306.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7ffc64e9-57f6-4113-962b-f91c75ac006e")
 		)
@@ -15644,120 +15651,6 @@
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
 					(reference "rSW11")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Alidade:ADS122S14")
-		(at 97.79 205.74 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4c2d9c2-8cca-4a5c-a891-3c0941bba9f9")
-		(property "Reference" "U3"
-			(at 97.79 200.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS122S14"
-			(at 97.79 202.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alidade:RTE0016C-MFG"
-			(at 97.79 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "1af15ad3-6f0c-4e08-8732-56455a7ebfb2")
-		)
-		(pin "TP"
-			(uuid "27179bdf-622c-4e79-a973-10139df4607f")
-		)
-		(pin "14"
-			(uuid "a57fcc35-abf1-4c92-9e5f-2f47eb09efc5")
-		)
-		(pin "16"
-			(uuid "6bb6bea5-1469-476e-9517-4b6cbbb6d96c")
-		)
-		(pin "6"
-			(uuid "77ea80e8-eb18-4be6-8730-be18e2ab1de0")
-		)
-		(pin "13"
-			(uuid "3b9ea823-fb91-4a1b-832d-6ddda356be7d")
-		)
-		(pin "4"
-			(uuid "df15d125-3953-4e06-965e-f675fc46fc0f")
-		)
-		(pin "7"
-			(uuid "6d4793ab-546d-403e-a0bf-dd0686a9d5ee")
-		)
-		(pin "9"
-			(uuid "da1a1a72-dc3c-4423-b8d4-4f0aa1e557fe")
-		)
-		(pin "2"
-			(uuid "18c69ac5-da2a-4546-839b-aeedba1d2459")
-		)
-		(pin "1"
-			(uuid "5e75ff50-e10c-4716-8dd2-63a08e0b6188")
-		)
-		(pin "8"
-			(uuid "64a4a067-720a-4449-a75b-a286b8189dd2")
-		)
-		(pin "12"
-			(uuid "ec75608d-0a10-40f5-b790-46e1fe846904")
-		)
-		(pin "3"
-			(uuid "c537bcc5-84a1-442b-b779-bcd55af38cac")
-		)
-		(pin "5"
-			(uuid "0fc5dc1d-b14b-46a6-9bf4-0dda4141b19d")
-		)
-		(pin "15"
-			(uuid "97a6d08e-06cd-4e25-a68b-3d9ff951dae0")
-		)
-		(pin "11"
-			(uuid "106c9578-b89d-4488-8b56-2cee5e1347fe")
-		)
-		(instances
-			(project ""
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "U3")
-					(unit 2)
 				)
 			)
 		)
@@ -15806,15 +15699,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 134.62 116.84 0)
 			(effects
 				(font
@@ -15922,120 +15806,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:ADS122S14")
-		(at 222.25 208.28 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c633a3f9-5c37-47b0-b6d2-df23df73a6af")
-		(property "Reference" "rU3"
-			(at 222.25 202.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS122S14"
-			(at 222.25 205.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alidade:RTE0016C-MFG"
-			(at 222.25 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "45a5da42-daf3-4a50-9cd8-6b3744bbf73f")
-		)
-		(pin "TP"
-			(uuid "27179bdf-622c-4e79-a973-10139df46080")
-		)
-		(pin "14"
-			(uuid "a57fcc35-abf1-4c92-9e5f-2f47eb09efc6")
-		)
-		(pin "16"
-			(uuid "6bb6bea5-1469-476e-9517-4b6cbbb6d96d")
-		)
-		(pin "6"
-			(uuid "77ea80e8-eb18-4be6-8730-be18e2ab1de1")
-		)
-		(pin "13"
-			(uuid "3b9ea823-fb91-4a1b-832d-6ddda356be7e")
-		)
-		(pin "4"
-			(uuid "df15d125-3953-4e06-965e-f675fc46fc10")
-		)
-		(pin "7"
-			(uuid "6d4793ab-546d-403e-a0bf-dd0686a9d5ef")
-		)
-		(pin "9"
-			(uuid "770d9d52-e2ee-4e00-acfe-b40af8c90c91")
-		)
-		(pin "2"
-			(uuid "18c69ac5-da2a-4546-839b-aeedba1d245a")
-		)
-		(pin "1"
-			(uuid "5e75ff50-e10c-4716-8dd2-63a08e0b6189")
-		)
-		(pin "8"
-			(uuid "64a4a067-720a-4449-a75b-a286b8189dd3")
-		)
-		(pin "12"
-			(uuid "0913ad19-6590-4c6e-b648-19b8e04d91f7")
-		)
-		(pin "3"
-			(uuid "c537bcc5-84a1-442b-b779-bcd55af38cad")
-		)
-		(pin "5"
-			(uuid "0fc5dc1d-b14b-46a6-9bf4-0dda4141b19e")
-		)
-		(pin "15"
-			(uuid "97a6d08e-06cd-4e25-a68b-3d9ff951dae1")
-		)
-		(pin "11"
-			(uuid "c6b455a2-e3de-4cc2-8b45-5783deb74993")
-		)
-		(instances
-			(project "alidade"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "rU3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Alidade:SW_Push")
 		(at 344.17 71.12 0)
 		(mirror y)
@@ -16080,15 +15850,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 344.17 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 344.17 71.12 0)
 			(effects
 				(font
@@ -16157,15 +15918,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 287.02 116.84 0)
 			(effects
 				(font
@@ -16389,15 +16141,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e20ec821-55b5-46f2-9574-81c60019a450")
 		)
@@ -16596,15 +16339,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 306.07 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "16466cca-6b81-46c8-8899-e09a1df90119")
 		)
@@ -16645,7 +16379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:228ADS2"
 			(at 292.1 185.42 0)
 			(effects
 				(font
@@ -16672,9 +16406,6 @@
 				(hide yes)
 			)
 		)
-		(pin "MH1"
-			(uuid "b6284e0c-f1d7-4d52-9657-c80e6a874846")
-		)
 		(pin "2"
 			(uuid "1db43ea1-0423-4ae5-b367-60f7fd0b20b7")
 		)
@@ -16683,9 +16414,6 @@
 		)
 		(pin "3"
 			(uuid "3e1c9cf6-6292-4274-a3fb-63956d26674a")
-		)
-		(pin "MH2"
-			(uuid "cd12ee90-ac91-4ae1-afa3-eaf84de50d78")
 		)
 		(pin "1"
 			(uuid "4cf72adc-bbd7-4bcc-95f1-e72267e926b2")
@@ -16750,15 +16478,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 306.07 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 306.07 71.12 0)
 			(effects
 				(font
@@ -16865,120 +16584,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:ADS122S14")
-		(at 179.07 207.01 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6cacefc-ce18-473b-bd94-704689aa600b")
-		(property "Reference" "rU3"
-			(at 179.07 199.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS122S14"
-			(at 179.07 202.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alidade:RTE0016C-MFG"
-			(at 179.07 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "1af15ad3-6f0c-4e08-8732-56455a7ebfb3")
-		)
-		(pin "TP"
-			(uuid "7299a174-82a0-4b68-b8c3-3aa70df484b0")
-		)
-		(pin "14"
-			(uuid "bcd553eb-4f91-4480-a441-e22f7cf58f5a")
-		)
-		(pin "16"
-			(uuid "eeab3c6c-6366-4ad6-880f-3f326d9866ef")
-		)
-		(pin "6"
-			(uuid "77ea80e8-eb18-4be6-8730-be18e2ab1de2")
-		)
-		(pin "13"
-			(uuid "58a6d0cc-6fa0-4473-bf9a-0f096fcb9a3f")
-		)
-		(pin "4"
-			(uuid "df15d125-3953-4e06-965e-f675fc46fc11")
-		)
-		(pin "7"
-			(uuid "6d4793ab-546d-403e-a0bf-dd0686a9d5f0")
-		)
-		(pin "9"
-			(uuid "da1a1a72-dc3c-4423-b8d4-4f0aa1e557ff")
-		)
-		(pin "2"
-			(uuid "18c69ac5-da2a-4546-839b-aeedba1d245b")
-		)
-		(pin "1"
-			(uuid "5e75ff50-e10c-4716-8dd2-63a08e0b618a")
-		)
-		(pin "8"
-			(uuid "64a4a067-720a-4449-a75b-a286b8189dd4")
-		)
-		(pin "12"
-			(uuid "ec75608d-0a10-40f5-b790-46e1fe846905")
-		)
-		(pin "3"
-			(uuid "c537bcc5-84a1-442b-b779-bcd55af38cae")
-		)
-		(pin "5"
-			(uuid "0fc5dc1d-b14b-46a6-9bf4-0dda4141b19f")
-		)
-		(pin "15"
-			(uuid "3d7e711e-4fb3-4714-b53f-acaabf810b8b")
-		)
-		(pin "11"
-			(uuid "106c9578-b89d-4488-8b56-2cee5e1347ff")
-		)
-		(instances
-			(project "alidade"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "rU3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Alidade:SW_Push")
 		(at 96.52 101.6 0)
 		(unit 1)
@@ -17030,15 +16635,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 96.52 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f523e44d-d497-4ed4-a86e-abd5b7235b61")
 		)
@@ -17081,7 +16677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 43.18 217.17 0)
 			(effects
 				(font
@@ -17090,7 +16686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 43.18 217.17 0)
 			(effects
 				(font
@@ -17340,15 +16936,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "~"
-			(at 248.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1fbf206a-07f1-4539-ae3c-14884bdd7bcc")
 		)
@@ -17539,7 +17126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 374.65 72.39 0)
 			(effects
 				(font
@@ -17548,7 +17135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 374.65 72.39 0)
 			(effects
 				(font
@@ -17608,7 +17195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 200.66 256.54 0)
 			(effects
 				(font
@@ -17617,7 +17204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 256.54 0)
 			(effects
 				(font
@@ -17651,6 +17238,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Alidade:ADS122S14IRTER")
+		(at 97.79 205.74 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e626b6bd-b151-4ef3-9e6f-bed6d2587340")
+		(property "Reference" "U3"
+			(at 97.79 200.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS122S14IRTER"
+			(at 97.79 202.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Alidade:WQFN16_3X3"
+			(at 97.79 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C53283827"
+			(at 97.79 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "4c07863a-61b4-4669-9780-19c744560863")
+		)
+		(pin "17"
+			(uuid "d1b2f877-dc2f-4515-a95a-6af8453156bd")
+		)
+		(pin "11"
+			(uuid "ed4b22ab-9fe7-4d36-baee-2000dbb4dd01")
+		)
+		(pin "4"
+			(uuid "0767bcde-980b-47a6-9fbb-3dffae4405b1")
+		)
+		(pin "5"
+			(uuid "38e36ebc-b588-43a8-9583-816dfa52850d")
+		)
+		(pin "6"
+			(uuid "1833b9c6-d547-4432-b378-fca1b3037e6b")
+		)
+		(pin "3"
+			(uuid "51f85db0-68e9-4c96-9467-222736453c22")
+		)
+		(pin "14"
+			(uuid "eb9163a5-73cb-4af8-89b7-5625178937de")
+		)
+		(pin "16"
+			(uuid "20f34c91-25cd-4af8-8e8b-8cd8f7208d64")
+		)
+		(pin "15"
+			(uuid "1d06a89b-8106-472d-8ca0-15d8ad488e51")
+		)
+		(pin "9"
+			(uuid "2ac04d80-b214-4346-9c74-a0a684b97f7b")
+		)
+		(pin "8"
+			(uuid "39a8ae82-b201-40c0-ab54-860f575f54c0")
+		)
+		(pin "7"
+			(uuid "a47817af-d486-4682-9b94-2cbd3bbf7b2b")
+		)
+		(pin "2"
+			(uuid "1f405fa0-997e-4df6-8ce6-936d9bd56678")
+		)
+		(pin "1"
+			(uuid "8a6cdfd4-adfd-49f2-8f17-b8af0a1c7829")
+		)
+		(pin "10"
+			(uuid "5057e852-72a9-481f-a4cf-6ef18a93162a")
+		)
+		(pin "12"
+			(uuid "0023198e-c587-4a0e-8400-fcccbe98efc7")
+		)
+		(instances
+			(project ""
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alidade:R")
 		(at 374.65 102.87 0)
 		(unit 1)
@@ -17677,7 +17387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:0603"
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 374.65 102.87 0)
 			(effects
 				(font
@@ -17686,7 +17396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 374.65 102.87 0)
 			(effects
 				(font
@@ -17967,120 +17677,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:ADS122S14")
-		(at 215.9 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f372c050-576e-4066-8477-cc430ab4e7f3")
-		(property "Reference" "rU3"
-			(at 216.154 239.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS122S14"
-			(at 216.154 241.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alidade:RTE0016C-MFG"
-			(at 215.9 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "1af15ad3-6f0c-4e08-8732-56455a7ebfb4")
-		)
-		(pin "TP"
-			(uuid "27179bdf-622c-4e79-a973-10139df46081")
-		)
-		(pin "14"
-			(uuid "a57fcc35-abf1-4c92-9e5f-2f47eb09efc7")
-		)
-		(pin "16"
-			(uuid "6bb6bea5-1469-476e-9517-4b6cbbb6d96e")
-		)
-		(pin "6"
-			(uuid "7b122ed9-da6a-4bca-a1c1-6c9dfad34e47")
-		)
-		(pin "13"
-			(uuid "3b9ea823-fb91-4a1b-832d-6ddda356be7f")
-		)
-		(pin "4"
-			(uuid "f71a457f-a38e-45f5-adc1-59970003cf9d")
-		)
-		(pin "7"
-			(uuid "12c05bca-c048-4e91-8fb0-672b59aa44dc")
-		)
-		(pin "9"
-			(uuid "da1a1a72-dc3c-4423-b8d4-4f0aa1e55800")
-		)
-		(pin "2"
-			(uuid "225c1277-7ca0-48e8-98ee-45909433dcdd")
-		)
-		(pin "1"
-			(uuid "c3e42646-eed1-4e92-a486-f2ca0a8d16f1")
-		)
-		(pin "8"
-			(uuid "25d0bd11-ed41-4341-be61-c01013985252")
-		)
-		(pin "12"
-			(uuid "ec75608d-0a10-40f5-b790-46e1fe846906")
-		)
-		(pin "3"
-			(uuid "2790241d-1d9a-4377-a892-7269ebdf89b8")
-		)
-		(pin "5"
-			(uuid "4d03daf8-fb66-4ad8-be29-d486f0e9ac35")
-		)
-		(pin "15"
-			(uuid "97a6d08e-06cd-4e25-a68b-3d9ff951dae2")
-		)
-		(pin "11"
-			(uuid "106c9578-b89d-4488-8b56-2cee5e134800")
-		)
-		(instances
-			(project "alidade"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/2e72dd0e-817e-4022-b409-1f79b0de6857"
-					(reference "rU3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Alidade:BAT54")
 		(at 298.45 116.84 0)
 		(unit 1)
@@ -18289,15 +17885,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "~"
 			(at 59.69 71.12 0)
 			(effects
 				(font

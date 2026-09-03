@@ -28,3 +28,13 @@ outputs:
       - "schematic" 
     local_script: false
     overlay: false
+
+- name: GLB
+  type: export_3d
+  dir: 3d
+  options:
+    format: glb
+    download: false
+    include_pads: true
+    include_silkscreen: true
+    include_tracks: true
