@@ -2678,7 +2678,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Alidade:TestPoint_Pad_1.0x1.0mm"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -8705,7 +8705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point (alternative shape)"
 			(at 255.27 213.36 0)
 			(effects
 				(font
@@ -9110,7 +9110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point (alternative shape)"
 			(at 344.17 205.74 0)
 			(effects
 				(font
@@ -10598,7 +10598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point (alternative shape)"
 			(at 255.27 203.2 0)
 			(effects
 				(font
@@ -11898,7 +11898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point (alternative shape)"
 			(at 344.17 213.36 0)
 			(effects
 				(font
@@ -12927,7 +12927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point (alternative shape)"
 			(at 255.27 210.82 0)
 			(effects
 				(font
@@ -13057,7 +13057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point (alternative shape)"
 			(at 344.17 210.82 0)
 			(effects
 				(font
@@ -14476,7 +14476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point (alternative shape)"
 			(at 255.27 208.28 0)
 			(effects
 				(font
@@ -14541,7 +14541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point (alternative shape)"
 			(at 344.17 208.28 0)
 			(effects
 				(font
@@ -14744,7 +14744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point (alternative shape)"
 			(at 255.27 205.74 0)
 			(effects
 				(font
@@ -15222,7 +15222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point (alternative shape)"
 			(at 344.17 203.2 0)
 			(effects
 				(font

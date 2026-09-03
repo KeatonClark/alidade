@@ -192,44 +192,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -3.81 0)
-					(length 0)
-					(hide yes)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 6.35 0 180)
 					(length 2.54)
@@ -929,7 +891,7 @@
 							)
 						)
 					)
-					(number "TP"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7973,7 +7935,7 @@
 		(pin "13"
 			(uuid "4c07863a-61b4-4669-9780-19c74456085f")
 		)
-		(pin "TP"
+		(pin "17"
 			(uuid "d1b2f877-dc2f-4515-a95a-6af8453156b9")
 		)
 		(pin "11"
@@ -9091,9 +9053,6 @@
 		(pin "2"
 			(uuid "b6284e0c-f1d7-4d52-9657-c80e6a874845")
 		)
-		(pin "MH2"
-			(uuid "1db43ea1-0423-4ae5-b367-60f7fd0b20b6")
-		)
 		(pin "4"
 			(uuid "26a53559-8c00-405e-a7da-1591f0c61b97")
 		)
@@ -9108,9 +9067,6 @@
 		)
 		(pin "L1"
 			(uuid "7dde3355-67ab-4ef1-bc70-e7ba83beab35")
-		)
-		(pin "MH1"
-			(uuid "1b07e486-7dce-4c79-abe2-43c8b21cdabe")
 		)
 		(instances
 			(project ""
@@ -12493,7 +12449,7 @@
 		(pin "13"
 			(uuid "4c07863a-61b4-4669-9780-19c744560860")
 		)
-		(pin "TP"
+		(pin "17"
 			(uuid "d1b2f877-dc2f-4515-a95a-6af8453156ba")
 		)
 		(pin "11"
@@ -12849,7 +12805,7 @@
 		(pin "13"
 			(uuid "4c07863a-61b4-4669-9780-19c744560861")
 		)
-		(pin "TP"
+		(pin "17"
 			(uuid "d1b2f877-dc2f-4515-a95a-6af8453156bb")
 		)
 		(pin "11"
@@ -13040,7 +12996,7 @@
 		(pin "13"
 			(uuid "cb50106e-a63c-42e8-b37b-d7889db64041")
 		)
-		(pin "TP"
+		(pin "17"
 			(uuid "3a30d365-b3de-4db1-a9c8-4b9be83fb9f0")
 		)
 		(pin "11"
@@ -13966,12 +13922,6 @@
 		(pin "3"
 			(uuid "a3c312e1-9a66-4fc0-a174-52bfdb6a63d9")
 		)
-		(pin "MH1"
-			(uuid "45c6ce79-fc0b-496b-b44d-3b13d2e339f4")
-		)
-		(pin "MH2"
-			(uuid "c320ab76-4df4-4dc4-ab3a-f484afc51cec")
-		)
 		(pin "L1"
 			(uuid "b2ba67f3-2f63-43ed-b6b6-4174e9c23e02")
 		)
@@ -14050,7 +14000,7 @@
 		(pin "13"
 			(uuid "4c07863a-61b4-4669-9780-19c744560862")
 		)
-		(pin "TP"
+		(pin "17"
 			(uuid "d1b2f877-dc2f-4515-a95a-6af8453156bc")
 		)
 		(pin "11"
@@ -15408,9 +15358,6 @@
 		(pin "2"
 			(uuid "81f0f3ca-5af1-4198-a5ac-ced4c76f6702")
 		)
-		(pin "MH2"
-			(uuid "484013c4-3459-4025-a847-01c8a790ddcd")
-		)
 		(pin "4"
 			(uuid "11eb41d8-894f-4da1-b29e-1b9af8764eba")
 		)
@@ -15419,9 +15366,6 @@
 		)
 		(pin "3"
 			(uuid "a3c312e1-9a66-4fc0-a174-52bfdb6a63da")
-		)
-		(pin "MH1"
-			(uuid "45c6ce79-fc0b-496b-b44d-3b13d2e339f5")
 		)
 		(pin "L2"
 			(uuid "4ab0ebd1-809f-4b9c-ad44-e82ae9744640")
@@ -16462,9 +16406,6 @@
 				(hide yes)
 			)
 		)
-		(pin "MH1"
-			(uuid "b6284e0c-f1d7-4d52-9657-c80e6a874846")
-		)
 		(pin "2"
 			(uuid "1db43ea1-0423-4ae5-b367-60f7fd0b20b7")
 		)
@@ -16473,9 +16414,6 @@
 		)
 		(pin "3"
 			(uuid "3e1c9cf6-6292-4274-a3fb-63956d26674a")
-		)
-		(pin "MH2"
-			(uuid "cd12ee90-ac91-4ae1-afa3-eaf84de50d78")
 		)
 		(pin "1"
 			(uuid "4cf72adc-bbd7-4bcc-95f1-e72267e926b2")
@@ -17365,7 +17303,7 @@
 		(pin "13"
 			(uuid "4c07863a-61b4-4669-9780-19c744560863")
 		)
-		(pin "TP"
+		(pin "17"
 			(uuid "d1b2f877-dc2f-4515-a95a-6af8453156bd")
 		)
 		(pin "11"
