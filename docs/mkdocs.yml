@@ -12,6 +12,7 @@ plugins:
 extra_javascript:
   - https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js
   - javascripts/bom-table.js
+  - javascripts/erc-table.js
 
 theme:
   name: material
@@ -33,4 +34,3 @@ nav:
     - Schematic: Schematic.md
     - Bom: Bom.md
     - Datasheets: Datasheets.md
-    - Electrical Rules Checking: ERC.md

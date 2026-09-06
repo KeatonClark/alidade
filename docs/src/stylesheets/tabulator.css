@@ -36,3 +36,11 @@
     overflow-wrap: anywhere;
     word-break: break-word;
 }
+
+.erc-warning {
+    background-color: var(--gruvbox-orange) !important;
+}
+
+.erc-error {
+    background-color: var(--gruvbox-red) !important;
+}
