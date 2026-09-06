@@ -12,6 +12,15 @@ class ERCElement extends HTMLElement {
     }
 
     const csv = await response.text();
+    const lines = csv
+      .split(/\r?\n/)
+      .map(line => line.trim())
+      .filter(Boolean);
+
+    if (lines.length <= 1) {
+      container.textContent = "No Issues!";
+      return;
+    }
 
     this.table = new Tabulator(container, {
       data: csv,
@@ -20,7 +29,6 @@ class ERCElement extends HTMLElement {
       movableColumns: true,
       resizableColumns: true,
       layout: "fitColumns",
-      autoColumns: true,
 
       rowFormatter: (row) => {
         const data = row.getData();

@@ -3692,10 +3692,6 @@
 		(uuid "bf87a26a-c5eb-41f8-a24c-b187ee76c8b0")
 	)
 	(no_connect
-		(at 332.74 77.47)
-		(uuid "da2c8945-4b33-46c9-97dc-355a11a2692a")
-	)
-	(no_connect
 		(at 76.2 67.31)
 		(uuid "dc0a7111-40b8-47b5-aa7e-3522c527fc06")
 	)
