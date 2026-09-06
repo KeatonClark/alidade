@@ -2,11 +2,20 @@ site_name: Alidade
 site_url: https://keatonclark.github.io/alidade/
 docs_dir: ./src
 
+repo_name: KeatonClark/Alidade
+repo_url: https://github.com/KeatonClark/Alidade
+
 plugins:
   - fetch-files:
       paths: 
         - source: !ENV ALIDADE_HW
           destination: alidade-hw
+  - search
+
+extra_javascript:
+  - https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js
+  - javascripts/bom-table.js
+  - javascripts/erc-table.js
 
 theme:
   name: material
@@ -17,7 +26,9 @@ extra:
   generator: false
 
 extra_css:
+  - https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css
   - stylesheets/gruvbox.css
+  - stylesheets/tabulator.css
 
 
 nav:
@@ -26,4 +37,3 @@ nav:
     - Schematic: Schematic.md
     - Bom: Bom.md
     - Datasheets: Datasheets.md
-    - Electrical Rules Checking: ERC.md

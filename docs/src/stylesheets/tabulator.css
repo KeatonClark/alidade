@@ -1,0 +1,46 @@
+.tabulator {
+    background-color: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    border-color: var(--md-default-fg-color--lightest);
+}
+
+.tabulator .tabulator-header {
+    background-color: var(--md-code-bg-color);
+    color: var(--md-default-fg-color);
+    border-color: var(--md-default-fg-color--lightest);
+}
+
+.tabulator .tabulator-header .tabulator-col {
+    background-color: var(--md-code-bg-color);
+    color: var(--md-default-fg-color);
+    border-color: var(--md-default-fg-color--lightest);
+}
+
+.tabulator .tabulator-row {
+    background-color: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    border-color: var(--md-default-fg-color--lightest);
+}
+
+.tabulator .tabulator-row:nth-child(even) {
+    background-color: var(--md-code-bg-color);
+}
+
+.tabulator .tabulator-row:hover {
+    background-color: var(--md-accent-fg-color);
+}
+
+.tabulator .tabulator-cell {
+    border-color: var(--md-default-fg-color--lightest);
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.erc-warning {
+    background-color: var(--gruvbox-orange) !important;
+}
+
+.erc-error {
+    background-color: var(--gruvbox-red) !important;
+}

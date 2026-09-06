@@ -1,7 +1,7 @@
 {
   python3Packages,
   stdenvNoCC,
-  mkdocsFetchFiles,
+  mkdocs-fetch-files-plugin,
   alidade-hw,
 }:
 stdenvNoCC.mkDerivation {
@@ -10,7 +10,7 @@ stdenvNoCC.mkDerivation {
   buildInputs = with python3Packages; [
     mkdocs
     mkdocs-material
-    mkdocsFetchFiles
+    mkdocs-fetch-files-plugin
   ];
   buildPhase = ''
     mkdocs build

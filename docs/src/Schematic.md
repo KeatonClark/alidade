@@ -10,3 +10,6 @@
         border: 0;
     "
 ></iframe>
+
+# ERC
+<erc-table data-src="/alidade/alidade-hw/erc/alidade-erc.csv"></erc-table>
