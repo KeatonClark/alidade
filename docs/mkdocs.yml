@@ -2,6 +2,9 @@ site_name: Alidade
 site_url: https://keatonclark.github.io/alidade/
 docs_dir: ./src
 
+repo_name: KeatonClark/Alidade
+repo_url: https://github.com/KeatonClark/Alidade
+
 plugins:
   - fetch-files:
       paths: 
