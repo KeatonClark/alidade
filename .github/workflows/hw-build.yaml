@@ -20,6 +20,9 @@ jobs:
       - name: Parse ERC Results
         run: python3 .github/scripts/parse_erc.py result/share/alidade/erc/alidade-erc.csv
 
+      - name: Parse DRC Results
+        run: python3 .github/scripts/parse_drc.py result/share/alidade/drc/alidade-drc.csv
+
       - name: Gather Outputs
         run: tar -czf alidade-hw-pkg.tar.gz -C result .
 
