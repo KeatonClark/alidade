@@ -16,6 +16,7 @@ extra_javascript:
   - https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js
   - javascripts/bom-table.js
   - javascripts/erc-table.js
+  - javascripts/drc-table.js
 
 theme:
   name: material
@@ -35,5 +36,6 @@ nav:
   - Home: index.md
   - Hardware:
     - Schematic: Schematic.md
+    - Layout: Layout.md
     - Bom: Bom.md
     - Datasheets: Datasheets.md

@@ -44,3 +44,11 @@
 .erc-error {
     background-color: var(--gruvbox-red) !important;
 }
+
+.drc-warning {
+    background-color: var(--gruvbox-orange) !important;
+}
+
+.drc-error {
+    background-color: var(--gruvbox-red) !important;
+}
