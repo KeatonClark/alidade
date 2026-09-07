@@ -31,7 +31,7 @@ if summary:
             status = "warnings only"
         else:
             status = "clean"
-        f.write(f"## ERC results — {status}\n\n")
+        f.write(f"## DRC results — {status}\n\n")
         f.write(f"{len(errs)} error(s), {len(warns)} warning(s)\n\n")
         if rows:
             f.write("| Check | Severity | Type | Description | Details |\n")
