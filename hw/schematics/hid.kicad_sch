@@ -7172,7 +7172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 287.02 81.28 0)
 			(effects
 				(font
@@ -7411,7 +7411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 267.97 66.04 0)
 			(effects
 				(font
@@ -7488,7 +7488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 172.72 92.71 0)
 			(effects
 				(font
@@ -7808,7 +7808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 115.57 96.52 0)
 			(effects
 				(font
@@ -8250,7 +8250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 115.57 111.76 0)
 			(effects
 				(font
@@ -8409,7 +8409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 287.02 66.04 0)
 			(effects
 				(font
@@ -8568,7 +8568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 344.17 96.52 0)
 			(effects
 				(font
@@ -8644,7 +8644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1.5u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 153.67 111.76 0)
 			(effects
 				(font
@@ -8721,7 +8721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 325.12 96.52 0)
 			(effects
 				(font
@@ -9023,7 +9023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 115.57 66.04 0)
 			(effects
 				(font
@@ -9099,7 +9099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -9412,7 +9412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1.5u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 267.97 111.76 0)
 			(effects
 				(font
@@ -9701,7 +9701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 153.67 81.28 0)
 			(effects
 				(font
@@ -10233,7 +10233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 134.62 81.28 0)
 			(effects
 				(font
@@ -10469,7 +10469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 134.62 96.52 0)
 			(effects
 				(font
@@ -10712,7 +10712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 344.17 81.28 0)
 			(effects
 				(font
@@ -10789,7 +10789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 361.95 96.52 0)
 			(effects
 				(font
@@ -11194,7 +11194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 306.07 111.76 0)
 			(effects
 				(font
@@ -11271,7 +11271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 153.67 66.04 0)
 			(effects
 				(font
@@ -11513,7 +11513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 361.95 66.04 0)
 			(effects
 				(font
@@ -11920,7 +11920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 267.97 96.52 0)
 			(effects
 				(font
@@ -11997,7 +11997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 325.12 66.04 0)
 			(effects
 				(font
@@ -12152,7 +12152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 115.57 81.28 0)
 			(effects
 				(font
@@ -12229,7 +12229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 96.52 66.04 0)
 			(effects
 				(font
@@ -12306,7 +12306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 172.72 77.47 0)
 			(effects
 				(font
@@ -12692,7 +12692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 248.92 92.71 0)
 			(effects
 				(font
@@ -13057,7 +13057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 287.02 96.52 0)
 			(effects
 				(font
@@ -13257,7 +13257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 325.12 81.28 0)
 			(effects
 				(font
@@ -14139,7 +14139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 134.62 66.04 0)
 			(effects
 				(font
@@ -14583,7 +14583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -14739,7 +14739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 77.47 66.04 0)
 			(effects
 				(font
@@ -14958,7 +14958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 77.47 81.28 0)
 			(effects
 				(font
@@ -15113,7 +15113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 267.97 81.28 0)
 			(effects
 				(font
@@ -15254,7 +15254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 59.69 96.52 0)
 			(effects
 				(font
@@ -15474,7 +15474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 361.95 81.28 0)
 			(effects
 				(font
@@ -16103,7 +16103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 59.69 81.28 0)
 			(effects
 				(font
@@ -16180,7 +16180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 306.07 81.28 0)
 			(effects
 				(font
@@ -16256,7 +16256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 134.62 111.76 0)
 			(effects
 				(font
@@ -16416,7 +16416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 344.17 66.04 0)
 			(effects
 				(font
@@ -16493,7 +16493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 287.02 111.76 0)
 			(effects
 				(font
@@ -16717,7 +16717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 153.67 96.52 0)
 			(effects
 				(font
@@ -16924,7 +16924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 306.07 96.52 0)
 			(effects
 				(font
@@ -17089,7 +17089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 306.07 66.04 0)
 			(effects
 				(font
@@ -17247,7 +17247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 96.52 96.52 0)
 			(effects
 				(font
@@ -17566,7 +17566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 248.92 77.47 0)
 			(effects
 				(font
@@ -18559,7 +18559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alidade:keyswitch_cherrymx_hotswap_1u"
+		(property "Footprint" "Alidade:CherryMX_1u"
 			(at 59.69 66.04 0)
 			(effects
 				(font

@@ -6,6 +6,10 @@ preflight:
     dont_stop: true
     format: CSV
     dir: erc
+  drc:
+    dont_stop: true
+    format: CSV
+    dir: drc
 
 outputs:
 - name: Schematic
