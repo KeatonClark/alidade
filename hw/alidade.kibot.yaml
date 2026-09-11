@@ -40,5 +40,4 @@ outputs:
     format: glb
     download: false
     include_pads: true
-    include_silkscreen: true
     include_tracks: true
