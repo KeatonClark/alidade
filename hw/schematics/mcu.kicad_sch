@@ -9334,17 +9334,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:GND")
-		(at 163.83 143.51 0)
+		(lib_id "Alidade:rGND")
+		(at 186.69 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b2dd9a8-69f2-4f8f-a524-d6e0b307ce5d")
-		(property "Reference" "#GND0403"
-			(at 163.83 149.86 0)
+		(uuid "2d79dfa6-bb45-42c6-9d71-cbe190162552")
+		(property "Reference" "#rGND08"
+			(at 186.69 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,8 +9352,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 163.83 148.59 0)
+		(property "Value" "rGND"
+			(at 186.69 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +9361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 143.51 0)
+			(at 186.69 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +9370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 143.51 0)
+			(at 186.69 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,7 +9379,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 143.51 0)
+			(at 186.69 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9387,12 +9387,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2fdb1f4-6da3-4726-9d20-2429e4a96c13")
+			(uuid "451e3f9f-2192-4838-b8f2-ebed9559f6ef")
 		)
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
-					(reference "#GND0403")
+					(reference "#rGND08")
 					(unit 1)
 				)
 			)
@@ -12519,71 +12519,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:GND")
-		(at 205.74 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92887089-aed0-456f-b067-2155394a105f")
-		(property "Reference" "#GND0405"
-			(at 205.74 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82b23732-f8b0-4c2d-ad33-511935eac289")
-		)
-		(instances
-			(project "alidade"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
-					(reference "#GND0405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Alidade:rDVDD")
 		(at 118.11 219.71 0)
 		(unit 1)
@@ -12643,71 +12578,6 @@
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
 					(reference "#rDVDD0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Alidade:GND")
-		(at 186.69 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "979a29fb-34d0-4904-84cc-b258c910a551")
-		(property "Reference" "#GND0404"
-			(at 186.69 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ac7e1f4-8e8b-448e-b009-ae3ec2f7686e")
-		)
-		(instances
-			(project "alidade"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
-					(reference "#GND0404")
 					(unit 1)
 				)
 			)
@@ -14513,6 +14383,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Alidade:rGND")
+		(at 163.83 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bee871cb-9fd7-4307-bccc-5540a2ec758c")
+		(property "Reference" "#rGND06"
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "rGND"
+			(at 163.83 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df0beb14-1d65-4c90-aaaf-be4eb42f5d1e")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
+					(reference "#rGND06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alidade:L")
 		(at 163.83 134.62 90)
 		(unit 1)
@@ -15787,6 +15722,71 @@
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
 					(reference "rTP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alidade:rGND")
+		(at 205.74 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecd018ba-af83-4b0d-9e6b-2af5bffb1b44")
+		(property "Reference" "#rGND010"
+			(at 205.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "rGND"
+			(at 205.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e7cae61-1b35-466b-a1c7-5dda41bb5035")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
+					(reference "#rGND010")
 					(unit 1)
 				)
 			)
