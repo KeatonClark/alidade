@@ -125,16 +125,6 @@
 		(uuid "b6aae347-0cbd-4426-9c54-e5de65d2cec9")
 	)
 	(fp_line
-		(start -3.2 11.3)
-		(end 3.2 11.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "66a64c8e-497c-40c7-9313-9c2fe86855f8")
-	)
-	(fp_line
 		(start 3.2 11.3)
 		(end 3.2 6.3)
 		(stroke
@@ -194,6 +184,16 @@
 		(layer "F.SilkS")
 		(uuid "0d7d8a32-5f68-4128-8a7a-3885c12151fa")
 	)
+	(fp_line
+		(start -3.2 11.3)
+		(end 3.2 11.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66a64c8e-497c-40c7-9313-9c2fe86855f8")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 1 0)
 		(unlocked yes)
@@ -210,59 +210,47 @@
 		(at -9.5 0)
 		(size 2.2 2.2)
 		(drill 2.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "7b1d5d9b-43a6-4d22-a09e-9c11a3a7a076")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 4.2 4.2)
 		(drill 4.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "db223f26-b550-4414-b8e8-448c551eade2")
 	)
 	(pad "" np_thru_hole circle
 		(at 9.5 0)
 		(size 2.2 2.2)
 		(drill 2.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "a46bf884-f3a5-4370-a9a9-8b7126461ec9")
 	)
 	(pad "A" smd roundrect
-		(at 1.405 10.3)
+		(at 1.905 11.3)
 		(size 1 2)
-		(drill
-			(offset 0.5 1)
-		)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "c84787b6-97e7-4771-9e97-81c7cb662d38")
 	)
 	(pad "B" smd roundrect
-		(at 0.135 10.3)
+		(at 0.635 11.3)
 		(size 1 2)
-		(drill
-			(offset 0.5 1)
-		)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "4817d1a7-b964-4bb5-b58a-a817b2430bd4")
 	)
 	(pad "C" smd roundrect
-		(at -1.135 10.3)
+		(at -0.635 11.3)
 		(size 1 2)
-		(drill
-			(offset 0.5 1)
-		)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "c11d7297-3640-4c9d-9c33-be4025676a1e")
 	)
 	(pad "D" smd roundrect
-		(at -2.405 10.3)
+		(at -1.905 11.3)
 		(size 1 2)
-		(drill
-			(offset 0.5 1)
-		)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "71a3552c-bdbb-47d1-91ed-134ec321dd02")
