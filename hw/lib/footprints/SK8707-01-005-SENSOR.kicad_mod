@@ -256,4 +256,15 @@
 		(uuid "71a3552c-bdbb-47d1-91ed-134ec321dd02")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/models/SK8707-01-005-SENSOR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
