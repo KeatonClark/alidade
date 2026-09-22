@@ -5633,16 +5633,6 @@
 		)
 		(uuid "3f17cfd3-5b34-4302-8841-9a073c0b5dfc")
 	)
-	(label "rVBUS"
-		(at 184.15 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5980a45a-3f2a-4f27-9b74-ce0b4802085d")
-	)
 	(label "rVSYS"
 		(at 323.85 185.42 0)
 		(effects
