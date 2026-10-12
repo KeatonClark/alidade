@@ -1,4 +1,4 @@
-name: Build Hardware
+name: Build
 
 on:
   push:
@@ -8,7 +8,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+  build-hw:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -35,4 +35,21 @@ jobs:
         with:
           name: alidade-hw-pkg
           path: alidade-hw-pkg.tar.gz
+          retention-days: 7
+
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: wimpysworld/nothing-but-nix@main
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+
+      - name: Build Docs
+        run: nix build .#docs -L
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: alidade-docs
+          path: ./result/share/alidade/html/
           retention-days: 7

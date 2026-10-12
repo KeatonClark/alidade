@@ -6,7 +6,7 @@
 ### Populated
 <fullscreen-container>
     <model-viewer
-        src="/alidade/alidade-hw/3d/alidade.glb"
+        src="../alidade-hw/3d/alidade.glb"
         alt="Interactive 3D view of the PCB"
         camera-controls
         environment-image="neutral"
@@ -22,10 +22,10 @@
 ## Layout
 <fullscreen-container>
     <kicanvas-embed controls="full" theme="gruvbox" controlslist="nodownload">
-        <kicanvas-source src="/alidade/alidade-hw/pcb/alidade.kicad_pcb"></kicanvas-source>
+        <kicanvas-source src="../alidade-hw/pcb/alidade.kicad_pcb"></kicanvas-source>
     </kicanvas-embed>
 </fullscreen-container>
 ## PCB Statistics
-<pcb-stats data-src="/alidade/alidade-hw/pcb/stats.json"></drc-table>
+<pcb-stats data-src="../alidade-hw/pcb/stats.json"></drc-table>
 ## DRC
-<drc-table data-src="/alidade/alidade-hw/pcb/drc.json"></drc-table>
+<drc-table data-src="../alidade-hw/pcb/drc.json"></drc-table>
