@@ -32,7 +32,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 199.39) (xy 194.31 199.39)
+			(xy 173.99 194.31) (xy 194.31 194.31)
 		)
 		(stroke
 			(width 0)
@@ -42,17 +42,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 194.31) (xy 194.31 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e806a78-806e-4e58-b453-d3306aef845a")
-	)
-	(wire
-		(pts
-			(xy 173.99 201.93) (xy 194.31 201.93)
+			(xy 173.99 196.85) (xy 194.31 196.85)
 		)
 		(stroke
 			(width 0)
@@ -92,7 +82,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 204.47) (xy 194.31 204.47)
+			(xy 173.99 199.39) (xy 194.31 199.39)
 		)
 		(stroke
 			(width 0)
@@ -212,7 +202,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 143.51) (xy 194.31 143.51)
+			(xy 173.99 135.89) (xy 194.31 135.89)
 		)
 		(stroke
 			(width 0)
@@ -232,7 +222,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 138.43) (xy 194.31 138.43)
+			(xy 173.99 130.81) (xy 194.31 130.81)
 		)
 		(stroke
 			(width 0)
@@ -252,7 +242,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 196.85) (xy 194.31 196.85)
+			(xy 173.99 191.77) (xy 194.31 191.77)
 		)
 		(stroke
 			(width 0)
@@ -332,7 +322,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 133.35) (xy 194.31 133.35)
+			(xy 173.99 125.73) (xy 194.31 125.73)
 		)
 		(stroke
 			(width 0)
@@ -362,16 +352,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 189.23) (xy 194.31 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0bc481c-a2fb-4766-9c1e-96e3e396d982")
-	)
-	(wire
-		(pts
 			(xy 173.99 106.68) (xy 194.31 106.68)
 		)
 		(stroke
@@ -382,7 +362,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 130.81) (xy 194.31 130.81)
+			(xy 173.99 123.19) (xy 194.31 123.19)
 		)
 		(stroke
 			(width 0)
@@ -412,7 +392,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 135.89) (xy 194.31 135.89)
+			(xy 173.99 128.27) (xy 194.31 128.27)
 		)
 		(stroke
 			(width 0)
@@ -482,7 +462,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 140.97) (xy 194.31 140.97)
+			(xy 173.99 133.35) (xy 194.31 133.35)
 		)
 		(stroke
 			(width 0)
@@ -492,7 +472,7 @@
 	)
 	(sheet
 		(at 194.31 176.53)
-		(size 24.13 30.48)
+		(size 24.13 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -518,7 +498,7 @@
 			)
 		)
 		(property "Sheetfile" "pmic.kicad_sch"
-			(at 194.31 207.5946 0)
+			(at 194.31 202.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -539,7 +519,7 @@
 			)
 		)
 		(pin "rPMICINT" output
-			(at 194.31 204.47 180)
+			(at 194.31 199.39 180)
 			(uuid "77c666b4-cdb2-4a7f-a37d-bc75a2b174b4")
 			(effects
 				(font
@@ -549,7 +529,7 @@
 			)
 		)
 		(pin "rSCL" input
-			(at 194.31 201.93 180)
+			(at 194.31 196.85 180)
 			(uuid "6f790353-e5f7-4df1-8c7d-c3f2625f7020")
 			(effects
 				(font
@@ -559,7 +539,7 @@
 			)
 		)
 		(pin "rSDA" bidirectional
-			(at 194.31 199.39 180)
+			(at 194.31 194.31 180)
 			(uuid "4aa720e6-a64f-4067-a2ed-284dd217c6da")
 			(effects
 				(font
@@ -618,29 +598,9 @@
 				(justify left)
 			)
 		)
-		(pin "PMICGPIO3" bidirectional
-			(at 194.31 189.23 180)
-			(uuid "79a2842b-a4e8-468e-a028-aa6f7a4ddd1e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "rPMICGPIO2" bidirectional
-			(at 194.31 196.85 180)
+		(pin "rPMICGPIO1" bidirectional
+			(at 194.31 191.77 180)
 			(uuid "03efc303-5d27-45ba-b74a-5ea964d6145e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "rPMICGPIO3" bidirectional
-			(at 194.31 194.31 180)
-			(uuid "10a5e109-e942-44d6-9ad4-90d126a2af8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -695,7 +655,7 @@
 			)
 		)
 		(pin "ADCCS" input
-			(at 194.31 130.81 180)
+			(at 194.31 123.19 180)
 			(uuid "3c4f247c-4be0-4957-9a9c-f8afd21ee99d")
 			(effects
 				(font
@@ -705,7 +665,7 @@
 			)
 		)
 		(pin "DRDY" output
-			(at 194.31 133.35 180)
+			(at 194.31 125.73 180)
 			(uuid "1302a7cd-520f-4aa3-80d3-4f178b541a6d")
 			(effects
 				(font
@@ -715,7 +675,7 @@
 			)
 		)
 		(pin "FAULT" output
-			(at 194.31 135.89 180)
+			(at 194.31 128.27 180)
 			(uuid "73a7a726-24a4-46d7-97b8-5925a28ff72a")
 			(effects
 				(font
@@ -725,7 +685,7 @@
 			)
 		)
 		(pin "MISO" output
-			(at 194.31 138.43 180)
+			(at 194.31 130.81 180)
 			(uuid "a219f606-3b20-4656-bc7e-4786d9161708")
 			(effects
 				(font
@@ -735,7 +695,7 @@
 			)
 		)
 		(pin "MOSI" input
-			(at 194.31 140.97 180)
+			(at 194.31 133.35 180)
 			(uuid "482ba2f5-0926-43b2-98ac-30a54821b175")
 			(effects
 				(font
@@ -805,7 +765,7 @@
 			)
 		)
 		(pin "SCK" input
-			(at 194.31 143.51 180)
+			(at 194.31 135.89 180)
 			(uuid "dc6d59ff-9ad2-443d-9b13-983624cb3f1c")
 			(effects
 				(font
@@ -1064,7 +1024,7 @@
 	)
 	(sheet
 		(at 127 58.42)
-		(size 46.99 148.59)
+		(size 46.99 143.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1090,7 +1050,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 127 207.5946 0)
+			(at 127 202.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1111,7 +1071,7 @@
 			)
 		)
 		(pin "rPMICINT" input
-			(at 173.99 204.47 0)
+			(at 173.99 199.39 0)
 			(uuid "0f93e834-7d67-4135-9329-0558c37c1490")
 			(effects
 				(font
@@ -1121,7 +1081,7 @@
 			)
 		)
 		(pin "MISO" input
-			(at 173.99 138.43 0)
+			(at 173.99 130.81 0)
 			(uuid "e8e5fe06-9e41-40ad-bb2f-4efac7f04052")
 			(effects
 				(font
@@ -1131,7 +1091,7 @@
 			)
 		)
 		(pin "MOSI" output
-			(at 173.99 140.97 0)
+			(at 173.99 133.35 0)
 			(uuid "09f33c3f-7743-40f1-b2d2-0620b6a5fab7")
 			(effects
 				(font
@@ -1171,7 +1131,7 @@
 			)
 		)
 		(pin "SCK" output
-			(at 173.99 143.51 0)
+			(at 173.99 135.89 0)
 			(uuid "c1fc8b72-78a7-4a85-ac4d-12ef1c258c34")
 			(effects
 				(font
@@ -1181,7 +1141,7 @@
 			)
 		)
 		(pin "rSCL" output
-			(at 173.99 201.93 0)
+			(at 173.99 196.85 0)
 			(uuid "2a68049a-c88a-4096-ac23-537f98a95e78")
 			(effects
 				(font
@@ -1191,7 +1151,7 @@
 			)
 		)
 		(pin "rSDA" bidirectional
-			(at 173.99 199.39 0)
+			(at 173.99 194.31 0)
 			(uuid "af63d21f-b1d5-4a00-b01e-696f5de611d9")
 			(effects
 				(font
@@ -1221,7 +1181,7 @@
 			)
 		)
 		(pin "ADCCS" output
-			(at 173.99 130.81 0)
+			(at 173.99 123.19 0)
 			(uuid "ec9c3e00-3dd4-47e7-a57a-a05b289ac192")
 			(effects
 				(font
@@ -1231,7 +1191,7 @@
 			)
 		)
 		(pin "DRDY" input
-			(at 173.99 133.35 0)
+			(at 173.99 125.73 0)
 			(uuid "e6728be9-37c7-464b-ab62-25c9fb7ff191")
 			(effects
 				(font
@@ -1241,7 +1201,7 @@
 			)
 		)
 		(pin "FAULT" input
-			(at 173.99 135.89 0)
+			(at 173.99 128.27 0)
 			(uuid "1d7ab060-4cbb-4c6d-a3e5-93f3149d1b9c")
 			(effects
 				(font
@@ -1500,7 +1460,7 @@
 				(justify right)
 			)
 		)
-		(pin "PMICGPIO2" bidirectional
+		(pin "PMICGPIO1" bidirectional
 			(at 173.99 186.69 0)
 			(uuid "499ead9f-e6ca-4282-ae74-8d0ba54bb749")
 			(effects
@@ -1510,29 +1470,9 @@
 				(justify right)
 			)
 		)
-		(pin "PMICGPIO3" bidirectional
-			(at 173.99 189.23 0)
-			(uuid "8e2981f2-0e18-4fdc-8dca-b258e04e25fb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "rPMICGPIO2" bidirectional
-			(at 173.99 196.85 0)
+		(pin "rPMICGPIO1" bidirectional
+			(at 173.99 191.77 0)
 			(uuid "5ae5a0b8-5937-4a34-a3a5-8c9c7dcb50dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "rPMICGPIO3" bidirectional
-			(at 173.99 194.31 0)
-			(uuid "337e2fca-dad1-4e80-b5b1-a72c3f0cde55")
 			(effects
 				(font
 					(size 1.27 1.27)
