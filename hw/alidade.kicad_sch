@@ -32,7 +32,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 194.31) (xy 194.31 194.31)
+			(xy 173.99 199.39) (xy 194.31 199.39)
 		)
 		(stroke
 			(width 0)
@@ -42,7 +42,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 196.85) (xy 194.31 196.85)
+			(xy 173.99 201.93) (xy 194.31 201.93)
 		)
 		(stroke
 			(width 0)
@@ -82,7 +82,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 199.39) (xy 194.31 199.39)
+			(xy 173.99 204.47) (xy 194.31 204.47)
 		)
 		(stroke
 			(width 0)
@@ -242,13 +242,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 191.77) (xy 194.31 191.77)
+			(xy 173.99 196.85) (xy 194.31 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7df04196-f76a-4c0a-ac8a-5b0b1dc93a03")
+	)
+	(wire
+		(pts
+			(xy 173.99 191.77) (xy 194.31 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804050e2-7fd1-4f9e-9f15-77db1f53f544")
 	)
 	(wire
 		(pts
@@ -309,6 +319,16 @@
 			(type default)
 		)
 		(uuid "a133095e-ee7b-4227-a0d6-69b6d8558b54")
+	)
+	(wire
+		(pts
+			(xy 173.99 194.31) (xy 194.31 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9078de5-77ea-4a5d-be97-791de532ddbc")
 	)
 	(wire
 		(pts
@@ -472,7 +492,7 @@
 	)
 	(sheet
 		(at 194.31 176.53)
-		(size 24.13 25.4)
+		(size 24.13 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -498,7 +518,7 @@
 			)
 		)
 		(property "Sheetfile" "pmic.kicad_sch"
-			(at 194.31 202.5146 0)
+			(at 194.31 207.5946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -519,7 +539,7 @@
 			)
 		)
 		(pin "rPMICINT" output
-			(at 194.31 199.39 180)
+			(at 194.31 204.47 180)
 			(uuid "77c666b4-cdb2-4a7f-a37d-bc75a2b174b4")
 			(effects
 				(font
@@ -529,7 +549,7 @@
 			)
 		)
 		(pin "rSCL" input
-			(at 194.31 196.85 180)
+			(at 194.31 201.93 180)
 			(uuid "6f790353-e5f7-4df1-8c7d-c3f2625f7020")
 			(effects
 				(font
@@ -539,7 +559,7 @@
 			)
 		)
 		(pin "rSDA" bidirectional
-			(at 194.31 194.31 180)
+			(at 194.31 199.39 180)
 			(uuid "4aa720e6-a64f-4067-a2ed-284dd217c6da")
 			(effects
 				(font
@@ -588,7 +608,7 @@
 				(justify right)
 			)
 		)
-		(pin "PMICGPIO2" bidirectional
+		(pin "PMICGPIO1" bidirectional
 			(at 194.31 186.69 180)
 			(uuid "47c8d248-9a91-4137-ba45-fb4a02914862")
 			(effects
@@ -599,8 +619,28 @@
 			)
 		)
 		(pin "rPMICGPIO1" bidirectional
-			(at 194.31 191.77 180)
+			(at 194.31 196.85 180)
 			(uuid "03efc303-5d27-45ba-b74a-5ea964d6145e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CBUS0" bidirectional
+			(at 194.31 191.77 180)
+			(uuid "4027116a-5f51-423d-9018-2c2e2adc7fa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "rCBUS0" bidirectional
+			(at 194.31 194.31 180)
+			(uuid "69adffd2-3aae-45bf-9977-4c3e515c5ae8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,7 +1064,7 @@
 	)
 	(sheet
 		(at 127 58.42)
-		(size 46.99 143.51)
+		(size 46.99 148.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1050,7 +1090,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 127 202.5146 0)
+			(at 127 207.5946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1071,7 +1111,7 @@
 			)
 		)
 		(pin "rPMICINT" input
-			(at 173.99 199.39 0)
+			(at 173.99 204.47 0)
 			(uuid "0f93e834-7d67-4135-9329-0558c37c1490")
 			(effects
 				(font
@@ -1141,7 +1181,7 @@
 			)
 		)
 		(pin "rSCL" output
-			(at 173.99 196.85 0)
+			(at 173.99 201.93 0)
 			(uuid "2a68049a-c88a-4096-ac23-537f98a95e78")
 			(effects
 				(font
@@ -1151,7 +1191,7 @@
 			)
 		)
 		(pin "rSDA" bidirectional
-			(at 173.99 194.31 0)
+			(at 173.99 199.39 0)
 			(uuid "af63d21f-b1d5-4a00-b01e-696f5de611d9")
 			(effects
 				(font
@@ -1471,8 +1511,28 @@
 			)
 		)
 		(pin "rPMICGPIO1" bidirectional
-			(at 173.99 191.77 0)
+			(at 173.99 196.85 0)
 			(uuid "5ae5a0b8-5937-4a34-a3a5-8c9c7dcb50dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CBUS0" bidirectional
+			(at 173.99 191.77 0)
+			(uuid "8a18e22e-d186-41c6-af0b-641ca15750b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "rCBUS0" bidirectional
+			(at 173.99 194.31 0)
+			(uuid "9e7569f2-66d6-4829-bfe3-7a3870d45036")
 			(effects
 				(font
 					(size 1.27 1.27)

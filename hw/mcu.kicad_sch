@@ -3428,6 +3428,12 @@
 		(uuid "e91c9eea-ce0e-46b3-8ff9-ca388d99c0cc")
 	)
 	(junction
+		(at 251.46 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03877c00-b70f-4f81-a4b6-e42dfad4142c")
+	)
+	(junction
 		(at 332.74 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3584,6 +3590,12 @@
 		(uuid "44a2e116-05b8-4fa5-8248-8ca960f9ab5a")
 	)
 	(junction
+		(at 355.6 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47bf4177-acb9-4e43-b62e-01fa071c0e83")
+	)
+	(junction
 		(at 160.02 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3624,6 +3636,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "669bf002-891d-4293-9afc-e7c00a397704")
+	)
+	(junction
+		(at 351.79 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67870e5e-8702-4d93-9372-4d2c22c8a13e")
 	)
 	(junction
 		(at 41.91 83.82)
@@ -3684,6 +3702,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8115b5c9-8aa6-490a-b86c-5e2b8d93d802")
+	)
+	(junction
+		(at 255.27 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81c6d07f-8f43-486d-93f3-4e5ab264d4ef")
 	)
 	(junction
 		(at 342.9 46.99)
@@ -3912,16 +3936,8 @@
 		(uuid "41aeb8be-fd14-4430-97fa-ed6aef23a558")
 	)
 	(no_connect
-		(at 359.41 110.49)
-		(uuid "47aab353-3046-4418-8a46-e4b48147cc70")
-	)
-	(no_connect
 		(at 359.41 113.03)
 		(uuid "83dacd2e-42a1-420f-ae10-ca06d9bdb085")
-	)
-	(no_connect
-		(at 281.94 109.22)
-		(uuid "f18691f0-f463-42c6-a21f-b52191fa4da1")
 	)
 	(wire
 		(pts
@@ -4062,16 +4078,6 @@
 			(type default)
 		)
 		(uuid "0ade0682-75ff-4eb3-bbae-e8714a657112")
-	)
-	(wire
-		(pts
-			(xy 337.82 49.53) (xy 358.14 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d06b625-3c98-400b-a3f0-a6b077973eaf")
 	)
 	(wire
 		(pts
@@ -4425,7 +4431,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 52.07) (xy 358.14 52.07)
+			(xy 332.74 52.07) (xy 351.79 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4985,7 +4991,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 54.61) (xy 232.41 52.07)
+			(xy 251.46 54.61) (xy 251.46 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5205,7 +5211,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 54.61) (xy 337.82 49.53)
+			(xy 355.6 54.61) (xy 355.6 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6085,6 +6091,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 52.07) (xy 358.14 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9479f8-e036-4250-b09e-6d4a54bebf67")
+	)
+	(wire
+		(pts
 			(xy 43.18 143.51) (xy 48.26 143.51)
 		)
 		(stroke
@@ -6305,7 +6321,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 54.61) (xy 332.74 52.07)
+			(xy 351.79 54.61) (xy 351.79 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6955,6 +6971,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 49.53) (xy 358.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e682a0db-89d3-4918-b741-98822ab0516b")
+	)
+	(wire
+		(pts
 			(xy 341.63 190.5) (xy 344.17 190.5)
 		)
 		(stroke
@@ -7035,7 +7061,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 54.61) (xy 237.49 49.53)
+			(xy 255.27 54.61) (xy 255.27 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7468,7 +7494,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 237.49 54.61 270)
+		(at 255.27 54.61 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7499,6 +7525,17 @@
 		)
 		(uuid "3815b139-008d-452e-b49b-72ba141cdbbd")
 	)
+	(hierarchical_label "CBUS0"
+		(shape bidirectional)
+		(at 281.94 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4649f299-fea0-40b0-88ee-95cf5f057d8a")
+	)
 	(hierarchical_label "rCOL5"
 		(shape input)
 		(at 359.41 125.73 180)
@@ -7523,7 +7560,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape output)
-		(at 232.41 54.61 270)
+		(at 251.46 54.61 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7666,7 +7703,7 @@
 	)
 	(hierarchical_label "rSDA"
 		(shape bidirectional)
-		(at 337.82 54.61 270)
+		(at 355.6 54.61 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7765,7 +7802,7 @@
 	)
 	(hierarchical_label "rSCL"
 		(shape output)
-		(at 332.74 54.61 270)
+		(at 351.79 54.61 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7795,6 +7832,17 @@
 			(justify right)
 		)
 		(uuid "c0df69b3-06d0-4ed9-97b7-e92980da4092")
+	)
+	(hierarchical_label "rCBUS0"
+		(shape bidirectional)
+		(at 359.41 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6b43849-539f-494d-b3f7-568beafb944b")
 	)
 	(hierarchical_label "COL4"
 		(shape input)
@@ -7997,7 +8045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00cf47cb-a271-49e9-92b5-cc3a6d1c5e62")
-		(property "Reference" "rU4"
+		(property "Reference" "rU2"
 			(at 370.84 98.044 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -8213,7 +8261,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
-					(reference "rU4")
+					(reference "rU2")
 					(unit 2)
 				)
 			)
@@ -8231,7 +8279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01792d98-63ea-4f03-85e2-ce9c78c4db2d")
-		(property "Reference" "rU4"
+		(property "Reference" "rU2"
 			(at 363.22 180.594 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -8447,7 +8495,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
-					(reference "rU4")
+					(reference "rU2")
 					(unit 3)
 				)
 			)
@@ -10948,7 +10996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "329d5d1b-5c5d-461d-b8c6-226897928d70")
-		(property "Reference" "rU4"
+		(property "Reference" "rU2"
 			(at 148.59 38.354 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11164,7 +11212,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
-					(reference "rU4")
+					(reference "rU2")
 					(unit 1)
 				)
 			)
@@ -14292,7 +14340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9133fa70-1276-4b73-b27c-5c06ebb72508")
-		(property "Reference" "rU4"
+		(property "Reference" "rU2"
 			(at 369.57 34.544 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -14508,7 +14556,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
-					(reference "rU4")
+					(reference "rU2")
 					(unit 4)
 				)
 			)
@@ -15732,6 +15780,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Alidade:DVDD")
+		(at 234.95 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b14ba8e7-2522-4538-aafe-338d63616905")
+		(property "Reference" "#DVDD0402"
+			(at 234.95 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DVDD"
+			(at 234.95 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5fad68a-9f37-4b38-9b6b-ba9e1e535c5b")
+		)
+		(instances
+			(project "alidade"
+				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
+					(reference "#DVDD0402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alidade:NRF54L15-QFAA-R")
 		(at 142.24 77.47 0)
 		(unit 6)
@@ -15743,7 +15868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b25a261d-5ccb-4301-a2ca-0e306b0aa652")
-		(property "Reference" "rU4"
+		(property "Reference" "rU2"
 			(at 153.67 72.644 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -15959,7 +16084,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
-					(reference "rU4")
+					(reference "rU2")
 					(unit 6)
 				)
 			)
@@ -16420,83 +16545,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Alidade:rDVDD")
-		(at 234.95 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b81057c1-3c39-4b30-82ce-ece5f10160fb")
-		(property "Reference" "#rDVDD0403"
-			(at 234.95 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "rDVDD"
-			(at 234.95 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63e4a490-a402-4a2d-8b0e-bfe0cffdc1a5")
-		)
-		(instances
-			(project "alidade"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
-					(reference "#rDVDD0403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Alidade:NRF54L15-QFAA-R")
 		(at 200.66 132.08 0)
 		(unit 5)
@@ -16508,7 +16556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8419470-6823-42d9-b58c-3ff2bcc4ec92")
-		(property "Reference" "rU4"
+		(property "Reference" "rU2"
 			(at 212.09 127.254 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16724,7 +16772,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
-					(reference "rU4")
+					(reference "rU2")
 					(unit 5)
 				)
 			)
@@ -17377,7 +17425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8a7c4f2-c3dd-4b0e-95af-9614c55c90fc")
-		(property "Reference" "rU5"
+		(property "Reference" "rU4"
 			(at 314.96 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17448,7 +17496,7 @@
 		(instances
 			(project "alidade"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/43e81299-cad2-4202-975b-6352d1fdfcdc"
-					(reference "rU5")
+					(reference "rU4")
 					(unit 1)
 				)
 			)
