@@ -3,7 +3,7 @@
   stdenvNoCC,
   mkdocs-fetch-files-plugin,
   alidade-hw,
-  kicanvas
+  kicanvas,
 }:
 stdenvNoCC.mkDerivation {
   name = "alidade-docs";

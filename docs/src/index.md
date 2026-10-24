@@ -11,7 +11,7 @@
 
 <fullscreen-container>
     <model-viewer
-        src="/alidade/alidade-hw/3d/alidade_left.glb"
+        src="./alidade-hw/3d/alidade_left.glb"
         alt="Interactive 3D view of the PCB"
         camera-controls
         environment-image="neutral"
@@ -27,7 +27,7 @@
 ### Right
 <fullscreen-container>
     <model-viewer
-        src="/alidade/alidade-hw/3d/alidade_right.glb"
+        src="./alidade-hw/3d/alidade_right.glb"
         alt="Interactive 3D view of the PCB"
         camera-controls
         environment-image="neutral"
