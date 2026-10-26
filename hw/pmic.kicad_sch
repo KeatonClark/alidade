@@ -5383,6 +5383,12 @@
 		(uuid "2e806155-09be-4ac0-aef1-7b20db7d0d07")
 	)
 	(junction
+		(at 237.49 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "327ceff8-7108-4ea8-954f-73fa3b7eba0c")
+	)
+	(junction
 		(at 266.7 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5437,7 +5443,7 @@
 		(uuid "514c305c-a959-4e60-99c0-a3eb8c00e949")
 	)
 	(junction
-		(at 290.83 60.96)
+		(at 295.91 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "579610fa-8ad0-4985-aece-e1c699c3a093")
@@ -5449,7 +5455,7 @@
 		(uuid "5ca75c4f-aeca-4295-8b11-b5ffcb9e3ad7")
 	)
 	(junction
-		(at 287.02 71.12)
+		(at 292.1 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e5b3138-969f-4cc1-9d9d-73629a05482a")
@@ -5479,16 +5485,10 @@
 		(uuid "67aeb537-6712-4bca-9da0-c79b2016f232")
 	)
 	(junction
-		(at 283.21 63.5)
+		(at 288.29 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68b68674-f723-45c3-990b-b5b9972501e9")
-	)
-	(junction
-		(at 238.76 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ecc4f92-5365-4362-8da1-012ff9741b9b")
 	)
 	(junction
 		(at 353.06 154.94)
@@ -5519,6 +5519,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bda2772-9bdb-495d-9b85-e373b021f30e")
+	)
+	(junction
+		(at 237.49 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "901781c6-7c8d-4d00-8fc7-36201ac0e6be")
 	)
 	(junction
 		(at 240.03 45.72)
@@ -5651,12 +5657,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de77ba27-0cda-4751-b7de-60292d69cb23")
-	)
-	(junction
-		(at 238.76 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e42ae798-4dbf-4a21-9dc8-9f8f6429ba9b")
 	)
 	(junction
 		(at 113.03 106.68)
@@ -5804,7 +5804,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 63.5) (xy 283.21 64.77)
+			(xy 288.29 63.5) (xy 288.29 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5824,7 +5824,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 63.5) (xy 238.76 63.5)
+			(xy 236.22 63.5) (xy 237.49 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5854,13 +5854,23 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 67.31) (xy 278.13 67.31)
+			(xy 281.94 67.31) (xy 283.21 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "085208f8-1da1-4365-8052-d7fa98304879")
+	)
+	(wire
+		(pts
+			(xy 236.22 66.04) (xy 237.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f39c9b-6a53-4186-88c8-7ae98ba37033")
 	)
 	(wire
 		(pts
@@ -5924,7 +5934,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 71.12) (xy 287.02 71.12)
+			(xy 295.91 71.12) (xy 292.1 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5954,7 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 63.5) (xy 238.76 66.04)
+			(xy 237.49 63.5) (xy 237.49 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6224,7 +6234,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 67.31) (xy 271.78 67.31)
+			(xy 274.32 67.31) (xy 276.86 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6284,7 +6294,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 60.96) (xy 290.83 60.96)
+			(xy 283.21 60.96) (xy 295.91 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6314,7 +6324,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 60.96) (xy 290.83 64.77)
+			(xy 295.91 60.96) (xy 295.91 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6334,7 +6344,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 57.15) (xy 271.78 57.15)
+			(xy 274.32 57.15) (xy 276.86 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6351,6 +6361,16 @@
 			(type default)
 		)
 		(uuid "3545858c-724d-4b04-a1aa-a7f1ebb9d3fc")
+	)
+	(wire
+		(pts
+			(xy 275.59 62.23) (xy 275.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373eb7a6-e63f-4145-8f96-f5f6ebd48890")
 	)
 	(wire
 		(pts
@@ -6444,16 +6464,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 67.31) (xy 238.76 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ecf6b2b-7c24-4183-a6d1-781963e79fac")
-	)
-	(wire
-		(pts
 			(xy 86.36 142.24) (xy 88.9 142.24)
 		)
 		(stroke
@@ -6491,6 +6501,16 @@
 			(type default)
 		)
 		(uuid "41ccd843-d347-4be9-ab3f-dba54c8da5bf")
+	)
+	(wire
+		(pts
+			(xy 246.38 62.23) (xy 240.03 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4313824e-902e-42d6-ae79-17af19fc8940")
 	)
 	(wire
 		(pts
@@ -6664,7 +6684,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 60.96) (xy 238.76 60.96)
+			(xy 236.22 60.96) (xy 237.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6704,6 +6724,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 58.42) (xy 236.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573df4ba-7d59-4147-868a-bb13cf3ffac1")
+	)
+	(wire
+		(pts
 			(xy 113.03 106.68) (xy 113.03 104.14)
 		)
 		(stroke
@@ -6714,7 +6744,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 67.31) (xy 278.13 63.5)
+			(xy 283.21 67.31) (xy 283.21 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6784,6 +6814,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 57.15) (xy 237.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3d411d-bba0-4b3b-9f8b-03af87f83ac1")
+	)
+	(wire
+		(pts
 			(xy 243.84 215.9) (xy 251.46 215.9)
 		)
 		(stroke
@@ -6794,7 +6834,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 63.5) (xy 292.1 63.5)
+			(xy 283.21 63.5) (xy 297.18 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6854,7 +6894,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 69.85) (xy 283.21 71.12)
+			(xy 288.29 69.85) (xy 288.29 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6934,7 +6974,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 69.85) (xy 290.83 71.12)
+			(xy 295.91 69.85) (xy 295.91 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6944,7 +6984,17 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 71.12) (xy 287.02 71.12)
+			(xy 237.49 57.15) (xy 237.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65920902-553d-4f7e-b963-ed49d83cadeb")
+	)
+	(wire
+		(pts
+			(xy 288.29 71.12) (xy 292.1 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6971,16 +7021,6 @@
 			(type default)
 		)
 		(uuid "66f5825c-bb33-4c28-b195-bb5ee402cc04")
-	)
-	(wire
-		(pts
-			(xy 242.57 57.15) (xy 238.76 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67430fcb-66c5-48aa-935b-f0b066be7d2e")
 	)
 	(wire
 		(pts
@@ -7184,16 +7224,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 62.23) (xy 241.3 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813258ad-6ca3-41c9-88a5-0dab36ce4787")
-	)
-	(wire
-		(pts
 			(xy 124.46 55.88) (xy 124.46 59.69)
 		)
 		(stroke
@@ -7241,6 +7271,16 @@
 			(type default)
 		)
 		(uuid "8445088e-3869-43c7-97e3-d9661242ea74")
+	)
+	(wire
+		(pts
+			(xy 246.38 67.31) (xy 237.49 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8480f586-f7ac-4edd-ad92-ac29f2a00186")
 	)
 	(wire
 		(pts
@@ -7744,7 +7784,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 62.23) (xy 270.51 62.23)
+			(xy 274.32 62.23) (xy 275.59 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7771,16 +7811,6 @@
 			(type default)
 		)
 		(uuid "bbe773e3-d34d-420a-9820-b881b921e5be")
-	)
-	(wire
-		(pts
-			(xy 242.57 67.31) (xy 238.76 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc17abd4-b33a-4ca6-a3aa-475fda0a2455")
 	)
 	(wire
 		(pts
@@ -7811,16 +7841,6 @@
 			(type default)
 		)
 		(uuid "be56d128-ad39-4910-bcbe-eccd2d81dadb")
-	)
-	(wire
-		(pts
-			(xy 241.3 62.23) (xy 242.57 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be9a54d0-c6af-4f62-969f-0725835b48da")
 	)
 	(wire
 		(pts
@@ -7924,17 +7944,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 57.15) (xy 238.76 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb09d291-f571-4945-beff-25bbe7f42706")
-	)
-	(wire
-		(pts
-			(xy 276.86 57.15) (xy 278.13 57.15)
+			(xy 281.94 57.15) (xy 283.21 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8064,7 +8074,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 60.96) (xy 290.83 60.96)
+			(xy 297.18 60.96) (xy 295.91 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8074,17 +8084,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 66.04) (xy 238.76 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd27e1df-958e-4833-940f-775fd014c1da")
-	)
-	(wire
-		(pts
-			(xy 287.02 71.12) (xy 287.02 72.39)
+			(xy 292.1 71.12) (xy 292.1 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8164,7 +8164,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 58.42) (xy 238.76 60.96)
+			(xy 237.49 58.42) (xy 237.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8181,6 +8181,16 @@
 			(type default)
 		)
 		(uuid "ec47e279-71af-481d-ab0a-44e125002b1a")
+	)
+	(wire
+		(pts
+			(xy 237.49 67.31) (xy 237.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6a78ca-10b3-4dc4-9109-1649cb0bc33f")
 	)
 	(wire
 		(pts
@@ -8274,16 +8284,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 58.42) (xy 238.76 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a2bdbe-6c65-40ea-b258-e9c8bc14eff6")
-	)
-	(wire
-		(pts
 			(xy 248.92 90.17) (xy 269.24 90.17)
 		)
 		(stroke
@@ -8374,7 +8374,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 57.15) (xy 278.13 60.96)
+			(xy 283.21 57.15) (xy 283.21 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8432,16 +8432,6 @@
 		)
 		(uuid "3f17cfd3-5b34-4302-8841-9a073c0b5dfc")
 	)
-	(label "rVBUS"
-		(at 276.86 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "519f3237-3d20-45ed-92f4-a9138b420a87")
-	)
 	(label "rVSYS"
 		(at 186.69 265.43 0)
 		(effects
@@ -8451,6 +8441,16 @@
 			(justify left bottom)
 		)
 		(uuid "6df90a04-d051-4231-b5a0-12c288e112dc")
+	)
+	(label "rVBUS"
+		(at 240.03 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76ae7627-d8b8-4cf6-806a-203908bb7408")
 	)
 	(label "VSYS"
 		(at 260.35 205.74 0)
@@ -8874,7 +8874,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:rGND")
-		(at 287.02 72.39 0)
+		(at 292.1 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8885,7 +8885,7 @@
 		(fields_autoplaced yes)
 		(uuid "0519f8bd-e243-46b2-8c19-690aa29405a6")
 		(property "Reference" "#rGND016"
-			(at 287.02 78.74 0)
+			(at 292.1 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8896,7 +8896,7 @@
 			)
 		)
 		(property "Value" "rGND"
-			(at 287.02 77.47 0)
+			(at 292.1 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8906,7 +8906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 72.39 0)
+			(at 292.1 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8917,7 +8917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 72.39 0)
+			(at 292.1 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8928,7 +8928,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 72.39 0)
+			(at 292.1 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9464,7 +9464,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:FT200XD")
-		(at 292.1 58.42 0)
+		(at 297.18 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9474,7 +9474,7 @@
 		(dnp no)
 		(uuid "14fad150-6755-4364-ac74-93e6f5a7fe7f")
 		(property "Reference" "rU5"
-			(at 292.1 52.07 0)
+			(at 297.18 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9485,7 +9485,7 @@
 			)
 		)
 		(property "Value" "FT200XD"
-			(at 292.1 54.61 0)
+			(at 297.18 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9496,7 +9496,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:DFN-10_FTD"
-			(at 292.1 58.42 0)
+			(at 297.18 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9507,7 +9507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 58.42 0)
+			(at 297.18 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9518,7 +9518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 292.1 58.42 0)
+			(at 297.18 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10157,7 +10157,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:R")
-		(at 274.32 57.15 90)
+		(at 279.4 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10167,7 +10167,7 @@
 		(dnp no)
 		(uuid "1cea1657-8b1f-4e13-99ae-66ca6e8db550")
 		(property "Reference" "rR1"
-			(at 274.32 55.372 90)
+			(at 279.4 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10177,7 +10177,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 274.32 59.182 90)
+			(at 279.4 59.182 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10186,8 +10186,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 274.32 57.15 0)
+		(property "Footprint" "Alidade:R_0603_1608Metric"
+			(at 279.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10198,7 +10198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 57.15 0)
+			(at 279.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10209,7 +10209,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 57.15 0)
+			(at 279.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12006,7 +12006,8 @@
 	)
 	(symbol
 		(lib_id "Alidade:USBLC6-2SC6")
-		(at 240.03 57.15 0)
+		(at 276.86 57.15 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12016,7 +12017,7 @@
 		(dnp no)
 		(uuid "5458a84c-855a-4332-b4ba-ba0317d96256")
 		(property "Reference" "rU6"
-			(at 256.032 73.66 0)
+			(at 260.858 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12026,7 +12027,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 256.54 71.12 0)
+			(at 260.35 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12036,7 +12037,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:SOT23-6L_STM"
-			(at 242.824 48.768 0)
+			(at 274.066 48.768 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12048,7 +12049,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 247.142 45.974 0)
+			(at 269.748 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12060,7 +12061,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 57.15 0)
+			(at 276.86 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12435,7 +12436,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:rGND")
-		(at 241.3 71.12 0)
+		(at 275.59 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12446,7 +12447,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cf13aa1-74a2-4627-a3b9-8486c13c8ba5")
 		(property "Reference" "#rGND015"
-			(at 241.3 77.47 0)
+			(at 275.59 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12457,7 +12458,7 @@
 			)
 		)
 		(property "Value" "rGND"
-			(at 241.3 76.2 0)
+			(at 275.59 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12467,7 +12468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 71.12 0)
+			(at 275.59 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12478,7 +12479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 71.12 0)
+			(at 275.59 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12489,7 +12490,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 71.12 0)
+			(at 275.59 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12632,7 +12633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 120.65 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12773,7 +12774,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:C")
-		(at 283.21 67.31 0)
+		(at 288.29 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12783,7 +12784,7 @@
 		(dnp no)
 		(uuid "61efbc3c-62dd-4669-b18b-52050762bd31")
 		(property "Reference" "rC24"
-			(at 283.464 69.342 0)
+			(at 288.544 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12794,7 +12795,7 @@
 			)
 		)
 		(property "Value" "47p"
-			(at 280.416 67.31 90)
+			(at 285.496 67.31 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -12804,7 +12805,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:C_0603_1608Metric"
-			(at 283.21 67.31 0)
+			(at 288.29 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12815,7 +12816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 67.31 0)
+			(at 288.29 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12826,7 +12827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 283.21 67.31 0)
+			(at 288.29 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12837,7 +12838,7 @@
 			)
 		)
 		(property "LCSC Part #" "C96446"
-			(at 283.21 67.31 0)
+			(at 288.29 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13502,7 +13503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 242.57 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13827,7 +13828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -13877,7 +13878,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:R")
-		(at 274.32 67.31 90)
+		(at 279.4 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13887,7 +13888,7 @@
 		(dnp no)
 		(uuid "8da70529-3b65-4e06-9cb0-0511309dc139")
 		(property "Reference" "rR26"
-			(at 274.32 65.532 90)
+			(at 279.4 65.532 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13897,7 +13898,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 274.32 69.342 90)
+			(at 279.4 69.342 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -13906,8 +13907,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 274.32 67.31 0)
+		(property "Footprint" "Alidade:R_0603_1608Metric"
+			(at 279.4 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13918,7 +13919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 67.31 0)
+			(at 279.4 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13929,7 +13930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 67.31 0)
+			(at 279.4 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14168,7 +14169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 88.9 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15070,7 +15071,7 @@
 		(dnp no)
 		(uuid "ad836624-32dd-4b26-891f-b6c279cc646d")
 		(property "Reference" "rU5"
-			(at 269.24 83.566 0)
+			(at 273.05 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15198,7 +15199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 255.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15278,7 +15279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 95.25 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15448,7 +15449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:R_0603_1608Metric"
 			(at 120.65 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16148,7 +16149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 248.92 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16380,7 +16381,7 @@
 	)
 	(symbol
 		(lib_id "Alidade:C")
-		(at 290.83 67.31 0)
+		(at 295.91 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16390,7 +16391,7 @@
 		(dnp no)
 		(uuid "d1e75bdf-0432-42a6-9c4b-be7e67a9e7ff")
 		(property "Reference" "rC25"
-			(at 291.084 69.342 0)
+			(at 296.164 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16401,7 +16402,7 @@
 			)
 		)
 		(property "Value" "47p"
-			(at 288.036 67.31 90)
+			(at 293.116 67.31 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16411,7 +16412,7 @@
 			)
 		)
 		(property "Footprint" "Alidade:C_0603_1608Metric"
-			(at 290.83 67.31 0)
+			(at 295.91 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16422,7 +16423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 67.31 0)
+			(at 295.91 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16433,7 +16434,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 290.83 67.31 0)
+			(at 295.91 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16444,7 +16445,7 @@
 			)
 		)
 		(property "LCSC Part #" "C96446"
-			(at 290.83 67.31 0)
+			(at 295.91 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16501,7 +16502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alidade:C_0603_1608Metric"
 			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
