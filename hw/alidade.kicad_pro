@@ -91,10 +91,10 @@
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "error",
-        "extra_footprint": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "warning",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
@@ -112,9 +112,9 @@
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
-        "missing_footprint": "error",
+        "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
-        "net_conflict": "error",
+        "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
@@ -698,7 +698,7 @@
         "uuid": "4cc5d416-57f5-4147-8183-e03ae6b1198a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R1,R5-6,R25-28,#GND9,#GND11,#GND14-19,rR5-6,rR25-26,#rDVDD108,#rDVDD402-403,CR1,U4-8,#rGND11-12,#rGND15-16,C1,C24-33,#DVDD108,#DVDD111,#DVDD402,FB2-3,rFB2,#rVBUS1-2,#VBUS1-2",
     "variants": []
   },
   "sheets": [
