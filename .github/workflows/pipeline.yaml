@@ -15,7 +15,7 @@ concurrency:
 jobs:
   build-hw:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: wimpysworld/nothing-but-nix@main
@@ -26,15 +26,21 @@ jobs:
         run: nix build .#hw -L
 
       - name: Parse stats
+        id: parse-stats
         if: ${{ !cancelled() }}
+        continue-on-error: true
         run: nix run .#parse-kicad-results -- stats result/share/alidade/pcb/stats.json >> "$GITHUB_STEP_SUMMARY"
 
       - name: Parse ERC results
+        id: parse-erc
         if: ${{ !cancelled() }}
+        continue-on-error: true
         run: nix run .#parse-kicad-results -- erc result/share/alidade/sch/erc.json >> "$GITHUB_STEP_SUMMARY"
 
       - name: Parse DRC results
+        id: parse-drc
         if: ${{ !cancelled() }}
+        continue-on-error: true
         run: nix run .#parse-kicad-results -- drc result/share/alidade/pcb/drc.json >> "$GITHUB_STEP_SUMMARY"
 
       - name: Package outputs
@@ -45,6 +51,12 @@ jobs:
           name: alidade-hw-pkg
           path: alidade-hw-pkg.tar.gz
           retention-days: 7
+
+      - name: Fail if any parser failed
+        if: ${{ !cancelled() && (steps.parse-stats.outcome == 'failure' || steps.parse-erc.outcome == 'failure' || steps.parse-drc.outcome == 'failure') }}
+        run: |
+          echo "One or more KiCad result parsers failed." >> "$GITHUB_STEP_SUMMARY"
+          exit 1
 
   build-docs:
     needs: build-hw
